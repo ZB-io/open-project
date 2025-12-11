@@ -1,0 +1,402 @@
+{
+  "site_url": "https://zbio.openproject.com/projects/demo-project",
+  "site_type": "unknown",
+  "site_category": "general",
+  "test_name": "create_verify_and_delete_a_task_work_package",
+  "login_mechanisms": [
+    "site_navigation",
+    "content_browsing"
+  ],
+  "user_journeys": [
+    {
+      "workflow_type": "navigation_flow",
+      "path": [
+        "projects"
+      ],
+      "success_rate": "discovered_site_navigation",
+      "scenario_priority": "medium",
+      "description": "General website navigation and content discovery"
+    }
+  ],
+  "proposed_scenarios": [
+    {
+      "scenario_name": "Discovered Workflow: Create, Verify, and Delete a 'Task' Work Package",
+      "description": "This end-to-end scenario validates the complete lifecycle of a 'Task' work package. It follows the exact path discovered by the agent: creating a new task with a subject and description, verifying its creation by filtering the list, and then successfully deleting it through the details view.",
+      "test_type": "e2e_business_workflow",
+      "priority": "critical",
+      "business_goal": "Verify that users can successfully create, find, and delete 'Task' type work packages, ensuring the core project management functionality is reliable.",
+      "user_story": "As a project team member, I want to create a new task, confirm it's in the project plan, and then delete it if it's no longer needed, so that I can manage my project's scope effectively.",
+      "detailed_steps": [
+        {
+          "step_number": 1,
+          "action": "Navigate to website homepage",
+          "description": "Load the project's main dashboard page.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project",
+          "verification_point": "The main project dashboard page is loaded successfully.",
+          "business_impact": "Ensures users can access the project they intend to work on.",
+          "selector": "page.goto('https://zbio.openproject.com/projects/demo-project')",
+          "confidence": 100,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 2,
+          "action": "click",
+          "description": "Navigate to the 'Work packages' section from the side menu to view the list of all work items.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/work_packages",
+          "verification_point": "Page URL changes to the work packages list view.",
+          "business_impact": "Allows users to access the primary interface for managing project tasks.",
+          "selector": "page.locator('#main-menu-work-packages')",
+          "all_selectors": [
+            {
+              "selector": "page.locator('#main-menu-work-packages')",
+              "confidence": 95,
+              "strategy": "id",
+              "is_unique": true
+            },
+            {
+              "selector": "page.getByRole('link', { name: 'Work packages' })",
+              "confidence": 90,
+              "strategy": "role_name",
+              "is_unique": true
+            }
+          ],
+          "confidence": 95,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 3,
+          "action": "click",
+          "description": "Click the 'Create' button to initiate the creation of a new work package.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/work_packages",
+          "verification_point": "A dropdown menu appears with work package types.",
+          "business_impact": "Starts the critical workflow for adding new tasks to the project.",
+          "selector": "page.locator('button.button.-primary')",
+          "all_selectors": [
+            {
+              "selector": "page.locator('button.button.-primary')",
+              "confidence": 80,
+              "strategy": "css_combined_classes",
+              "is_unique": true
+            },
+            {
+              "selector": "page.getByRole('button', { name: /Create new work package/ })",
+              "confidence": 96,
+              "strategy": "aria_label_regex",
+              "is_unique": false
+            },
+            {
+              "selector": "page.locator('button, input[type=\"submit\"], input[type=\"button\"]').filter({ hasText: /^Create$/ })",
+              "confidence": 75,
+              "strategy": "button_filter_exact",
+              "is_unique": true
+            }
+          ],
+          "confidence": 80,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 4,
+          "action": "click",
+          "description": "Select 'Task' from the creation dropdown menu to specify the type of work package.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/work_packages/create_new?type=1",
+          "verification_point": "Page navigates to the new task creation form.",
+          "business_impact": "Ensures the user can create the correct type of work item.",
+          "selector": "page.getByRole('menuitem', { name: 'Task' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('menuitem', { name: 'Task' })",
+              "confidence": 95,
+              "strategy": "role_name",
+              "is_unique": true
+            }
+          ],
+          "confidence": 95,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 5,
+          "action": "input_text",
+          "description": "Enter the subject line for the new task.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/work_packages/create_new?type=1",
+          "verification_point": "The subject field is populated with the provided text.",
+          "business_impact": "Defines the primary identifier for the new task.",
+          "selector": "page.getByLabel('Subject', { exact: true })",
+          "input_value": "Auto WP <uuid4>",
+          "all_selectors": [
+            {
+              "selector": "page.getByLabel('Subject', { exact: true })",
+              "strategy": "label_text_exact",
+              "confidence": 92,
+              "is_unique": true
+            },
+            {
+              "selector": "page.locator('#wp-new-inline-edit--field-subject')",
+              "strategy": "id",
+              "confidence": 75,
+              "is_unique": false
+            },
+            {
+              "selector": "page.locator('input.inline-edit--field')",
+              "strategy": "css_tag_semantic_empty",
+              "confidence": 84,
+              "is_unique": false
+            }
+          ],
+          "confidence": 92,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 6,
+          "action": "input_text",
+          "description": "Enter a detailed description for the new task in the rich text editor.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/work_packages/create_new?type=1",
+          "verification_point": "The description field is populated.",
+          "business_impact": "Provides necessary context and details for the task.",
+          "selector": "page.getByRole('textbox', { name: /Rich Text Editor\\. Editing area: main\\. Press Alt\\+0 for help\\./ })",
+          "input_value": "Auto description <timestamp>",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('textbox', { name: /Rich Text Editor\\. Editing area: main\\. Press Alt\\+0 for help\\./ })",
+              "strategy": "aria_label_regex",
+              "confidence": 96,
+              "is_unique": true
+            },
+            {
+              "selector": "page.locator('div.ck-blurred')",
+              "strategy": "css_stable_class",
+              "confidence": 78,
+              "is_unique": true
+            }
+          ],
+          "confidence": 96,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 7,
+          "action": "click",
+          "description": "Click the 'Save' button to create the new task work package.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/work_packages/details/84/overview",
+          "verification_point": "Page navigates to the details view of the newly created task.",
+          "business_impact": "Commits the new task to the project plan.",
+          "selector": "page.getByRole('button', { name: 'Save' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('button', { name: 'Save' })",
+              "strategy": "role_name",
+              "confidence": 95,
+              "is_unique": true
+            },
+            {
+              "selector": "page.locator('#work-packages--edit-actions-save')",
+              "strategy": "id",
+              "confidence": 75,
+              "is_unique": true
+            },
+            {
+              "selector": "page.getByText('Save')",
+              "strategy": "text",
+              "confidence": 88,
+              "is_unique": true
+            }
+          ],
+          "confidence": 95,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 8,
+          "action": "input_text",
+          "description": "Filter the work package list by the new task's name to verify it was created successfully.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/work_packages/details/84/overview",
+          "verification_point": "The list is filtered to show the newly created task.",
+          "business_impact": "Confirms that new tasks are correctly saved and searchable.",
+          "selector": "page.getByRole('textbox', { name: 'Search', exact: true })",
+          "input_value": "Auto WP <uuid4>",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('textbox', { name: 'Search', exact: true })",
+              "strategy": "aria_label_exact",
+              "confidence": 96,
+              "is_unique": true
+            },
+            {
+              "selector": "page.getByPlaceholder('Search by name')",
+              "strategy": "placeholder",
+              "confidence": 85,
+              "is_unique": true
+            },
+            {
+              "selector": "page.locator('#search')",
+              "strategy": "id",
+              "confidence": 75,
+              "is_unique": true
+            }
+          ],
+          "confidence": 96,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 9,
+          "action": "click",
+          "description": "Click the 'More' actions button in the task details view to open the context menu.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/work_packages/details/84/overview",
+          "verification_point": "A dropdown menu with additional actions like 'Delete' is displayed.",
+          "business_impact": "Provides access to secondary management actions for a work package.",
+          "selector": "page.locator('button.button.dropdown-relative')",
+          "all_selectors": [
+            {
+              "selector": "page.locator('button.button.dropdown-relative')",
+              "strategy": "css_combined_classes",
+              "confidence": 80,
+              "is_unique": true
+            }
+          ],
+          "confidence": 80,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 10,
+          "action": "click",
+          "description": "Select the 'Delete' option from the 'More' actions menu.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/work_packages/details/84/overview",
+          "verification_point": "A confirmation modal for deletion appears.",
+          "business_impact": "Initiates the process of removing a task from the project.",
+          "selector": "page.locator('[role=\"menu\"]').getByRole('menuitem', { name: 'Delete' })",
+          "all_selectors": [
+            {
+              "selector": "page.locator('[role=\"menu\"]').getByRole('menuitem', { name: 'Delete' })",
+              "strategy": "portal_role_name",
+              "confidence": 97,
+              "is_unique": true
+            },
+            {
+              "selector": "page.getByRole('menuitem', { name: 'Delete', exact: true })",
+              "strategy": "aria_label_exact",
+              "confidence": 96,
+              "is_unique": true
+            },
+            {
+              "selector": "page.getByText('Delete')",
+              "strategy": "text",
+              "confidence": 88,
+              "is_unique": true
+            }
+          ],
+          "confidence": 97,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 11,
+          "action": "click",
+          "description": "Confirm the action by clicking the 'Delete' button in the confirmation dialog.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/work_packages",
+          "verification_point": "The task is deleted and the user is redirected to the main work packages list.",
+          "business_impact": "Completes the deletion workflow, ensuring users can remove obsolete tasks.",
+          "selector": "page.getByRole('button', { name: 'Delete' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('button', { name: 'Delete' })",
+              "confidence": 95,
+              "strategy": "role_name",
+              "is_unique": true
+            }
+          ],
+          "confidence": 95,
+          "based_on_interaction": true
+        }
+      ],
+      "expected_results": [
+        "User successfully creates a new 'Task' work package.",
+        "The newly created task is visible and searchable in the work packages list.",
+        "User can successfully initiate and confirm the deletion of the task.",
+        "The task is no longer present in the work packages list after deletion."
+      ],
+      "edge_cases_to_test": [
+        "Attempting to create a task with missing required fields (e.g., subject).",
+        "Canceling the creation process midway.",
+        "Canceling the deletion process at the confirmation step.",
+        "Verifying that deleting a parent task correctly handles child tasks (if applicable)."
+      ],
+      "data_requirements": [
+        "A valid user account with permissions to create and delete work packages in the 'demo-project'.",
+        "Dynamic data for task subject and description to ensure test runs are unique."
+      ],
+      "prerequisites": [
+        "The OpenProject instance at zbio.openproject.com is available and responsive.",
+        "The 'demo-project' exists and is accessible to the test user.",
+        "The user is authenticated before the scenario begins."
+      ],
+      "auth_required": true,
+      "starting_url": "https://zbio.openproject.com/projects/demo-project"
+    }
+  ],
+  "login_completion_state": "successful",
+  "analysis_timestamp": "2025-12-11T10:24:18.029259",
+  "confidence_score": 0.5,
+  "captured_selectors": [
+    {
+      "selector": "page.getByLabel('Subject', { exact: true })",
+      "confidence": 92,
+      "action": "input",
+      "input_value": "",
+      "element": "<input> ''",
+      "url": "https://zbio.openproject.com/projects/demo-project/work_packages/create_new?type=1",
+      "timestamp": "2025-12-11T10:19:11.655550"
+    },
+    {
+      "selector": "page.getByRole('textbox', { name: /Rich Text Editor\\. Editing area: main\\. Press Alt\\+0 for help\\./ })",
+      "confidence": 96,
+      "action": "input",
+      "input_value": null,
+      "element": "<div> ''",
+      "url": "https://zbio.openproject.com/projects/demo-project/work_packages/create_new?type=1",
+      "timestamp": "2025-12-11T10:19:18.030897"
+    },
+    {
+      "selector": "page.getByRole('button', { name: 'Save' })",
+      "confidence": 95,
+      "action": "click",
+      "input_value": "Save",
+      "element": "<button> 'Save'",
+      "url": "https://zbio.openproject.com/projects/demo-project/work_packages/create_new?type=1",
+      "timestamp": "2025-12-11T10:19:32.172526"
+    },
+    {
+      "selector": "page.getByRole('textbox', { name: 'Search', exact: true })",
+      "confidence": 96,
+      "action": "input",
+      "input_value": "",
+      "element": "<input> ''",
+      "url": "https://zbio.openproject.com/projects/demo-project/work_packages/details/84/overview",
+      "timestamp": "2025-12-11T10:19:55.405853"
+    },
+    {
+      "selector": "page.locator('button.button.dropdown-relative')",
+      "confidence": 80,
+      "action": "click",
+      "input_value": "",
+      "element": "<button> ''",
+      "url": "https://zbio.openproject.com/projects/demo-project/work_packages/details/84/overview",
+      "timestamp": "2025-12-11T10:20:21.585320"
+    },
+    {
+      "selector": "page.locator('[role=\"menu\"]').getByRole('menuitem', { name: 'Delete' })",
+      "confidence": 97,
+      "action": "click",
+      "input_value": "Delete",
+      "element": "<a> 'Delete'",
+      "url": "https://zbio.openproject.com/projects/demo-project/work_packages/details/84/overview",
+      "timestamp": "2025-12-11T10:20:52.761847"
+    },
+    {
+      "selector": "page.locator('button.button.-primary')",
+      "confidence": 80,
+      "action": "click",
+      "input_value": "Create",
+      "element": "<button> 'Create'",
+      "url": "https://zbio.openproject.com/projects/demo-project/work_packages",
+      "timestamp": "2025-12-11T10:21:25.603331"
+    }
+  ],
+  "auth_required": true,
+  "starting_url": "https://zbio.openproject.com/projects/demo-project"
+}
