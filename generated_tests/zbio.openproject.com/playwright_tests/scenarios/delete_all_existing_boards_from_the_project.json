@@ -1,0 +1,278 @@
+{
+  "site_url": "https://zbio.openproject.com/projects/meeting-test-project-1764854348990",
+  "site_type": "unknown",
+  "site_category": "general",
+  "test_name": "delete_all_existing_boards_from_the_project",
+  "login_mechanisms": [
+    "content_browsing",
+    "site_navigation"
+  ],
+  "user_journeys": [
+    {
+      "workflow_type": "navigation_flow",
+      "path": [
+        "projects"
+      ],
+      "success_rate": "discovered_site_navigation",
+      "scenario_priority": "medium",
+      "description": "General website navigation and content discovery"
+    }
+  ],
+  "proposed_scenarios": [
+    {
+      "scenario_name": "Delete All Existing Boards from the Project",
+      "description": "This scenario tests the end-to-end workflow of deleting all available boards from the project's board list. The user navigates to the boards section and systematically deletes each board, handling the page refresh after each deletion, until the list is empty.",
+      "test_type": "e2e_business_workflow",
+      "priority": "critical",
+      "business_goal": "Verify that users can successfully remove all boards from a project, ensuring the cleanup functionality works correctly and the UI updates to reflect an empty state.",
+      "user_story": "As a project manager, I want to delete all existing boards so that I can clean up the project workspace and start fresh.",
+      "detailed_steps": [
+        {
+          "step_number": 1,
+          "action": "Navigate to website homepage",
+          "description": "Load the main project overview page to begin the test.",
+          "expected_page_url": "https://zbio.openproject.com/projects/meeting-test-project-1764854348990",
+          "verification_point": "Page URL is the project homepage.",
+          "business_impact": "Ensures the user can access the project starting point.",
+          "selector": "page.goto('https://zbio.openproject.com/projects/meeting-test-project-1764854348990')",
+          "all_selectors": [],
+          "confidence": 100,
+          "based_on_interaction": false
+        },
+        {
+          "step_number": 2,
+          "action": "click",
+          "description": "Navigate to the Boards page by clicking the 'Boards' link in the side navigation menu.",
+          "expected_page_url": "https://zbio.openproject.com/projects/meeting-test-project-1764854348990/boards",
+          "verification_point": "Page URL should navigate to the boards list.",
+          "business_impact": "Critical for accessing the board management feature.",
+          "selector": "page.locator('#boards-wrapper').getByRole('link', { name: 'Boards' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('link', { name: 'Boards' }) >> nth=1",
+              "strategy": "role_name",
+              "confidence": 95
+            },
+            {
+              "selector": "page.locator('#boards-wrapper').getByRole('link', { name: 'Boards' })",
+              "strategy": "parent_id_role",
+              "confidence": 82
+            },
+            {
+              "selector": "page.locator('a.boards-menu-item')",
+              "strategy": "css_stable_class",
+              "confidence": 78
+            },
+            {
+              "selector": "page.locator('a').filter({ hasText: /^Boards$/ })",
+              "strategy": "link_filter_exact",
+              "confidence": 74
+            }
+          ],
+          "confidence": 82,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 3,
+          "action": "click",
+          "description": "Click the delete icon for the first board in the list to initiate its removal.",
+          "expected_page_url": "https://zbio.openproject.com/projects/meeting-test-project-1764854348990/boards/",
+          "verification_point": "The first board should be removed from the system.",
+          "business_impact": "Tests the core delete functionality for a single board.",
+          "selector": "page.locator('a.icon-delete[href*=\"/boards/62\"]')",
+          "all_selectors": [
+            {
+              "selector": "page.locator('a.icon-delete[href*=\"/boards/62\"]')",
+              "strategy": "css_class_href_combined",
+              "confidence": 88
+            },
+            {
+              "selector": "page.locator('a[data-turbo-method=\"delete\"]') >> nth=0",
+              "strategy": "data_attr_turbo-method",
+              "confidence": 85
+            },
+            {
+              "selector": "page.locator('a.icon-delete') >> nth=0",
+              "strategy": "css_tag_semantic_empty",
+              "confidence": 84
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/div[1]/div/table/tbody/tr[1]/td[4]/a')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 88,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 4,
+          "action": "navigate",
+          "description": "Navigate back to the Boards page to refresh the list after the first deletion.",
+          "expected_page_url": "https://zbio.openproject.com/projects/meeting-test-project-1764854348990/boards/",
+          "verification_point": "Page reloaded to show the updated list of boards.",
+          "business_impact": "Simulates user recovery after a post-action redirect, which is necessary to continue the workflow.",
+          "selector": "page.goto('https://zbio.openproject.com/projects/meeting-test-project-1764854348990/boards/')",
+          "all_selectors": [],
+          "confidence": 100,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 5,
+          "action": "click",
+          "description": "Click the delete icon for the second board in the updated list.",
+          "expected_page_url": "https://zbio.openproject.com/projects/meeting-test-project-1764854348990/boards/",
+          "verification_point": "The second board should be removed from the system.",
+          "business_impact": "Continues testing the iterative deletion process.",
+          "selector": "page.locator('a.icon-delete[href*=\"/boards/63\"]')",
+          "all_selectors": [
+            {
+              "selector": "page.locator('a.icon-delete[href*=\"/boards/63\"]')",
+              "strategy": "css_class_href_combined",
+              "confidence": 88
+            },
+            {
+              "selector": "page.locator('a[data-turbo-method=\"delete\"]') >> nth=0",
+              "strategy": "data_attr_turbo-method",
+              "confidence": 85
+            },
+            {
+              "selector": "page.locator('a.icon-delete') >> nth=0",
+              "strategy": "css_tag_semantic_empty",
+              "confidence": 84
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/div[1]/div/table/tbody/tr[1]/td[4]/a')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 88,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 6,
+          "action": "navigate",
+          "description": "Navigate back to the Boards page again to refresh the list after the second deletion.",
+          "expected_page_url": "https://zbio.openproject.com/projects/meeting-test-project-1764854348990/boards/",
+          "verification_point": "Page reloaded to show the list with one remaining board.",
+          "business_impact": "Ensures the workflow can continue after multiple deletions.",
+          "selector": "page.goto('https://zbio.openproject.com/projects/meeting-test-project-1764854348990/boards/')",
+          "all_selectors": [],
+          "confidence": 100,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 7,
+          "action": "click",
+          "description": "Click the delete icon for the final remaining board.",
+          "expected_page_url": "https://zbio.openproject.com/projects/meeting-test-project-1764854348990/boards/",
+          "verification_point": "The final board should be removed from the system.",
+          "business_impact": "Completes the deletion sequence, leading to an empty state.",
+          "selector": "page.locator('a.icon-delete[href*=\"/boards/64\"]')",
+          "all_selectors": [
+            {
+              "selector": "page.locator('a.icon-delete[href*=\"/boards/64\"]')",
+              "strategy": "css_class_href_combined",
+              "confidence": 88
+            },
+            {
+              "selector": "page.locator('a[data-turbo-method=\"delete\"]')",
+              "strategy": "data_attr_turbo-method",
+              "confidence": 85
+            },
+            {
+              "selector": "page.locator('a.icon-delete')",
+              "strategy": "css_tag_semantic_empty",
+              "confidence": 84
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/div[1]/div/table/tbody/tr/td[4]/a')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 88,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 8,
+          "action": "navigate",
+          "description": "Perform a final navigation to the Boards page to verify that it is now empty.",
+          "expected_page_url": "https://zbio.openproject.com/projects/meeting-test-project-1764854348990/boards/",
+          "verification_point": "Page loaded successfully and now shows an empty state, confirming all boards were deleted.",
+          "business_impact": "Final validation of the entire workflow and confirmation of the empty state.",
+          "selector": "page.goto('https://zbio.openproject.com/projects/meeting-test-project-1764854348990/boards/')",
+          "all_selectors": [],
+          "confidence": 100,
+          "based_on_interaction": true
+        }
+      ],
+      "expected_results": [
+        "User successfully navigates to the Boards page.",
+        "Each board is deleted one by one from the list.",
+        "After all boards are deleted, the page displays an empty state message.",
+        "The system correctly handles the removal of all items without errors."
+      ],
+      "edge_cases_to_test": [
+        "Attempting to delete a board without proper permissions.",
+        "Network interruption during a delete operation.",
+        "How the system behaves if a board is deleted by another user simultaneously."
+      ],
+      "data_requirements": [
+        "A test project with multiple pre-existing boards.",
+        "A user account with permissions to delete boards within that project."
+      ],
+      "prerequisites": [
+        "The OpenProject instance is running and accessible.",
+        "The target project exists and is populated with test data (boards).",
+        "User is authenticated with the necessary permissions."
+      ],
+      "auth_required": true,
+      "starting_url": "https://zbio.openproject.com/projects/meeting-test-project-1764854348990"
+    }
+  ],
+  "login_completion_state": "successful",
+  "analysis_timestamp": "2025-12-11T05:46:01.867080",
+  "confidence_score": 0.5,
+  "captured_selectors": [
+    {
+      "selector": "page.locator('#boards-wrapper').getByRole('link', { name: 'Boards' })",
+      "confidence": 82,
+      "action": "click",
+      "input_value": "\n    \nBoards",
+      "element": "<a> '\n    \nBoards'",
+      "url": "https://zbio.openproject.com/projects/meeting-test-project-1764854348990",
+      "timestamp": "2025-12-11T05:42:10.142173"
+    },
+    {
+      "selector": "page.locator('a.icon-delete[href*=\"/boards/62\"]')",
+      "confidence": 88,
+      "action": "click",
+      "input_value": "",
+      "element": "<a> ''",
+      "url": "https://zbio.openproject.com/projects/meeting-test-project-1764854348990/boards/",
+      "timestamp": "2025-12-11T05:43:21.859902"
+    },
+    {
+      "selector": "page.locator('a.icon-delete[href*=\"/boards/63\"]')",
+      "confidence": 88,
+      "action": "click",
+      "input_value": "",
+      "element": "<a> ''",
+      "url": "https://zbio.openproject.com/projects/meeting-test-project-1764854348990/boards/",
+      "timestamp": "2025-12-11T05:43:48.930281"
+    },
+    {
+      "selector": "page.locator('a.icon-delete[href*=\"/boards/64\"]')",
+      "confidence": 88,
+      "action": "click",
+      "input_value": "",
+      "element": "<a> ''",
+      "url": "https://zbio.openproject.com/projects/meeting-test-project-1764854348990/boards/",
+      "timestamp": "2025-12-11T05:44:20.376836"
+    }
+  ],
+  "auth_required": true,
+  "starting_url": "https://zbio.openproject.com/projects/meeting-test-project-1764854348990"
+}
