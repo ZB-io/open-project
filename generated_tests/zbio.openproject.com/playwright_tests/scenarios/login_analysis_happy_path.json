@@ -1,0 +1,177 @@
+{
+  "site_url": "https://zbio.openproject.com/login",
+  "site_type": "login_workflow",
+  "site_category": "authentication",
+  "test_name": "login_analysis_happy_path",
+  "login_mechanisms": [
+    "form_login"
+  ],
+  "user_journeys": [],
+  "proposed_scenarios": [
+    {
+      "scenario_name": "login_analysis_happy_path",
+      "test_name": "login_analysis_happy_path",
+      "test_type": "e2e_authentication_workflow",
+      "auth_required": false,
+      "detailed_steps": [
+        {
+          "step_number": 1,
+          "action": "navigate",
+          "description": "Navigate to the OpenProject login page.",
+          "expected_page_url": "https://zbio.openproject.com/login",
+          "verification_point": "Page URL is 'https://zbio.openproject.com/login'."
+        },
+        {
+          "step_number": 2,
+          "action": "input_text",
+          "description": "Enter the username into the username field.",
+          "selector": "page.locator('#username')",
+          "all_selectors": [
+            {
+              "selector": "page.locator('form[action*=\"login\"]').getByRole('textbox', { name: 'Username' })",
+              "strategy": "form_action_role",
+              "confidence": 97
+            },
+            {
+              "selector": "page.getByRole('textbox', { name: 'Username' })",
+              "strategy": "role_name",
+              "confidence": 95
+            },
+            {
+              "selector": "page.getByLabel('Username')",
+              "strategy": "label_text",
+              "confidence": 93
+            },
+            {
+              "selector": "page.locator('input[type=\"text\"][name=\"username\"]')",
+              "strategy": "css_combined",
+              "confidence": 89
+            },
+            {
+              "selector": "page.locator('#username')",
+              "strategy": "id",
+              "confidence": 75
+            }
+          ],
+          "expected_page_url": "https://zbio.openproject.com/login",
+          "confidence": 75,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 3,
+          "action": "input_text",
+          "description": "Enter the password into the password field.",
+          "selector": "page.locator('#password')",
+          "all_selectors": [
+            {
+              "selector": "page.locator('form[action*=\"login\"]').getByRole('textbox', { name: 'Password' })",
+              "strategy": "form_action_role",
+              "confidence": 97
+            },
+            {
+              "selector": "page.getByRole('textbox', { name: 'Password' })",
+              "strategy": "role_name",
+              "confidence": 95
+            },
+            {
+              "selector": "page.getByLabel('Password')",
+              "strategy": "label_text",
+              "confidence": 93
+            },
+            {
+              "selector": "page.locator('input[type=\"password\"][name=\"password\"]')",
+              "strategy": "css_combined",
+              "confidence": 89
+            },
+            {
+              "selector": "page.locator('#password')",
+              "strategy": "id",
+              "confidence": 75
+            }
+          ],
+          "expected_page_url": "https://zbio.openproject.com/login",
+          "confidence": 75,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 4,
+          "action": "click",
+          "description": "Click the 'Sign in' button to submit credentials.",
+          "selector": "page.locator('form[action*=\"login\"]').getByRole('button', { name: /Sign in/ })",
+          "all_selectors": [
+            {
+              "selector": "page.locator('form[action*=\"login\"]').getByRole('button', { name: /Sign in/ })",
+              "strategy": "form_action_role_regex",
+              "confidence": 97
+            },
+            {
+              "selector": "page.getByRole('button', { name: /Sign in/ })",
+              "strategy": "role_name_regex",
+              "confidence": 95
+            },
+            {
+              "selector": "page.locator('input[value=\"Sign in\"]')",
+              "strategy": "css_tag_value",
+              "confidence": 89
+            },
+            {
+              "selector": "page.locator('input[data-controller=\"disable-when-clicked\"]')",
+              "strategy": "data_attr_controller",
+              "confidence": 85
+            },
+            {
+              "selector": "page.locator('#login-form').getByRole('button', { name: 'Sign in' })",
+              "strategy": "parent_id_role",
+              "confidence": 82
+            }
+          ],
+          "expected_page_url": "https://zbio.openproject.com/login",
+          "confidence": 97,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 5,
+          "action": "verify_navigation",
+          "description": "Verify successful login by checking for navigation to the main application page.",
+          "expected_page_url": "https://zbio.openproject.com/",
+          "verification_point": "Authentication succeeded and the page navigated to the homepage at 'https://zbio.openproject.com/'."
+        }
+      ]
+    }
+  ],
+  "login_completion_state": "successful",
+  "analysis_timestamp": "2025-12-11T05:40:31.755213",
+  "confidence_score": 1.0,
+  "flow_type": "happy_path_only",
+  "excluded_scenarios": [],
+  "scenario_count": 1,
+  "focus": "successful_authentication_only",
+  "generated_from": "login_analysis.json",
+  "generation_timestamp": "2025-12-11T05:40:31.757088",
+  "captured_selectors": [
+    {
+      "selector": "page.locator('#username')",
+      "confidence": 75,
+      "action": "input",
+      "element": "<input> ''",
+      "url": "https://zbio.openproject.com/login",
+      "timestamp": "2025-12-11T05:38:45.482344"
+    },
+    {
+      "selector": "page.locator('#password')",
+      "confidence": 75,
+      "action": "input",
+      "element": "<input> ''",
+      "url": "https://zbio.openproject.com/login",
+      "timestamp": "2025-12-11T05:38:58.449000"
+    },
+    {
+      "selector": "page.locator('form[action*=\"login\"]').getByRole('button', { name: /Sign in/ })",
+      "confidence": 97,
+      "action": "click",
+      "element": "<input> ''",
+      "url": "https://zbio.openproject.com/login",
+      "timestamp": "2025-12-11T05:39:09.107283"
+    }
+  ]
+}
