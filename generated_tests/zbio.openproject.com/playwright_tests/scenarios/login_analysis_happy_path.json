@@ -1,0 +1,66 @@
+{
+  "site_url": "https://zbio.openproject.com/login",
+  "site_type": "login_workflow",
+  "site_category": "authentication",
+  "test_name": "login_analysis_happy_path",
+  "login_mechanisms": [
+    "form_login"
+  ],
+  "user_journeys": [],
+  "proposed_scenarios": [
+    {
+      "scenario_name": "login_analysis_happy_path",
+      "test_name": "login_analysis_happy_path",
+      "auth_required": false,
+      "description": "This scenario documents a login failure based on the captured session. The test navigates to the login page, which failed to load any content. The expected outcome is that the page does not render, preventing any further login actions.",
+      "test_type": "e2e_authentication_workflow",
+      "priority": "critical",
+      "business_goal": "Verify the availability of the login page.",
+      "user_story": "As a user, when I navigate to the login page, I expect it to load so that I can attempt to sign in.",
+      "detailed_steps": [
+        {
+          "step_number": 1,
+          "action": "navigate",
+          "description": "Navigate to the login page.",
+          "selector": null,
+          "all_selectors": [],
+          "expected_page_url": "https://zbio.openproject.com/login",
+          "verification_point": "The browser URL should be 'https://zbio.openproject.com/login'.",
+          "confidence": 99,
+          "based_on_interaction": false
+        },
+        {
+          "step_number": 2,
+          "action": "verification",
+          "description": "Verify that the login page fails to load, as observed in the captured session. The test will fail if a login form appears, as the purpose is to replicate the observed failure.",
+          "selector": null,
+          "all_selectors": [],
+          "expected_page_url": "https://zbio.openproject.com/login",
+          "verification_point": "The user flow cannot proceed as the page content required for login does not load.",
+          "confidence": 95,
+          "based_on_interaction": false
+        }
+      ],
+      "expected_results": [
+        "The browser successfully navigates to https://zbio.openproject.com/login.",
+        "The page remains blank or fails to render the necessary login form elements.",
+        "The test concludes by confirming the page's non-interactive state, replicating the captured failure."
+      ],
+      "edge_cases_to_test": [],
+      "data_requirements": [],
+      "prerequisites": [
+        "The target environment is accessible via the network."
+      ]
+    }
+  ],
+  "login_completion_state": "failed",
+  "analysis_timestamp": "2025-12-11T10:59:24.602055",
+  "confidence_score": 0.5,
+  "flow_type": "happy_path_only",
+  "excluded_scenarios": [],
+  "scenario_count": 1,
+  "focus": "failed_authentication_documented",
+  "generated_from": "login_analysis.json",
+  "generation_timestamp": "2025-12-11T10:59:24.604089",
+  "captured_selectors": []
+}

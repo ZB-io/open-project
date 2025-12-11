@@ -1,0 +1,17 @@
+{
+    "login_scenario": "Skipped",
+    "workflow_completed": false,
+    "workflow_result": "FAIL",
+    "workflow_error": "",
+    "login_agent_activity_summary": "Not available",
+    "user_scenario_agent_activity_summary": "Not available",
+    "generated_files": {
+        "feature_files": [],
+        "json_files": []
+    },
+    "scenarios": {},
+    "login_analysis_happy_path": {
+        "testFilePath": "zbio.openproject.com/playwright_tests/tests/login_analysis_happy_path.spec.js",
+        "auth_required": false
+    }
+}
