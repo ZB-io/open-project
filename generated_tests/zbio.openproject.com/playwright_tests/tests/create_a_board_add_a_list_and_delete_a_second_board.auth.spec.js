@@ -82,6 +82,9 @@ test('Discovered Workflow: Create a Board, Add a List, and Delete a Second Board
   //   1. page.getByRole('link', { name: 'Boards' }) (confidence: 85%)
   //   2. page.locator('#menu-sidebar').getByRole('link', { name: 'Boards' }) (confidence: 82%)
   //   3. page.getByText('Boards') (confidence: 78%)
+
+  await page.goto(BASE_URL || BASE_HOST_URL);
+  await page.waitForURL(new RegExp(BASE_URL));
   await page.getByRole('link', { name: 'Boards' }).click();
   await page.waitForURL(`${BASE_HOST_URL}/projects/demo-project/boards/`);
 
