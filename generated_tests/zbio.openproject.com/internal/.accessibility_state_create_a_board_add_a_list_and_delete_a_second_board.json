@@ -1,0 +1,6292 @@
+{
+  "accessibility_tree": {
+    "role": "WebArea",
+    "name": "Automated List 1 - 1765429264527 | Boards | Demo project | zbio.openproject.com",
+    "children": [
+      {
+        "role": "text",
+        "name": "Open link in a new tab"
+      },
+      {
+        "role": "heading",
+        "name": "Top Menu",
+        "level": 1
+      },
+      {
+        "role": "link",
+        "name": "Click here to skip over the menu and go to the content"
+      },
+      {
+        "role": "button",
+        "name": "Global modules"
+      },
+      {
+        "role": "link",
+        "name": "Home"
+      },
+      {
+        "role": "button",
+        "name": "Search",
+        "description": "Search"
+      },
+      {
+        "role": "text",
+        "name": "Search in zbio.openproject.com"
+      },
+      {
+        "role": "combobox",
+        "name": "Search in zbio.openproject.com",
+        "autocomplete": "list",
+        "haspopup": "listbox"
+      },
+      {
+        "role": "link",
+        "name": "Buy now"
+      },
+      {
+        "role": "button",
+        "name": "Add…",
+        "description": "Add…",
+        "haspopup": "menu"
+      },
+      {
+        "role": "link",
+        "name": "Notifications"
+      },
+      {
+        "role": "text",
+        "name": "5"
+      },
+      {
+        "role": "button",
+        "name": "Help",
+        "haspopup": "menu"
+      },
+      {
+        "role": "button",
+        "name": "HA",
+        "description": "User menu"
+      },
+      {
+        "role": "heading",
+        "name": "Side Menu",
+        "level": 1
+      },
+      {
+        "role": "button",
+        "name": ""
+      },
+      {
+        "role": "button",
+        "name": "Demo project ",
+        "keyshortcuts": "Alt+5",
+        "haspopup": "menu"
+      },
+      {
+        "role": "generic",
+        "name": "This is a focus anchor for modals. Press shift+tab to go back to the modal trigger element."
+      },
+      {
+        "role": "button",
+        "name": "Collapse project menu"
+      },
+      {
+        "role": "link",
+        "name": "Go back one menu level"
+      },
+      {
+        "role": "link",
+        "name": "Boards"
+      },
+      {
+        "role": "text",
+        "name": "Search"
+      },
+      {
+        "role": "textbox",
+        "name": "Search"
+      },
+      {
+        "role": "button",
+        "name": "Public"
+      },
+      {
+        "role": "link",
+        "name": "Automated board 1"
+      },
+      {
+        "role": "link",
+        "name": "Automated board 1 - 1765429200377"
+      },
+      {
+        "role": "link",
+        "name": "Automated board 1 - 1765429264527"
+      },
+      {
+        "role": "link",
+        "name": "Automated board 1765374197026"
+      },
+      {
+        "role": "link",
+        "name": "Automated board <uuid4>"
+      },
+      {
+        "role": "link",
+        "name": "Automated board <uuid4>"
+      },
+      {
+        "role": "link",
+        "name": "Automated List 1 - 1765429134560"
+      },
+      {
+        "role": "link",
+        "name": "Automated List <rand4>"
+      },
+      {
+        "role": "link",
+        "name": "E2E Automated Test Board 1765417647827"
+      },
+      {
+        "role": "link",
+        "name": "Board"
+      },
+      {
+        "role": "text",
+        "name": "4 days left of premium trial token"
+      },
+      {
+        "role": "text",
+        "name": "You have access to all "
+      },
+      {
+        "role": "text",
+        "name": "Premium enterprise plan"
+      },
+      {
+        "role": "text",
+        "name": " features."
+      },
+      {
+        "role": "link",
+        "name": "Buy now"
+      },
+      {
+        "role": "text",
+        "name": "Successful creation."
+      },
+      {
+        "role": "button",
+        "name": "Close"
+      },
+      {
+        "role": "heading",
+        "name": "Content",
+        "level": 1
+      },
+      {
+        "role": "link",
+        "name": "zbio.openproject.com"
+      },
+      {
+        "role": "link",
+        "name": "Demo project"
+      },
+      {
+        "role": "link",
+        "name": "Boards"
+      },
+      {
+        "role": "link",
+        "name": "Public: Automated board 1 - 1765429264527"
+      },
+      {
+        "role": "heading",
+        "name": "Automated List 1 - 1765429264527",
+        "level": 2
+      },
+      {
+        "role": "button",
+        "name": "Activate Filter",
+        "description": "Filter work packages"
+      },
+      {
+        "role": "button",
+        "name": "Activate zen mode"
+      },
+      {
+        "role": "button",
+        "name": "More"
+      },
+      {
+        "role": "text",
+        "name": ""
+      },
+      {
+        "role": "textbox",
+        "name": "Click to edit title of this view. Press enter to save.",
+        "focused": true,
+        "required": true,
+        "value": "Unnamed list"
+      },
+      {
+        "role": "button",
+        "name": "Add card"
+      },
+      {
+        "role": "text",
+        "name": "Add list to board"
+      }
+    ]
+  },
+  "dom_snapshot": [
+    {
+      "tag": "html",
+      "id": null,
+      "classes": null,
+      "text": "Open link in a new tab\nTop Menu\nJump to content\nHome\nSearch in zbio.openproject.com\nBuy now\n5\nHA\nSid",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "classes": null
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "tag": "body",
+      "id": null,
+      "classes": "theme-core_design controller-boards/boards action-show env-production -browser-chrome -browser-windows bcf-deactivated __overflowing_element_container __overflowing_body router--boards-full-view router--boards-view-base __ng2-bootstrap-has-run",
+      "text": "Open link in a new tab\nTop Menu\nJump to content\nHome\nSearch in zbio.openproject.com\nBuy now\n5\nHA\nSid",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "html",
+        "classes": null
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "cdk-visually-hidden cdk-focus-trap-anchor",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "opce-modal-overlay",
+        "classes": null
+      },
+      "position": {
+        "x": -1,
+        "y": -1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "cdk-visually-hidden cdk-focus-trap-anchor",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "opce-modal-overlay",
+        "classes": null
+      },
+      "position": {
+        "x": -1,
+        "y": -1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "live-region",
+      "id": null,
+      "classes": null,
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "body",
+        "classes": "theme-core_design controller-boards/boards action-show env-production -browser-chrome -browser-windows bcf-deactivated __overflowing_element_container __overflowing_body router--boards-full-view router--boards-view-base __ng2-bootstrap-has-run"
+      },
+      "position": {
+        "x": -1,
+        "y": -1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "span",
+      "id": "open-blank-target-link-description",
+      "classes": "sr-only",
+      "text": "Open link in a new tab",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "body",
+        "classes": "theme-core_design controller-boards/boards action-show env-production -browser-chrome -browser-windows bcf-deactivated __overflowing_element_container __overflowing_body router--boards-full-view router--boards-view-base __ng2-bootstrap-has-run"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "div",
+      "id": "wrapper",
+      "classes": "can-hide-navigation",
+      "text": "Top Menu\nJump to content\nHome\nSearch in zbio.openproject.com\nBuy now\n5\nHA\nSide Menu\nDemo project\nBoa",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "body",
+        "classes": "theme-core_design controller-boards/boards action-show env-production -browser-chrome -browser-windows bcf-deactivated __overflowing_element_container __overflowing_body router--boards-full-view router--boards-view-base __ng2-bootstrap-has-run"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "tag": "header",
+      "id": null,
+      "classes": "op-app-header",
+      "text": "Top Menu\nJump to content\nHome\nSearch in zbio.openproject.com\nBuy now\n5\nHA",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "can-hide-navigation"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 55
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-app-header--start",
+      "text": "Top Menu\nJump to content\nHome",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "header",
+        "classes": "op-app-header"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 456,
+        "height": 55
+      }
+    },
+    {
+      "tag": "h1",
+      "id": null,
+      "classes": "sr-only",
+      "text": "Top Menu",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-header--start"
+      },
+      "position": {
+        "x": 4,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "a",
+      "id": "skip-navigation--content",
+      "classes": "sr-only skip-navigation-link",
+      "text": "Jump to content",
+      "value": null,
+      "role": null,
+      "ariaLabel": "Click here to skip over the menu and go to the content",
+      "type": null,
+      "href": "https://zbio.openproject.com/",
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-header--start"
+      },
+      "position": {
+        "x": 4,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "classes": "op-app-menu op-app-menu_drop-left",
+      "text": "Home",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-header--start"
+      },
+      "position": {
+        "x": 4,
+        "y": 0,
+        "width": 178,
+        "height": 55
+      }
+    },
+    {
+      "tag": "button",
+      "id": "dialog-show-dialog-71ab2e16-7ef3-4ce1-9add-604e29248b62",
+      "classes": "Button Button--iconOnly Button--invisible Button--medium op-app-header--primer-button",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "op-app-menu op-app-menu_drop-left"
+      },
+      "position": {
+        "x": 4,
+        "y": 12,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "Button Button--iconOnly Button--invisible Button--medium op-app-header--primer-button"
+      },
+      "position": {
+        "x": 12,
+        "y": 20,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 13,
+        "y": 21,
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-logo",
+      "text": "Home",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "op-app-menu op-app-menu_drop-left"
+      },
+      "position": {
+        "x": 44,
+        "y": 0,
+        "width": 130,
+        "height": 55
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "op-logo--link",
+      "text": "Home",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/",
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-logo"
+      },
+      "position": {
+        "x": 44,
+        "y": 16,
+        "width": 130,
+        "height": 24
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-app-header--center",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "header",
+        "classes": "op-app-header"
+      },
+      "position": {
+        "x": 456,
+        "y": 0,
+        "width": 368,
+        "height": 55
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-app-search",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-header--center"
+      },
+      "position": {
+        "x": 456,
+        "y": 0,
+        "width": 368,
+        "height": 55
+      }
+    },
+    {
+      "tag": "opce-global-search",
+      "id": null,
+      "classes": "op-angular-component",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-search"
+      },
+      "position": {
+        "x": 456,
+        "y": 0,
+        "width": 368,
+        "height": 55
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "top-menu-search",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": "search",
+      "ariaLabel": "Search in zbio.openproject.com",
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "opce-global-search",
+        "classes": "op-angular-component"
+      },
+      "position": {
+        "x": 471,
+        "y": 0,
+        "width": 338,
+        "height": 55
+      }
+    },
+    {
+      "tag": "button",
+      "id": "top-menu-search-button",
+      "classes": "top-menu-search--button search-form-normal",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": "Search",
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "top-menu-search"
+      },
+      "position": {
+        "x": 473,
+        "y": 0,
+        "width": 30,
+        "height": 55
+      }
+    },
+    {
+      "tag": "op-icon",
+      "id": null,
+      "classes": "op-icon--wrapper",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "top-menu-search--button search-form-normal"
+      },
+      "position": {
+        "x": 473,
+        "y": 19,
+        "width": 30,
+        "height": 16
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "icon5 icon-search ellipsis",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "op-icon",
+        "classes": "op-icon--wrapper"
+      },
+      "position": {
+        "x": 473,
+        "y": 19,
+        "width": 30,
+        "height": 16
+      }
+    },
+    {
+      "tag": "op-autocompleter",
+      "id": null,
+      "classes": "global-search op-autocompleter",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "top-menu-search"
+      },
+      "position": {
+        "x": 471,
+        "y": 12,
+        "width": 338,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "inline-label",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "op-autocompleter",
+        "classes": "global-search op-autocompleter"
+      },
+      "position": {
+        "x": 471,
+        "y": 12,
+        "width": 338,
+        "height": 32
+      }
+    },
+    {
+      "tag": "ng-select",
+      "id": "global-search-input",
+      "classes": "top-menu-search--input ng-select--primerized ng-select-typeahead ng-select-searchable ng-select-clearable ng-select ng-select-single ng-untouched ng-pristine ng-valid",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "inline-label"
+      },
+      "position": {
+        "x": 471,
+        "y": 12,
+        "width": 338,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "ng-select-container",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ng-select",
+        "classes": "top-menu-search--input ng-select--primerized ng-select-typeahead ng-select-searchable ng-select-clearable ng-select ng-select-single ng-untouched ng-pristine ng-valid"
+      },
+      "position": {
+        "x": 471,
+        "y": 12,
+        "width": 338,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "ng-value-container",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "ng-select-container"
+      },
+      "position": {
+        "x": 472,
+        "y": 12,
+        "width": 336,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "ng-placeholder",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "ng-value-container"
+      },
+      "position": {
+        "x": 507,
+        "y": 12,
+        "width": 271,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "ng-input",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "ng-value-container"
+      },
+      "position": {
+        "x": 472,
+        "y": 18,
+        "width": 336,
+        "height": 16
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "classes": "global-search--input",
+      "text": "",
+      "value": null,
+      "role": "combobox",
+      "ariaLabel": "Search in zbio.openproject.com",
+      "type": "text",
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "ng-input"
+      },
+      "position": {
+        "x": 482,
+        "y": 18,
+        "width": 276,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "ng-visually-hidden",
+      "text": "",
+      "value": null,
+      "role": "status",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ng-select",
+        "classes": "top-menu-search--input ng-select--primerized ng-select-typeahead ng-select-searchable ng-select-clearable ng-select ng-select-single ng-untouched ng-pristine ng-valid"
+      },
+      "position": {
+        "x": 470,
+        "y": 43,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-app-header--end",
+      "text": "Buy now\n5\nHA",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "header",
+        "classes": "op-app-header"
+      },
+      "position": {
+        "x": 824,
+        "y": 0,
+        "width": 456,
+        "height": 55
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-app-menu--item hidden-for-mobile",
+      "text": "Buy now",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-header--end"
+      },
+      "position": {
+        "x": 954,
+        "y": 0,
+        "width": 104,
+        "height": 55
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "upsell-colored-background hidden-for-mobile Button--secondary Button--medium Button flex-self-center",
+      "text": "Buy now",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/admin/subscriptions",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-menu--item hidden-for-mobile"
+      },
+      "position": {
+        "x": 966,
+        "y": 12,
+        "width": 80,
+        "height": 32
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "Button-content",
+      "text": "Buy now",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "upsell-colored-background hidden-for-mobile Button--secondary Button--medium Button flex-self-center"
+      },
+      "position": {
+        "x": 979,
+        "y": 18,
+        "width": 54,
+        "height": 20
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "Button-label",
+      "text": "Buy now",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "Button-content"
+      },
+      "position": {
+        "x": 979,
+        "y": 18,
+        "width": 54,
+        "height": 20
+      }
+    },
+    {
+      "tag": "action-menu",
+      "id": null,
+      "classes": "op-app-menu--item",
+      "text": "Add…\n\n\n\n  \n    \n            \n  \n    \n        \n  \n    \n        \n    \n    \n    \n        \n          \n  ",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-header--end"
+      },
+      "position": {
+        "x": 1058,
+        "y": 0,
+        "width": 82,
+        "height": 55
+      }
+    },
+    {
+      "tag": "button",
+      "id": "op-app-header--quick-add-menu-button",
+      "classes": "op-app-header--primer-button Button--primary Button--medium Button px-2",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "action-menu",
+        "classes": "op-app-menu--item"
+      },
+      "position": {
+        "x": 1070,
+        "y": 12,
+        "width": 58,
+        "height": 32
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "Button-content",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "op-app-header--primer-button Button--primary Button--medium Button px-2"
+      },
+      "position": {
+        "x": 1079,
+        "y": 18,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "Button-visual Button-leadingVisual",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "Button-content"
+      },
+      "position": {
+        "x": 1079,
+        "y": 19,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "Button-visual Button-leadingVisual"
+      },
+      "position": {
+        "x": 1079,
+        "y": 19,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 1081,
+        "y": 21,
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "Button-label",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "Button-content"
+      },
+      "position": {
+        "x": 1103,
+        "y": 18,
+        "width": 16,
+        "height": 20
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "img",
+      "ariaLabel": "Add…",
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "Button-label"
+      },
+      "position": {
+        "x": 1103,
+        "y": 19,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 1107,
+        "y": 26,
+        "width": 7,
+        "height": 4
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-app-menu--item position-relative px-1",
+      "text": "5",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-header--end"
+      },
+      "position": {
+        "x": 1140,
+        "y": 0,
+        "width": 40,
+        "height": 55
+      }
+    },
+    {
+      "tag": "a",
+      "id": "icon-button-9285fcd4-f6ce-4cb8-b8ab-3ac00e5ecc32",
+      "classes": "Button Button--iconOnly Button--invisible Button--medium op-app-header--primer-button op-ian-bell",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/notifications",
+      "cursor": "pointer",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-menu--item position-relative px-1"
+      },
+      "position": {
+        "x": 1144,
+        "y": 12,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "Button Button--iconOnly Button--invisible Button--medium op-app-header--primer-button op-ian-bell"
+      },
+      "position": {
+        "x": 1152,
+        "y": 20,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 1152,
+        "y": 21,
+        "width": 16,
+        "height": 14
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "op-ian-bell--indicator",
+      "text": "5",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "opce-in-app-notification-bell",
+        "classes": "op-angular-component"
+      },
+      "position": {
+        "x": 1159,
+        "y": 12,
+        "width": 21,
+        "height": 16
+      }
+    },
+    {
+      "tag": "action-menu",
+      "id": null,
+      "classes": "op-app-menu--item pl-1",
+      "text": "Help\n\n\n\n  \n    \n            \n  \n    \n        \n  \n      \n  \n    Getting started\n  \n\n    \n        \n   ",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-header--end"
+      },
+      "position": {
+        "x": 1180,
+        "y": 0,
+        "width": 48,
+        "height": 55
+      }
+    },
+    {
+      "tag": "button",
+      "id": "op-app-header--help-menu-button",
+      "classes": "Button Button--iconOnly Button--invisible Button--medium op-app-header--primer-button hidden-for-mobile",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "action-menu",
+        "classes": "op-app-menu--item pl-1"
+      },
+      "position": {
+        "x": 1184,
+        "y": 12,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "Button Button--iconOnly Button--invisible Button--medium op-app-header--primer-button hidden-for-mobile"
+      },
+      "position": {
+        "x": 1192,
+        "y": 20,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 1192,
+        "y": 20,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "button",
+      "id": "dialog-show-dialog-1b61e24e-322f-4c2b-ab6d-09dde7f5a557",
+      "classes": "op-app-header--primer-button op-app-menu--item Button--invisible Button--medium Button Button--invisible-noVisuals px-0",
+      "text": "HA",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-header--end"
+      },
+      "position": {
+        "x": 1228,
+        "y": 12,
+        "width": 38,
+        "height": 32
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "Button-content",
+      "text": "HA",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "op-app-header--primer-button op-app-menu--item Button--invisible Button--medium Button Button--invisible-noVisuals px-0"
+      },
+      "position": {
+        "x": 1229,
+        "y": 10,
+        "width": 36,
+        "height": 36
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "Button-label",
+      "text": "HA",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "Button-content"
+      },
+      "position": {
+        "x": 1229,
+        "y": 10,
+        "width": 36,
+        "height": 36
+      }
+    },
+    {
+      "tag": "opce-principal",
+      "id": null,
+      "classes": "op-top-menu-user-avatar op-principal",
+      "text": "HA",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline-flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "Button-label"
+      },
+      "position": {
+        "x": 1229,
+        "y": 10,
+        "width": 36,
+        "height": 36
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-principal--avatar op-avatar op-avatar_default op-avatar_user op-avatar--fallback",
+      "text": "HA",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "opce-principal",
+        "classes": "op-top-menu-user-avatar op-principal"
+      },
+      "position": {
+        "x": 1229,
+        "y": 10,
+        "width": 36,
+        "height": 36
+      }
+    },
+    {
+      "tag": "div",
+      "id": "main",
+      "classes": "can-hide-navigation",
+      "text": "Side Menu\nDemo project\nBoards\nSearch\nPublic\nAutomated board 1\nAutomated board 1 - 1765429200377\nAuto",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "can-hide-navigation"
+      },
+      "position": {
+        "x": 0,
+        "y": 55,
+        "width": 1280,
+        "height": 665
+      }
+    },
+    {
+      "tag": "div",
+      "id": "main-menu",
+      "classes": "main-menu",
+      "text": "Side Menu\nDemo project\nBoards\nSearch\nPublic\nAutomated board 1\nAutomated board 1 - 1765429200377\nAuto",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "can-hide-navigation"
+      },
+      "position": {
+        "x": 0,
+        "y": 55,
+        "width": 280,
+        "height": 665
+      }
+    },
+    {
+      "tag": "h1",
+      "id": null,
+      "classes": "sr-only",
+      "text": "Side Menu",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "main-menu"
+      },
+      "position": {
+        "x": 0,
+        "y": 55,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "op-resizer",
+      "id": null,
+      "classes": "main-menu--resizer",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "col-resize",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "opce-main-menu-resizer",
+        "classes": null
+      },
+      "position": {
+        "x": 276,
+        "y": 55,
+        "width": 4,
+        "height": 720
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "spot-link main-menu--navigation-toggler open",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "submit",
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "op-resizer",
+        "classes": "main-menu--resizer"
+      },
+      "position": {
+        "x": 264,
+        "y": 405,
+        "width": 16,
+        "height": 21
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "resize-handle",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "spot-link main-menu--navigation-toggler open"
+      },
+      "position": {
+        "x": 264,
+        "y": 405,
+        "width": 16,
+        "height": 21
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "img",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "resize-handle"
+      },
+      "position": {
+        "x": 264,
+        "y": 407,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 270,
+        "y": 409,
+        "width": 5,
+        "height": 12
+      }
+    },
+    {
+      "tag": "div",
+      "id": "menu-sidebar",
+      "classes": null,
+      "text": "Demo project\nBoards\nSearch\nPublic\nAutomated board 1\nAutomated board 1 - 1765429200377\nAutomated boar",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "main-menu"
+      },
+      "position": {
+        "x": 0,
+        "y": 55,
+        "width": 279,
+        "height": 665
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "main-menu--top-container",
+      "text": "Demo project",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": null
+      },
+      "position": {
+        "x": 12,
+        "y": 55,
+        "width": 255,
+        "height": 81
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "flex-items-center pt-3 d-flex flex-row",
+      "text": "Demo project",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "main-menu--top-container"
+      },
+      "position": {
+        "x": 12,
+        "y": 55,
+        "width": 255,
+        "height": 48
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "overflow-hidden",
+      "text": "Demo project",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "flex-items-center pt-3 d-flex flex-row"
+      },
+      "position": {
+        "x": 12,
+        "y": 71,
+        "width": 136,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "main-menu-item",
+      "text": "Demo project",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "overflow-hidden"
+      },
+      "position": {
+        "x": 12,
+        "y": 71,
+        "width": 136,
+        "height": 32
+      }
+    },
+    {
+      "tag": "opce-header-project-select",
+      "id": null,
+      "classes": "op-angular-component op-project-select",
+      "text": "Demo project",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "main-menu-item"
+      },
+      "position": {
+        "x": 12,
+        "y": 71,
+        "width": 136,
+        "height": 32
+      }
+    },
+    {
+      "tag": "spot-drop-modal",
+      "id": null,
+      "classes": "op-project-list-modal spot-drop-modal",
+      "text": "Demo project",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "opce-header-project-select",
+        "classes": "op-angular-component op-project-select"
+      },
+      "position": {
+        "x": 12,
+        "y": 71,
+        "width": 136,
+        "height": 32
+      }
+    },
+    {
+      "tag": "button",
+      "id": "projects-menu",
+      "classes": "op-project-select--trigger-button",
+      "text": "Demo project",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "spot-drop-modal",
+        "classes": "op-project-list-modal spot-drop-modal"
+      },
+      "position": {
+        "x": 12,
+        "y": 71,
+        "width": 136,
+        "height": 32
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "ellipsis",
+      "text": "Demo project",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "op-project-select--trigger-button"
+      },
+      "position": {
+        "x": 25,
+        "y": 77,
+        "width": 89,
+        "height": 21
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "button--dropdown-indicator",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "op-project-select--trigger-button"
+      },
+      "position": {
+        "x": 114,
+        "y": 80,
+        "width": 21,
+        "height": 13
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "text-right flex-auto",
+      "text": "Collapse project menu",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "flex-items-center pt-3 d-flex flex-row"
+      },
+      "position": {
+        "x": 148,
+        "y": 71,
+        "width": 119,
+        "height": 32
+      }
+    },
+    {
+      "tag": "button",
+      "id": "menu-toggle--collapse-button",
+      "classes": "Button Button--iconOnly Button--invisible Button--medium",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline-grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "text-right flex-auto"
+      },
+      "position": {
+        "x": 235,
+        "y": 71,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "Button Button--iconOnly Button--invisible Button--medium"
+      },
+      "position": {
+        "x": 243,
+        "y": 79,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 247,
+        "y": 84,
+        "width": 3,
+        "height": 5
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 243,
+        "y": 79,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "hr",
+      "id": null,
+      "classes": "main-menu--projects-divider",
+      "text": "",
+      "value": null,
+      "role": "presentation",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "main-menu--top-container"
+      },
+      "position": {
+        "x": 12,
+        "y": 119,
+        "width": 255,
+        "height": 1
+      }
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "classes": "menu_root closed",
+      "text": "Boards\nSearch\nPublic\nAutomated board 1\nAutomated board 1 - 1765429200377\nAutomated board 1 - 1765429",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": null
+      },
+      "position": {
+        "x": 12,
+        "y": 136,
+        "width": 255,
+        "height": 375
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "open",
+      "text": "Boards\nSearch\nPublic\nAutomated board 1\nAutomated board 1 - 1765429200377\nAutomated board 1 - 1765429",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "menu_root closed"
+      },
+      "position": {
+        "x": 12,
+        "y": 136,
+        "width": 255,
+        "height": 375
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "main-menu--children-menu-header",
+      "text": "Boards",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "open"
+      },
+      "position": {
+        "x": 12,
+        "y": 136,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "main-menu--arrow-left-to-project",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": "Go back one menu level",
+      "type": null,
+      "href": "https://zbio.openproject.com/#",
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "main-menu--children-menu-header"
+      },
+      "position": {
+        "x": 12,
+        "y": 136,
+        "width": 36,
+        "height": 36
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "main-menu--arrow-left-to-project"
+      },
+      "position": {
+        "x": 25,
+        "y": 147,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 27,
+        "y": 150,
+        "width": 11,
+        "height": 10
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "main-menu--parent-node ellipsis",
+      "text": "Boards",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/projects/demo-project/boards",
+      "cursor": "pointer",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "main-menu--children-menu-header"
+      },
+      "position": {
+        "x": 48,
+        "y": 136,
+        "width": 219,
+        "height": 36
+      }
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "classes": "main-menu--children",
+      "text": "Search\nPublic\nAutomated board 1\nAutomated board 1 - 1765429200377\nAutomated board 1 - 1765429264527\n",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "open"
+      },
+      "position": {
+        "x": 12,
+        "y": 172,
+        "width": 255,
+        "height": 339
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "partial main-menu-item",
+      "text": "Search\nPublic\nAutomated board 1\nAutomated board 1 - 1765429200377\nAutomated board 1 - 1765429264527\n",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "main-menu--children"
+      },
+      "position": {
+        "x": 12,
+        "y": 172,
+        "width": 255,
+        "height": 339
+      }
+    },
+    {
+      "tag": "turbo-frame",
+      "id": "boards_sidemenu",
+      "classes": null,
+      "text": "Search\nPublic\nAutomated board 1\nAutomated board 1 - 1765429200377\nAutomated board 1 - 1765429264527\n",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "partial main-menu-item"
+      },
+      "position": {
+        "x": 12,
+        "y": 172,
+        "width": 255,
+        "height": 339
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-submenu",
+      "text": "Search\nPublic\nAutomated board 1\nAutomated board 1 - 1765429200377\nAutomated board 1 - 1765429264527\n",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "turbo-frame",
+        "classes": null
+      },
+      "position": {
+        "x": 12,
+        "y": 172,
+        "width": 255,
+        "height": 339
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-submenu--search",
+      "text": "Search",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-submenu"
+      },
+      "position": {
+        "x": 12,
+        "y": 172,
+        "width": 255,
+        "height": 40
+      }
+    },
+    {
+      "tag": "primer-text-field",
+      "id": null,
+      "classes": "FormControl width-full FormControl--fullWidth",
+      "text": "Search",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-submenu--search"
+      },
+      "position": {
+        "x": 12,
+        "y": 176,
+        "width": 255,
+        "height": 32
+      }
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": "sr-only FormControl-label",
+      "text": "Search",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "primer-text-field",
+        "classes": "FormControl width-full FormControl--fullWidth"
+      },
+      "position": {
+        "x": 12,
+        "y": 176,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "FormControl-input-wrap FormControl-input-wrap--leadingVisual FormControl-input-width--auto",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "primer-text-field",
+        "classes": "FormControl width-full FormControl--fullWidth"
+      },
+      "position": {
+        "x": 12,
+        "y": 176,
+        "width": 255,
+        "height": 32
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "FormControl-input-leadingVisualWrap",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "FormControl-input-wrap FormControl-input-wrap--leadingVisual FormControl-input-width--auto"
+      },
+      "position": {
+        "x": 20,
+        "y": 184,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "FormControl-input-leadingVisualWrap"
+      },
+      "position": {
+        "x": 20,
+        "y": 184,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 21,
+        "y": 185,
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "tag": "input",
+      "id": "search",
+      "classes": "FormControl-input FormControl-medium op-submenu--search-input",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": "Search",
+      "type": "text",
+      "href": null,
+      "cursor": "text",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "FormControl-input-wrap FormControl-input-wrap--leadingVisual FormControl-input-width--auto"
+      },
+      "position": {
+        "x": 12,
+        "y": 176,
+        "width": 255,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-submenu--body",
+      "text": "Public\nAutomated board 1\nAutomated board 1 - 1765429200377\nAutomated board 1 - 1765429264527\nAutomat",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-submenu"
+      },
+      "position": {
+        "x": 12,
+        "y": 212,
+        "width": 255,
+        "height": 235
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": null,
+      "text": "Public\nAutomated board 1\nAutomated board 1 - 1765429200377\nAutomated board 1 - 1765429264527\nAutomat",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-submenu--body"
+      },
+      "position": {
+        "x": 12,
+        "y": 224,
+        "width": 255,
+        "height": 378
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "op-submenu--title",
+      "text": "Public",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": null
+      },
+      "position": {
+        "x": 12,
+        "y": 224,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "icon-small icon-arrow-up1",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "op-submenu--title"
+      },
+      "position": {
+        "x": 244,
+        "y": 233,
+        "width": 10,
+        "height": 18
+      }
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "classes": "op-submenu--items",
+      "text": "Automated board 1\nAutomated board 1 - 1765429200377\nAutomated board 1 - 1765429264527\nAutomated boar",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": null
+      },
+      "position": {
+        "x": 12,
+        "y": 262,
+        "width": 255,
+        "height": 340
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "op-submenu--item",
+      "text": "Automated board 1",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "op-submenu--items"
+      },
+      "position": {
+        "x": 12,
+        "y": 262,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "op-submenu--item-action ",
+      "text": "Automated board 1",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/projects/demo-project/boards/65",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "op-submenu--item"
+      },
+      "position": {
+        "x": 12,
+        "y": 262,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "op-submenu--item-title",
+      "text": "Automated board 1",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "op-submenu--item-action "
+      },
+      "position": {
+        "x": 25,
+        "y": 265,
+        "width": 229,
+        "height": 30
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "op-submenu--item",
+      "text": "Automated board 1 - 1765429200377",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "op-submenu--items"
+      },
+      "position": {
+        "x": 12,
+        "y": 300,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "op-submenu--item-action ",
+      "text": "Automated board 1 - 1765429200377",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/projects/demo-project/boards/68",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "op-submenu--item"
+      },
+      "position": {
+        "x": 12,
+        "y": 300,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "op-submenu--item-title",
+      "text": "Automated board 1 - 1765429200377",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "op-submenu--item-action "
+      },
+      "position": {
+        "x": 25,
+        "y": 303,
+        "width": 229,
+        "height": 30
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "op-submenu--item",
+      "text": "Automated board 1 - 1765429264527",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "op-submenu--items"
+      },
+      "position": {
+        "x": 12,
+        "y": 338,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "op-submenu--item-action selected",
+      "text": "Automated board 1 - 1765429264527",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/projects/demo-project/boards/69",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "op-submenu--item"
+      },
+      "position": {
+        "x": 12,
+        "y": 338,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "op-submenu--item-title",
+      "text": "Automated board 1 - 1765429264527",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "op-submenu--item-action selected"
+      },
+      "position": {
+        "x": 25,
+        "y": 341,
+        "width": 229,
+        "height": 30
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "op-submenu--item",
+      "text": "Automated board 1765374197026",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "op-submenu--items"
+      },
+      "position": {
+        "x": 12,
+        "y": 376,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "op-submenu--item-action ",
+      "text": "Automated board 1765374197026",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/projects/demo-project/boards/53",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "op-submenu--item"
+      },
+      "position": {
+        "x": 12,
+        "y": 376,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "op-submenu--item-title",
+      "text": "Automated board 1765374197026",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "op-submenu--item-action "
+      },
+      "position": {
+        "x": 25,
+        "y": 379,
+        "width": 229,
+        "height": 30
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "op-submenu--item",
+      "text": "Automated board <uuid4>",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "op-submenu--items"
+      },
+      "position": {
+        "x": 12,
+        "y": 414,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "op-submenu--item-action ",
+      "text": "Automated board <uuid4>",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/projects/demo-project/boards/54",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "op-submenu--item"
+      },
+      "position": {
+        "x": 12,
+        "y": 414,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "op-submenu--item-title",
+      "text": "Automated board <uuid4>",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "op-submenu--item-action "
+      },
+      "position": {
+        "x": 25,
+        "y": 417,
+        "width": 229,
+        "height": 30
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "op-submenu--item",
+      "text": "Automated board <uuid4>",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "op-submenu--items"
+      },
+      "position": {
+        "x": 12,
+        "y": 452,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "op-submenu--item-action ",
+      "text": "Automated board <uuid4>",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/projects/demo-project/boards/55",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "op-submenu--item"
+      },
+      "position": {
+        "x": 12,
+        "y": 452,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "op-submenu--item-title",
+      "text": "Automated board <uuid4>",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "op-submenu--item-action "
+      },
+      "position": {
+        "x": 25,
+        "y": 455,
+        "width": 229,
+        "height": 30
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "op-submenu--item",
+      "text": "Automated List 1 - 1765429134560",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "op-submenu--items"
+      },
+      "position": {
+        "x": 12,
+        "y": 490,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "op-submenu--item-action ",
+      "text": "Automated List 1 - 1765429134560",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/projects/demo-project/boards/67",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "op-submenu--item"
+      },
+      "position": {
+        "x": 12,
+        "y": 490,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "op-submenu--item-title",
+      "text": "Automated List 1 - 1765429134560",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "op-submenu--item-action "
+      },
+      "position": {
+        "x": 25,
+        "y": 493,
+        "width": 229,
+        "height": 30
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "op-submenu--item",
+      "text": "Automated List <rand4>",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "op-submenu--items"
+      },
+      "position": {
+        "x": 12,
+        "y": 528,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "op-submenu--item-action ",
+      "text": "Automated List <rand4>",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/projects/demo-project/boards/52",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "op-submenu--item"
+      },
+      "position": {
+        "x": 12,
+        "y": 528,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "op-submenu--item-title",
+      "text": "Automated List <rand4>",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "op-submenu--item-action "
+      },
+      "position": {
+        "x": 25,
+        "y": 531,
+        "width": 229,
+        "height": 30
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "op-submenu--item",
+      "text": "E2E Automated Test Board 1765417647827",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "op-submenu--items"
+      },
+      "position": {
+        "x": 12,
+        "y": 566,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "op-submenu--item-action ",
+      "text": "E2E Automated Test Board 1765417647827",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/projects/demo-project/boards/59",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "op-submenu--item"
+      },
+      "position": {
+        "x": 12,
+        "y": 566,
+        "width": 255,
+        "height": 36
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "op-submenu--item-title",
+      "text": "E2E Automated Test Board 1765417647827",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "op-submenu--item-action "
+      },
+      "position": {
+        "x": 25,
+        "y": 569,
+        "width": 229,
+        "height": 30
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-submenu--footer",
+      "text": "Board",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-submenu"
+      },
+      "position": {
+        "x": 12,
+        "y": 447,
+        "width": 255,
+        "height": 64
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "op-submenu--footer-action Button--primary Button--medium Button",
+      "text": "Board",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/projects/demo-project/boards/new",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-submenu--footer"
+      },
+      "position": {
+        "x": 28,
+        "y": 463,
+        "width": 223,
+        "height": 32
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "Button-content",
+      "text": "Board",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "op-submenu--footer-action Button--primary Button--medium Button"
+      },
+      "position": {
+        "x": 41,
+        "y": 469,
+        "width": 197,
+        "height": 20
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "Button-visual Button-leadingVisual",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "Button-content"
+      },
+      "position": {
+        "x": 109,
+        "y": 471,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "Button-visual Button-leadingVisual"
+      },
+      "position": {
+        "x": 109,
+        "y": 471,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 111,
+        "y": 473,
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "Button-label",
+      "text": "Board",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "Button-content"
+      },
+      "position": {
+        "x": 133,
+        "y": 469,
+        "width": 37,
+        "height": 20
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-enterprise-banner-container",
+      "text": "4 days left of premium trial token\n\nYou have access to all Premium enterprise plan features.\n\nBuy no",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": null
+      },
+      "position": {
+        "x": 12,
+        "y": 511,
+        "width": 255,
+        "height": 197
+      }
+    },
+    {
+      "tag": "div",
+      "id": "op-enterprise-banner-teaser",
+      "classes": "op-enterprise-banner my-2",
+      "text": "4 days left of premium trial token\n\nYou have access to all Premium enterprise plan features.\n\nBuy no",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-enterprise-banner-container"
+      },
+      "position": {
+        "x": 12,
+        "y": 519,
+        "width": 255,
+        "height": 181
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-enterprise-banner--visual",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-enterprise-banner my-2"
+      },
+      "position": {
+        "x": 21,
+        "y": 528,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-enterprise-banner--visual"
+      },
+      "position": {
+        "x": 29,
+        "y": 536,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 29,
+        "y": 536,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-enterprise-banner--content",
+      "text": "4 days left of premium trial token\n\nYou have access to all Premium enterprise plan features.\n\nBuy no",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-enterprise-banner my-2"
+      },
+      "position": {
+        "x": 53,
+        "y": 528,
+        "width": 205,
+        "height": 163
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "d-flex flex-column",
+      "text": "4 days left of premium trial token\n\nYou have access to all Premium enterprise plan features.\n\nBuy no",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-enterprise-banner--content"
+      },
+      "position": {
+        "x": 61,
+        "y": 534,
+        "width": 189,
+        "height": 151
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": null,
+      "text": "4 days left of premium trial token",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "d-flex flex-column"
+      },
+      "position": {
+        "x": 61,
+        "y": 534,
+        "width": 189,
+        "height": 42
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "text-bold",
+      "text": "4 days left of premium trial token",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": null
+      },
+      "position": {
+        "x": 61,
+        "y": 536,
+        "width": 178,
+        "height": 37
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-enterprise-banner--description",
+      "text": "You have access to all Premium enterprise plan features.",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "d-flex flex-column"
+      },
+      "position": {
+        "x": 61,
+        "y": 576,
+        "width": 189,
+        "height": 73
+      }
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "classes": null,
+      "text": "You have access to all Premium enterprise plan features.",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-enterprise-banner--description"
+      },
+      "position": {
+        "x": 61,
+        "y": 576,
+        "width": 189,
+        "height": 63
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "upsell-colored-text text-bold",
+      "text": "Premium enterprise plan",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "p",
+        "classes": null
+      },
+      "position": {
+        "x": 61,
+        "y": 599,
+        "width": 164,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "mt-1",
+      "text": "Buy now",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "d-flex flex-column"
+      },
+      "position": {
+        "x": 61,
+        "y": 653,
+        "width": 189,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "flex-justify-start flex-items-center d-flex flex-row",
+      "text": "Buy now",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "mt-1"
+      },
+      "position": {
+        "x": 61,
+        "y": 653,
+        "width": 189,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "ml-0",
+      "text": "Buy now",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "flex-justify-start flex-items-center d-flex flex-row"
+      },
+      "position": {
+        "x": 61,
+        "y": 653,
+        "width": 80,
+        "height": 32
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "upsell-colored-background hidden-for-mobile Button--secondary Button--medium Button flex-self-center",
+      "text": "Buy now",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/admin/subscriptions",
+      "cursor": "pointer",
+      "display": "inline-flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "ml-0"
+      },
+      "position": {
+        "x": 61,
+        "y": 653,
+        "width": 80,
+        "height": 32
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "Button-content",
+      "text": "Buy now",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "upsell-colored-background hidden-for-mobile Button--secondary Button--medium Button flex-self-center"
+      },
+      "position": {
+        "x": 74,
+        "y": 659,
+        "width": 54,
+        "height": 20
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "Button-label",
+      "text": "Buy now",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "Button-content"
+      },
+      "position": {
+        "x": 74,
+        "y": 659,
+        "width": 54,
+        "height": 20
+      }
+    },
+    {
+      "tag": "main",
+      "id": "content-wrapper",
+      "classes": "can-hide-navigation",
+      "text": "Successful creation.\n\nContent\nzbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "can-hide-navigation"
+      },
+      "position": {
+        "x": 280,
+        "y": 55,
+        "width": 1000,
+        "height": 665
+      }
+    },
+    {
+      "tag": "div",
+      "id": "primerized-flash-messages",
+      "classes": "op-primer-flash",
+      "text": "Successful creation.",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "main",
+        "classes": "can-hide-navigation"
+      },
+      "position": {
+        "x": 380,
+        "y": 71,
+        "width": 800,
+        "height": 51
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-primer-flash--item",
+      "text": "Successful creation.",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-primer-flash"
+      },
+      "position": {
+        "x": 380,
+        "y": 71,
+        "width": 800,
+        "height": 51
+      }
+    },
+    {
+      "tag": "x-banner",
+      "id": null,
+      "classes": null,
+      "text": "Successful creation.",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-primer-flash--item"
+      },
+      "position": {
+        "x": 380,
+        "y": 71,
+        "width": 800,
+        "height": 51
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "Banner flash Banner--success flash-success",
+      "text": "Successful creation.",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "x-banner",
+        "classes": null
+      },
+      "position": {
+        "x": 380,
+        "y": 71,
+        "width": 800,
+        "height": 51
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "Banner-visual",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "Banner flash Banner--success flash-success"
+      },
+      "position": {
+        "x": 389,
+        "y": 80,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "Banner-visual"
+      },
+      "position": {
+        "x": 397,
+        "y": 88,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 397,
+        "y": 88,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "Banner-message",
+      "text": "Successful creation.",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "Banner flash Banner--success flash-success"
+      },
+      "position": {
+        "x": 421,
+        "y": 80,
+        "width": 710,
+        "height": 33
+      }
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "classes": "Banner-title",
+      "text": "Successful creation.",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "Banner-message"
+      },
+      "position": {
+        "x": 429,
+        "y": 86,
+        "width": 694,
+        "height": 21
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "flash-close Banner-close",
+      "text": "Close",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "Banner flash Banner--success flash-success"
+      },
+      "position": {
+        "x": 1139,
+        "y": 80,
+        "width": 32,
+        "height": 33
+      }
+    },
+    {
+      "tag": "button",
+      "id": "icon-button-f45de92d-1efa-4035-82a2-95ac4aae76af",
+      "classes": "Button Button--iconOnly Button--invisible Button--medium",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline-grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "flash-close Banner-close"
+      },
+      "position": {
+        "x": 1139,
+        "y": 80,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "Button Button--iconOnly Button--invisible Button--medium"
+      },
+      "position": {
+        "x": 1147,
+        "y": 88,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 1151,
+        "y": 91,
+        "width": 9,
+        "height": 9
+      }
+    },
+    {
+      "tag": "div",
+      "id": "content",
+      "classes": "can-hide-navigation",
+      "text": "Content\nzbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527\n Filter 0\nAd",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "main",
+        "classes": "can-hide-navigation"
+      },
+      "position": {
+        "x": 280,
+        "y": 55,
+        "width": 1000,
+        "height": 665
+      }
+    },
+    {
+      "tag": "h1",
+      "id": null,
+      "classes": "sr-only accessibility-helper",
+      "text": "Content",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "can-hide-navigation"
+      },
+      "position": {
+        "x": 280,
+        "y": 55,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "div",
+      "id": "content-body",
+      "classes": null,
+      "text": "zbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527\n Filter 0\nAdd list t",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "can-hide-navigation"
+      },
+      "position": {
+        "x": 280,
+        "y": 55,
+        "width": 1000,
+        "height": 665
+      }
+    },
+    {
+      "tag": "openproject-base",
+      "id": null,
+      "classes": null,
+      "text": "zbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527\n Filter 0\nAdd list t",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": null
+      },
+      "position": {
+        "x": 280,
+        "y": 73,
+        "width": 984,
+        "height": 637
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "openproject-base--ui-view",
+      "text": "zbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527\n Filter 0\nAdd list t",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "openproject-base",
+        "classes": null
+      },
+      "position": {
+        "x": 280,
+        "y": 73,
+        "width": 984,
+        "height": 637
+      }
+    },
+    {
+      "tag": "ui-view",
+      "id": null,
+      "classes": null,
+      "text": "zbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527\n Filter 0\nAdd list t",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "openproject-base--ui-view"
+      },
+      "position": {
+        "x": 280,
+        "y": 73,
+        "width": 984,
+        "height": 637
+      }
+    },
+    {
+      "tag": "openproject-base",
+      "id": null,
+      "classes": null,
+      "text": "zbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527\n Filter 0\nAdd list t",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ui-view",
+        "classes": null
+      },
+      "position": {
+        "x": 280,
+        "y": 73,
+        "width": 984,
+        "height": 637
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "openproject-base--ui-view",
+      "text": "zbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527\n Filter 0\nAdd list t",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "openproject-base",
+        "classes": null
+      },
+      "position": {
+        "x": 280,
+        "y": 73,
+        "width": 984,
+        "height": 637
+      }
+    },
+    {
+      "tag": "ui-view",
+      "id": null,
+      "classes": null,
+      "text": "zbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527\n Filter 0\nAdd list t",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "openproject-base--ui-view"
+      },
+      "position": {
+        "x": 280,
+        "y": 73,
+        "width": 984,
+        "height": 637
+      }
+    },
+    {
+      "tag": "boards-entry",
+      "id": null,
+      "classes": null,
+      "text": "zbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527\n Filter 0\nAdd list t",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ui-view",
+        "classes": null
+      },
+      "position": {
+        "x": 280,
+        "y": 73,
+        "width": 984,
+        "height": 637
+      }
+    },
+    {
+      "tag": "ui-view",
+      "id": null,
+      "classes": null,
+      "text": "zbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527\n Filter 0\nAdd list t",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "boards-entry",
+        "classes": null
+      },
+      "position": {
+        "x": 280,
+        "y": 73,
+        "width": 984,
+        "height": 637
+      }
+    },
+    {
+      "tag": "ng-component",
+      "id": null,
+      "classes": null,
+      "text": "zbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527\n Filter 0\nAdd list t",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ui-view",
+        "classes": null
+      },
+      "position": {
+        "x": 280,
+        "y": 73,
+        "width": 984,
+        "height": 637
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "work-packages-partitioned-query-space--container -split",
+      "text": "zbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527\n Filter 0\nAdd list t",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ng-component",
+        "classes": null
+      },
+      "position": {
+        "x": 270,
+        "y": 73,
+        "width": 994,
+        "height": 637
+      }
+    },
+    {
+      "tag": "op-breadcrumbs",
+      "id": null,
+      "classes": null,
+      "text": "zbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "work-packages-partitioned-query-space--container -split"
+      },
+      "position": {
+        "x": 280,
+        "y": 73,
+        "width": 984,
+        "height": 28
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-breadcrumbs",
+      "text": "zbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "op-breadcrumbs",
+        "classes": null
+      },
+      "position": {
+        "x": 300,
+        "y": 73,
+        "width": 964,
+        "height": 28
+      }
+    },
+    {
+      "tag": "nav",
+      "id": null,
+      "classes": "hidden-for-mobile",
+      "text": "zbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527",
+      "value": null,
+      "role": null,
+      "ariaLabel": "Breadcrumb",
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-breadcrumbs"
+      },
+      "position": {
+        "x": 300,
+        "y": 73,
+        "width": 964,
+        "height": 28
+      }
+    },
+    {
+      "tag": "ol",
+      "id": null,
+      "classes": "op-breadcrumbs--items",
+      "text": "zbio.openproject.comDemo projectBoardsPublic: Automated board 1 - 1765429264527",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "nav",
+        "classes": "hidden-for-mobile"
+      },
+      "position": {
+        "x": 300,
+        "y": 73,
+        "width": 964,
+        "height": 28
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "op-breadcrumbs--item",
+      "text": "zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ol",
+        "classes": "op-breadcrumbs--items"
+      },
+      "position": {
+        "x": 300,
+        "y": 73,
+        "width": 148,
+        "height": 28
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": null,
+      "text": "zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/",
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "op-breadcrumbs--item"
+      },
+      "position": {
+        "x": 300,
+        "y": 79,
+        "width": 133,
+        "height": 16
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "op-breadcrumbs--item",
+      "text": "Demo project",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ol",
+        "classes": "op-breadcrumbs--items"
+      },
+      "position": {
+        "x": 448,
+        "y": 73,
+        "width": 98,
+        "height": 28
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": null,
+      "text": "Demo project",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/projects/demo-project",
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "op-breadcrumbs--item"
+      },
+      "position": {
+        "x": 448,
+        "y": 79,
+        "width": 83,
+        "height": 16
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "op-breadcrumbs--item",
+      "text": "Boards",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ol",
+        "classes": "op-breadcrumbs--items"
+      },
+      "position": {
+        "x": 546,
+        "y": 73,
+        "width": 59,
+        "height": 28
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": null,
+      "text": "Boards",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/projects/demo-project/boards",
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "op-breadcrumbs--item"
+      },
+      "position": {
+        "x": 546,
+        "y": 79,
+        "width": 44,
+        "height": 16
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "op-breadcrumbs--item",
+      "text": "Public: Automated board 1 - 1765429264527",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ol",
+        "classes": "op-breadcrumbs--items"
+      },
+      "position": {
+        "x": 606,
+        "y": 73,
+        "width": 287,
+        "height": 28
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "op-breadcrumbs--current",
+      "text": "Public: Automated board 1 - 1765429264527",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/#",
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "op-breadcrumbs--item"
+      },
+      "position": {
+        "x": 606,
+        "y": 79,
+        "width": 287,
+        "height": 16
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "op-breadcrumbs--section",
+      "text": "Public:",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "op-breadcrumbs--current"
+      },
+      "position": {
+        "x": 606,
+        "y": 79,
+        "width": 46,
+        "height": 16
+      }
+    },
+    {
+      "tag": "b",
+      "id": null,
+      "classes": null,
+      "text": "Automated board 1 - 1765429264527",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "op-breadcrumbs--current"
+      },
+      "position": {
+        "x": 652,
+        "y": 79,
+        "width": 241,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "toolbar-container -editable",
+      "text": "Filter 0",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "work-packages-partitioned-query-space--container -split"
+      },
+      "position": {
+        "x": 280,
+        "y": 106,
+        "width": 984,
+        "height": 36
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "toolbar",
+      "text": "Filter 0",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "toolbar-container -editable"
+      },
+      "position": {
+        "x": 300,
+        "y": 106,
+        "width": 964,
+        "height": 36
+      }
+    },
+    {
+      "tag": "h2",
+      "id": null,
+      "classes": "toolbar-title--container",
+      "text": "Automated List 1 - 1765429264527",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "toolbar"
+      },
+      "position": {
+        "x": 300,
+        "y": 106,
+        "width": 749,
+        "height": 36
+      }
+    },
+    {
+      "tag": "editable-toolbar-title",
+      "id": null,
+      "classes": "title-container title-container_editable",
+      "text": "Automated List 1 - 1765429264527",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "h2",
+        "classes": "toolbar-title--container"
+      },
+      "position": {
+        "x": 293,
+        "y": 106,
+        "width": 749,
+        "height": 36
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "editable-toolbar-title--container",
+      "text": "Automated List 1 - 1765429264527",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "editable-toolbar-title",
+        "classes": "title-container title-container_editable"
+      },
+      "position": {
+        "x": 293,
+        "y": 106,
+        "width": 749,
+        "height": 36
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "classes": "editable-toolbar-title--input -border-on-hover-only toolbar--editable-toolbar ellipsis ng-dirty ng-touched",
+      "text": "",
+      "value": "Automated List 1 - 1765429264527",
+      "role": null,
+      "ariaLabel": null,
+      "type": "text",
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "editable-toolbar-title--container"
+      },
+      "position": {
+        "x": 293,
+        "y": 106,
+        "width": 416,
+        "height": 36
+      }
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "classes": "toolbar-items hide-when-print hidden-for-mobile",
+      "text": "Filter 0",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "toolbar"
+      },
+      "position": {
+        "x": 1065,
+        "y": 106,
+        "width": 199,
+        "height": 34
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "toolbar-item hidden-for-tablet",
+      "text": "Filter 0",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "toolbar-items hide-when-print hidden-for-mobile"
+      },
+      "position": {
+        "x": 1065,
+        "y": 106,
+        "width": 115,
+        "height": 34
+      }
+    },
+    {
+      "tag": "wp-filter-button",
+      "id": null,
+      "classes": null,
+      "text": "Filter 0",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "toolbar-item hidden-for-tablet"
+      },
+      "position": {
+        "x": 1065,
+        "y": 114,
+        "width": 115,
+        "height": 16
+      }
+    },
+    {
+      "tag": "button",
+      "id": "work-packages-filter-toggle-button",
+      "classes": "button",
+      "text": "Filter 0",
+      "value": null,
+      "role": null,
+      "ariaLabel": "Activate Filter",
+      "type": "submit",
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "wp-filter-button",
+        "classes": null
+      },
+      "position": {
+        "x": 1065,
+        "y": 106,
+        "width": 115,
+        "height": 34
+      }
+    },
+    {
+      "tag": "op-icon",
+      "id": null,
+      "classes": "op-icon--wrapper",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "button"
+      },
+      "position": {
+        "x": 1074,
+        "y": 115,
+        "width": 14,
+        "height": 16
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "icon-filter button--icon",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "op-icon",
+        "classes": "op-icon--wrapper"
+      },
+      "position": {
+        "x": 1074,
+        "y": 117,
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "button--text",
+      "text": "Filter 0",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "button"
+      },
+      "position": {
+        "x": 1092,
+        "y": 115,
+        "width": 59,
+        "height": 16
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "badge",
+      "text": "0",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline-flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "button--text"
+      },
+      "position": {
+        "x": 1131,
+        "y": 113,
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "img",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "button"
+      },
+      "position": {
+        "x": 1155,
+        "y": 115,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 1159,
+        "y": 122,
+        "width": 7,
+        "height": 4
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "toolbar-item hidden-for-tablet",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "toolbar-items hide-when-print hidden-for-mobile"
+      },
+      "position": {
+        "x": 1190,
+        "y": 106,
+        "width": 32,
+        "height": 34
+      }
+    },
+    {
+      "tag": "opce-zen-mode-toggle-button",
+      "id": null,
+      "classes": null,
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "toolbar-item hidden-for-tablet"
+      },
+      "position": {
+        "x": 1190,
+        "y": 114,
+        "width": 32,
+        "height": 16
+      }
+    },
+    {
+      "tag": "button",
+      "id": "work-packages-zen-mode-toggle-button",
+      "classes": "button toolbar-icon",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "opce-zen-mode-toggle-button",
+        "classes": null
+      },
+      "position": {
+        "x": 1190,
+        "y": 106,
+        "width": 32,
+        "height": 34
+      }
+    },
+    {
+      "tag": "op-icon",
+      "id": null,
+      "classes": "op-icon--wrapper",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "button toolbar-icon"
+      },
+      "position": {
+        "x": 1199,
+        "y": 115,
+        "width": 14,
+        "height": 16
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "icon-zen-mode button--icon",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "op-icon",
+        "classes": "op-icon--wrapper"
+      },
+      "position": {
+        "x": 1199,
+        "y": 117,
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "toolbar-item hidden-for-tablet",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "toolbar-items hide-when-print hidden-for-mobile"
+      },
+      "position": {
+        "x": 1232,
+        "y": 106,
+        "width": 32,
+        "height": 34
+      }
+    },
+    {
+      "tag": "ng-component",
+      "id": null,
+      "classes": null,
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "toolbar-item hidden-for-tablet"
+      },
+      "position": {
+        "x": 1232,
+        "y": 114,
+        "width": 32,
+        "height": 16
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "button last board--settings-dropdown toolbar-icon",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "submit",
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ng-component",
+        "classes": null
+      },
+      "position": {
+        "x": 1232,
+        "y": 106,
+        "width": 32,
+        "height": 34
+      }
+    },
+    {
+      "tag": "op-icon",
+      "id": null,
+      "classes": "op-icon--wrapper",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "button last board--settings-dropdown toolbar-icon"
+      },
+      "position": {
+        "x": 1241,
+        "y": 115,
+        "width": 14,
+        "height": 16
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "button--icon icon-show-more",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "op-icon",
+        "classes": "op-icon--wrapper"
+      },
+      "position": {
+        "x": 1241,
+        "y": 117,
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "work-packages-partitioned-page--content-container",
+      "text": "Add list to board",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "work-packages-partitioned-query-space--container -split"
+      },
+      "position": {
+        "x": 280,
+        "y": 158,
+        "width": 984,
+        "height": 552
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "work-packages-partitioned-page--content-left loading-indicator--location",
+      "text": "Add list to board",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "work-packages-partitioned-page--content-container"
+      },
+      "position": {
+        "x": 280,
+        "y": 158,
+        "width": 984,
+        "height": 552
+      }
+    },
+    {
+      "tag": "ng-component",
+      "id": null,
+      "classes": null,
+      "text": "Add list to board",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "work-packages-partitioned-page--content-left loading-indicator--location"
+      },
+      "position": {
+        "x": 280,
+        "y": 158,
+        "width": 984,
+        "height": 552
+      }
+    },
+    {
+      "tag": "div",
+      "id": "cdk-drop-list-0",
+      "classes": "cdk-drop-list boards-list--container -free",
+      "text": "Add list to board",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ng-component",
+        "classes": null
+      },
+      "position": {
+        "x": 280,
+        "y": 158,
+        "width": 984,
+        "height": 552
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "cdk-drag boards-list--item",
+      "text": "Unnamed list",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "cdk-drop-list boards-list--container -free"
+      },
+      "position": {
+        "x": 285,
+        "y": 158,
+        "width": 300,
+        "height": 552
+      }
+    },
+    {
+      "tag": "board-list",
+      "id": null,
+      "classes": null,
+      "text": "Unnamed list",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "cdk-drag boards-list--item"
+      },
+      "position": {
+        "x": 285,
+        "y": 158,
+        "width": 300,
+        "height": 552
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-board-list loading-indicator--location",
+      "text": "Unnamed list",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "board-list",
+        "classes": null
+      },
+      "position": {
+        "x": 285,
+        "y": 158,
+        "width": 300,
+        "height": 552
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-board-list--header",
+      "text": "Unnamed list",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-board-list loading-indicator--location"
+      },
+      "position": {
+        "x": 285,
+        "y": 158,
+        "width": 300,
+        "height": 42
+      }
+    },
+    {
+      "tag": "h3",
+      "id": null,
+      "classes": "toolbar-title--container",
+      "text": "Unnamed list",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-board-list--header"
+      },
+      "position": {
+        "x": 300,
+        "y": 163,
+        "width": 254,
+        "height": 32
+      }
+    },
+    {
+      "tag": "editable-toolbar-title",
+      "id": null,
+      "classes": "-small title-container title-container_editable",
+      "text": "Unnamed list",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "h3",
+        "classes": "toolbar-title--container"
+      },
+      "position": {
+        "x": 300,
+        "y": 163,
+        "width": 250,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "editable-toolbar-title--container",
+      "text": "Unnamed list",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "editable-toolbar-title",
+        "classes": "-small title-container title-container_editable"
+      },
+      "position": {
+        "x": 300,
+        "y": 163,
+        "width": 250,
+        "height": 32
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "classes": "editable-toolbar-title--input -border-on-hover-only toolbar--editable-toolbar ellipsis ng-untouched ng-pristine ng-valid",
+      "text": "",
+      "value": "Unnamed list",
+      "role": null,
+      "ariaLabel": null,
+      "type": "text",
+      "href": null,
+      "cursor": "text",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "editable-toolbar-title--container"
+      },
+      "position": {
+        "x": 300,
+        "y": 163,
+        "width": 136,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-board-list--query-container drop-zone -with-create-button",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-board-list loading-indicator--location"
+      },
+      "position": {
+        "x": 285,
+        "y": 200,
+        "width": 300,
+        "height": 510
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-board-list--button-container",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-board-list--query-container drop-zone -with-create-button"
+      },
+      "position": {
+        "x": 285,
+        "y": 200,
+        "width": 300,
+        "height": 34
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "op-board-list--add-button op-board-list--card-dropdown-button button",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "submit",
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-board-list--button-container"
+      },
+      "position": {
+        "x": 300,
+        "y": 200,
+        "width": 260,
+        "height": 34
+      }
+    },
+    {
+      "tag": "op-icon",
+      "id": null,
+      "classes": "op-icon--wrapper",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "op-board-list--add-button op-board-list--card-dropdown-button button"
+      },
+      "position": {
+        "x": 425,
+        "y": 209,
+        "width": 10,
+        "height": 16
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "icon-small icon-add",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "op-icon",
+        "classes": "op-icon--wrapper"
+      },
+      "position": {
+        "x": 425,
+        "y": 209,
+        "width": 10,
+        "height": 16
+      }
+    },
+    {
+      "tag": "wp-card-view",
+      "id": null,
+      "classes": null,
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-board-list--query-container drop-zone -with-create-button"
+      },
+      "position": {
+        "x": 285,
+        "y": 234,
+        "width": 300,
+        "height": 476
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "wp-cards-container -vertical",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "wp-card-view",
+        "classes": null
+      },
+      "position": {
+        "x": 285,
+        "y": 234,
+        "width": 300,
+        "height": 476
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "boards-list--add-item -no-text-select",
+      "text": "Add list to board",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "cdk-drop-list boards-list--container -free"
+      },
+      "position": {
+        "x": 585,
+        "y": 158,
+        "width": 155,
+        "height": 42
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "boards-list--add-item-text",
+      "text": "Add list to board",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "boards-list--add-item -no-text-select"
+      },
+      "position": {
+        "x": 585,
+        "y": 158,
+        "width": 155,
+        "height": 47
+      }
+    },
+    {
+      "tag": "op-icon",
+      "id": null,
+      "classes": "op-icon--wrapper",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "boards-list--add-item-text"
+      },
+      "position": {
+        "x": 600,
+        "y": 176,
+        "width": 24,
+        "height": 16
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "icon-add icon-context",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "op-icon",
+        "classes": "op-icon--wrapper"
+      },
+      "position": {
+        "x": 600,
+        "y": 176,
+        "width": 24,
+        "height": 16
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": null,
+      "text": "Add list to board",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "boards-list--add-item-text"
+      },
+      "position": {
+        "x": 624,
+        "y": 176,
+        "width": 101,
+        "height": 16
+      }
+    }
+  ],
+  "element_count": 252,
+  "url": "https://zbio.openproject.com/projects/demo-project/boards/69"
+}
