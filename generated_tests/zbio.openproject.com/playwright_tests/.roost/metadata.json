@@ -1,0 +1,29 @@
+{
+  "metadata_version": "1.0",
+  "created_at": "2025-12-11T03:19:26.093479",
+  "last_updated": "2025-12-11T03:19:38.673846",
+  "Login_File": {
+    "name": "standard",
+    "path": null,
+    "hash": "dddec5f5f2cd412834edb794026cdbcbc2231c73610487147ef15e7b2c759ad8",
+    "agent_workflow_completed": false,
+    "agent_workflow_file_path": "/var/tmp/Roost/RoostGPT/open-project-board/0b5cc0c4-d821-484b-a62c-a4e92ece85e1/temp_info/zbio.openproject.com/extracted_data/login_result_dddec5f5f2cd412834edb794026cdbcbc2231c73610487147ef15e7b2c759ad8.json",
+    "agent_interaction_file_path": "/var/tmp/Roost/RoostGPT/open-project-board/0b5cc0c4-d821-484b-a62c-a4e92ece85e1/temp_info/zbio.openproject.com/extracted_data/login_data_6c93d30688e1116bc501c4453701461fa10e2edb8717149417d2e6c03bc79552.json",
+    "scenario_name": null,
+    "scenario_file_path": null,
+    "test_generated": false,
+    "test_name": null,
+    "test_file_path": null,
+    "test_executed_success": false,
+    "agent_activity_summary": [
+      "Error: Error code: 401 - {'error': {'code': 'Unauthorized', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}"
+    ],
+    "agent_activity_error": [
+      ""
+    ],
+    "agent_activity_outcome": [
+      ""
+    ]
+  },
+  "User_Scenarios_File": []
+}
