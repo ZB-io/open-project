@@ -94,12 +94,12 @@ test('Create, Verify, and Delete a Task Work Package', async ({ page }) => {
   //   1. page.getByRole('button', { name: /Create new work package/ }) (confidence: 96%, strategy: aria_label_regex, is_unique: false)
   //   2. page.locator('button.button.-primary') (confidence: 80%, strategy: css_combined_classes, is_unique: true)
   //   3. page.locator('button, input[type="submit"], input[type="button"]').filter({ hasText: /^Create$/ }) (confidence: 75%, strategy: button_filter_exact, is_unique: true)
-  await page.getByRole('button', { name: /Create new work package/ }).click();
+  await page.getByRole('button', { name: /Create new work package/ , exact: true}).nth(0).click();
 
   // Step 4: Select 'Task' from the creation dropdown menu
   // Captured selectors:
   //   1. page.getByRole('menuitem', { name: 'Task' }) (confidence: 95%, strategy: role_name, is_unique: true)
-  await page.getByRole('menuitem', { name: 'Task' }).click();
+  await page.getByRole('menuitem', { name: 'Task', exact: true }).click();
   await page.waitForURL(new RegExp(`${BASE_HOST_URL}/projects/demo-project/work_packages/create_new\\?type=1`));
 
   // Step 5: Enter the subject line for the new task
