@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {
+      "id": "login_page",
+      "url": "https://zbio.openproject.com/login"
+    }
+  ],
+  "edges": [
+    {
+      "from": "login_page",
+      "to": "unknown_post_login",
+      "action": "Login with credentials admin/admin",
+      "status": "failed"
+    },
+    {
+      "from": "login_page",
+      "to": "unknown_post_login",
+      "action": "Login with credentials default/default",
+      "status": "failed"
+    }
+  ]
+}

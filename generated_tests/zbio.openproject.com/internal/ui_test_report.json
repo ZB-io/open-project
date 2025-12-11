@@ -1,0 +1,26 @@
+{
+    "login_scenario": "Skipped",
+    "workflow_completed": true,
+    "workflow_result": "PASS",
+    "workflow_error": "",
+    "login_agent_activity_summary": "Not available",
+    "user_scenario_agent_activity_summary": [
+        "1.  The agent navigated to the project URL to begin the test.",
+        "2.  It first attempted to log in using 'admin' credentials, which failed across three attempts (Steps 2, 4, 6-7).",
+        "3.  After the initial failures, the agent restarted the scenario and attempted to log in using the 'default' credentials as specified in the user scenario's background.",
+        "4.  The agent made three more unsuccessful login attempts with the 'default' credentials (Steps 9-10, 13-14, 16-17).",
+        "5.  Following the repeated authentication failures, the agent terminated the execution."
+    ],
+    "generated_files": {
+        "feature_files": [],
+        "json_files": []
+    },
+    "scenarios": {},
+    "user_login_failure_with_invalid_credentials": {
+        "testFilePath": "zbio.openproject.com/playwright_tests/tests/user_login_failure_with_invalid_credentials.noauth.spec.js",
+        "auth_required": false,
+        "iterations_used": 3,
+        "final_status": "pass",
+        "error_summary": null
+    }
+}
