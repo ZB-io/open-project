@@ -1,0 +1,218 @@
+{
+  "site_url": "https://zbio.openproject.com/projects/demo-project",
+  "site_type": "unknown",
+  "site_category": "general",
+  "test_name": "discovered_bug_work_package_creation_flow_is_blocked_after_s",
+  "login_mechanisms": [
+    "site_navigation",
+    "content_browsing"
+  ],
+  "user_journeys": [
+    {
+      "workflow_type": "navigation_flow",
+      "path": [
+        "projects"
+      ],
+      "success_rate": "discovered_site_navigation",
+      "scenario_priority": "medium",
+      "description": "General website navigation and content discovery"
+    }
+  ],
+  "proposed_scenarios": [
+    {
+      "scenario_name": "Discovered Bug: Work Package Creation Flow is Blocked After Selecting Type",
+      "description": "This scenario reproduces a critical bug discovered during exploration. The user attempts to create a new 'Task' work package, but after selecting the type, the application navigates to a blank or unresponsive page, completely blocking the creation workflow.",
+      "test_type": "bug_reproduction",
+      "priority": "critical",
+      "business_goal": "Verify and document the critical bug that prevents users from creating new work packages, a core functionality of the application.",
+      "user_story": "As a Project Manager, when I try to create a new Task, the system redirects me to a non-functional page, preventing me from adding work to my project.",
+      "detailed_steps": [
+        {
+          "step_number": 1,
+          "action": "Navigate to website homepage",
+          "description": "Load the main project dashboard page.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project",
+          "verification_point": "Page URL is 'https://zbio.openproject.com/projects/demo-project'",
+          "business_impact": "Ensures the application's entry point is accessible.",
+          "selector": "page.goto('https://zbio.openproject.com/projects/demo-project')",
+          "confidence": 100,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 2,
+          "action": "click",
+          "description": "Navigate to the 'Work packages' section from the main side menu to view the list of all work items.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/work_packages",
+          "verification_point": "Page URL changes to '/work_packages'",
+          "business_impact": "Accessing the core feature for managing project tasks.",
+          "selector": "page.locator('#main-menu-work-packages-wrapper').getByRole('link', { name: 'Work packages' })",
+          "all_selectors": [
+            {
+              "selector": "page.locator('#main-menu-work-packages-wrapper').getByRole('link', { name: 'Work packages' })",
+              "strategy": "parent_id_role",
+              "confidence": 82
+            },
+            {
+              "selector": "page.getByRole('link', { name: /Work packages/ })",
+              "strategy": "role_name_regex",
+              "confidence": 80
+            },
+            {
+              "selector": "page.locator('a.work-packages-menu-item.selected')",
+              "strategy": "css_combined_classes",
+              "confidence": 80
+            },
+            {
+              "selector": "page.locator('a.work-packages-menu-item')",
+              "strategy": "css_stable_class",
+              "confidence": 78
+            },
+            {
+              "selector": "page.locator('#main-menu-work-packages')",
+              "strategy": "id",
+              "confidence": 75
+            },
+            {
+              "selector": "page.locator('a').filter({ hasText: /^Work packages$/ })",
+              "strategy": "link_filter_exact",
+              "confidence": 74
+            }
+          ],
+          "confidence": 82,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 3,
+          "action": "click",
+          "description": "Click the 'Create' button to open the dropdown menu for selecting a new work package type.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/work_packages",
+          "verification_point": "A dropdown menu with work package types should appear.",
+          "business_impact": "Initiates the workflow for adding a new task or item to the project.",
+          "selector": "page.locator('button.button.-primary')",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('button', { name: /Create new work package/ })",
+              "strategy": "aria_label_regex",
+              "confidence": 96
+            },
+            {
+              "selector": "page.getByRole('button', { name: /Create new work package/ })",
+              "strategy": "role_name_regex",
+              "confidence": 95
+            },
+            {
+              "selector": "page.locator('#content-body').getByRole('button', { name: 'Create new work package' })",
+              "strategy": "parent_id_role",
+              "confidence": 82
+            },
+            {
+              "selector": "page.locator('button.button.-primary')",
+              "strategy": "css_combined_classes",
+              "confidence": 80
+            },
+            {
+              "selector": "page.locator('button, input[type=\"submit\"], input[type=\"button\"]').filter({ hasText: /^Create$/ })",
+              "strategy": "button_filter_exact",
+              "confidence": 75
+            }
+          ],
+          "confidence": 80,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 4,
+          "action": "click",
+          "description": "Select 'Tasks' from the creation dropdown to start creating a new task work package.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/work_packages?query_id=3",
+          "verification_point": "Page navigates to a new URL containing '?query_id=3', but the creation form fails to load.",
+          "business_impact": "This step reveals the critical bug, blocking the user from completing the core task creation workflow.",
+          "selector": "page.getByRole('link', { name: 'Tasks' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('link', { name: 'Tasks' })",
+              "strategy": "role_name",
+              "confidence": 95
+            },
+            {
+              "selector": "page.locator('#work_packages_sidemenu').getByRole('link', { name: 'Tasks' })",
+              "strategy": "parent_id_role",
+              "confidence": 82
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/div[1]/div/ul/li[2]/ul/li/turbo-frame/div/div[2]/div[2]/ul/li[2]/a')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 95,
+          "based_on_interaction": true
+        }
+      ],
+      "expected_results": [
+        "The user successfully navigates to the 'Work packages' page and initiates the creation process.",
+        "After selecting 'Tasks' as the work package type, the application should navigate to a non-functional page or a filtered view.",
+        "The form for creating a new task is NOT displayed.",
+        "The user is blocked from proceeding with entering a name, description, or saving the new task.",
+        "The workflow is confirmed to be broken at this step, successfully reproducing the discovered bug."
+      ],
+      "edge_cases_to_test": [
+        "Does the same issue occur when trying to create other work package types (e.g., 'Phase', 'Milestone')?",
+        "What happens if the user tries to use the browser's back button after the failure?",
+        "Does refreshing the blank page resolve the issue or lead to a different error?",
+        "Is there an error logged in the browser's developer console at the point of failure?"
+      ],
+      "data_requirements": [
+        "A valid user account with permissions to create work packages in the 'Demo Project'."
+      ],
+      "prerequisites": [
+        "The OpenProject instance at 'zbio.openproject.com' is online and accessible.",
+        "The 'Demo Project' exists and is accessible to the test user."
+      ],
+      "auth_required": true,
+      "starting_url": "https://zbio.openproject.com/projects/demo-project"
+    }
+  ],
+  "login_completion_state": "successful",
+  "analysis_timestamp": "2025-12-11T08:38:12.185980",
+  "confidence_score": 0.5,
+  "captured_selectors": [
+    {
+      "selector": "page.locator('#main-menu-work-packages-wrapper').getByRole('link', { name: 'Work packages' })",
+      "confidence": 82,
+      "action": "click",
+      "input_value": "\n    \nWork packages",
+      "element": "<a> '\n    \nWork packages'",
+      "url": "https://zbio.openproject.com/projects/demo-project/work_packages",
+      "timestamp": "2025-12-11T08:34:36.196904"
+    },
+    {
+      "selector": "page.locator('button.button.-primary')",
+      "confidence": 80,
+      "action": "click",
+      "input_value": "Create",
+      "element": "<button> 'Create'",
+      "url": "https://zbio.openproject.com/projects/demo-project/work_packages",
+      "timestamp": "2025-12-11T08:34:58.306232"
+    },
+    {
+      "selector": "page.getByRole('link', { name: 'Tasks' })",
+      "confidence": 95,
+      "action": "click",
+      "input_value": "\n                \n                  Tasks\n\n\n                \n\n              ",
+      "element": "<a> '\n                \n            '",
+      "url": "https://zbio.openproject.com/projects/demo-project/work_packages",
+      "timestamp": "2025-12-11T08:35:12.046408"
+    },
+    {
+      "selector": "page.locator('#work_packages_sidemenu').getByRole('link', { name: 'Tasks' })",
+      "confidence": 82,
+      "action": "click",
+      "input_value": "\n                \n                  Tasks\n\n\n                \n\n              ",
+      "element": "<a> '\n                \n            '",
+      "url": "https://zbio.openproject.com/projects/demo-project/work_packages?query_id=3",
+      "timestamp": "2025-12-11T08:35:45.615190"
+    }
+  ],
+  "auth_required": true,
+  "starting_url": "https://zbio.openproject.com/projects/demo-project"
+}
