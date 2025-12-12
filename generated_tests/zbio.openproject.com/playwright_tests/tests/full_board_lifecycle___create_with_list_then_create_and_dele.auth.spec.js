@@ -1,0 +1,133 @@
+/*
+ * ⚠️ TEST FAILED AFTER 3 ITERATIONS
+ * Test: full_board_lifecycle_-_create_with_list_then_create_and_dele
+ *
+ * Errors are captured in test_iteration_errors_full_board_lifecycle___create_with_list_then_create_and_dele.md
+ * Please review and fix manually.
+ */
+
+import 'dotenv/config';
+import { test, expect } from '@playwright/test';
+const BASE_HOST_URL = process.env.BASE_HOST_URL;
+const BASE_URL = process.env.BASE_URL;
+
+// Generate unique names for the test entities to ensure idempotency
+const uniqueId = Date.now();
+const boardName1 = `Automated board ${uniqueId}`;
+const listName = `Automated List ${uniqueId}`;
+const boardNameToDelete = `Automated board for deletion ${uniqueId}`;
+
+// Capture accessibility tree on failure
+
+test.setTimeout(120000);
+
+test('Discovered Workflow: Full Board Lifecycle - Create with List, then Create and Delete', async ({ page }) => {
+  // Automatically accept any confirmation dialogs that appear, common for delete actions.
+  page.on('dialog', dialog => dialog.accept());
+
+  // Step 1: Navigate to website homepage
+  await page.goto(BASE_URL || BASE_HOST_URL);
+  await page.waitForURL(BASE_URL || BASE_HOST_URL);
+  await page.waitForLoadState('networkidle');
+
+  // Step 2: Navigate to the Boards section
+  // Captured selectors:
+  //   1. page.getByRole('link', { name: 'Boards' }) (confidence: 95%, strategy: role_name, unique: false)
+  //   2. page.locator('#main-menu-boards-link') (confidence: 90%, strategy: id, unique: true)
+  await page.getByRole('link', { name: 'Boards' }).click();
+  await page.waitForURL(`${BASE_HOST_URL}/projects/demo-project/boards/`);
+  await page.waitForLoadState('networkidle');
+
+  // Step 3: Click the 'Create new board' button
+  // Captured selectors:
+  //   1. page.getByRole('link', { name: 'Create new board' }) (confidence: 99%, strategy: roost_primary, unique: true)
+  //   2. page.locator('a.Button--primary[href*="o-project/boards/new"]') (confidence: 88%, strategy: css_class_href_combined, unique: true)
+  //   3. page.locator('#add-board-button') (confidence: 75%, strategy: id, unique: false)
+  await page.getByRole('link', { name: 'Create new board' }).click();
+  await page.waitForURL(`${BASE_HOST_URL}/projects/demo-project/boards/new`);
+  await page.waitForLoadState('networkidle');
+
+  // Step 4: Enter the name for the new board
+  // Captured selectors:
+  //   1. page.getByRole('textbox', { name: 'Title*' }) (confidence: 99%, strategy: roost_primary, unique: true)
+  //   2. page.getByLabel('Title') (confidence: 90%, strategy: label, unique: true)
+  //   3. page.locator('#boards_grid_name') (confidence: 75%, strategy: id, unique: true)
+  await page.getByRole('textbox', { name: 'Title*' }).fill(boardName1);
+
+  // Step 5: Click the 'Create' button
+  // Captured selectors:
+  //   1. page.getByRole('button', { name: 'Create' }) (confidence: 99%, strategy: roost_primary, unique: true)
+  //   2. page.locator('button.-primary').filter({ hasText: 'Create' }) (confidence: 85%, strategy: css_filter_text, unique: true)
+  await page.getByRole('button', { name: 'Create' }).click();
+  await page.waitForURL(new RegExp(`${BASE_HOST_URL}/projects/demo-project/boards/\\d+`));
+  await page.waitForLoadState('networkidle');
+
+  // Step 6: Click the 'Add list to board' placeholder
+  // Captured selectors:
+  //   1. page.getByText('Add list to board') (confidence: 99%, strategy: roost_primary, unique: true)
+  //   2. page.locator('span').filter({ hasText: 'Add list to board' }) (confidence: 69%, strategy: tag_filter_text, unique: true)
+  await page.getByText('Add list to board').click();
+
+  // Step 7: Enter the name for the new list and press Enter
+  // No selector was captured, so we use a common pattern for dynamically appearing inputs.
+  const listNameInput = page.locator('input[name="name"]');
+  await page.getByRole('textbox', { name: 'Name' }).fill(listName);
+  await page.keyboard.press('Enter');
+  await expect(page.getByText(listName)).toBeVisible();
+
+  // Step 8: Click the 'Boards' breadcrumb link
+  // Captured selectors:
+  //   1. page.locator('#content-body').getByRole('link', { name: 'Boards' }) (confidence: 99%, strategy: roost_primary, unique: true)
+  //   2. page.getByRole('link', { name: 'Boards' }) (confidence: 85%, strategy: role_name, unique: false)
+  await page.locator('#content-body').getByRole('link', { name: 'Boards' }).click();
+  await page.waitForURL(new RegExp(`${BASE_HOST_URL}/projects/demo-project/boards/?`));
+  await page.waitForLoadState('networkidle');
+
+  // Step 9: Verify that the newly created board is present
+  await expect(page.getByText(boardName1)).toBeVisible();
+
+  // Step 10: Click the 'Create new board' button again
+  // Captured selectors:
+  //   1. page.getByRole('link', { name: 'Create new board' }) (confidence: 99%, strategy: roost_primary, unique: true)
+  //   2. page.locator('a.Button--primary[href*="o-project/boards/new"]') (confidence: 88%, strategy: css_class_href_combined, unique: true)
+  await page.getByRole('link', { name: 'Create new board' }).click();
+  await page.waitForURL(`${BASE_HOST_URL}/projects/demo-project/boards/new`);
+  await page.waitForLoadState('networkidle');
+
+  // Step 11: Enter the name for the second board
+  // Captured selectors:
+  //   1. page.getByRole('textbox', { name: 'Title*' }) (confidence: 99%, strategy: roost_primary, unique: true)
+  //   2. page.getByLabel('Title') (confidence: 90%, strategy: label, unique: true)
+  await page.getByRole('textbox', { name: 'Title*' }).fill(boardNameToDelete);
+
+  // Step 12: Click the 'Create' button for the second board
+  // Captured selectors:
+  //   1. page.getByRole('button', { name: 'Create' }) (confidence: 99%, strategy: roost_primary, unique: true)
+  await page.getByRole('button', { name: 'Create' }).click();
+  await page.waitForURL(new RegExp(`${BASE_HOST_URL}/projects/demo-project/boards/\\d+`));
+  await page.waitForLoadState('networkidle');
+
+  // Step 13: Return to the main boards list page
+  // Captured selectors:
+  //   1. page.locator('#content-body').getByRole('link', { name: 'Boards' }) (confidence: 99%, strategy: roost_primary, unique: true)
+  await page.locator('#content-body').getByRole('link', { name: 'Boards' }).click();
+  await page.waitForURL(new RegExp(`${BASE_HOST_URL}/projects/demo-project/boards/?`));
+  await page.waitForLoadState('networkidle');
+
+  // Step 14: Locate and delete the second board
+  // Captured selectors:
+  //   1. page.getByRole('row', { name: 'Automated board for deletion' }).getByRole('link').nth(1) (confidence: 99%, strategy: roost_primary, unique: true)
+  //   2. page.locator('a.icon-delete[href*="/boards/110"]') (confidence: 88%, strategy: css_class_href_combined, unique: true)
+  const boardRow = page.getByRole('row', { name: new RegExp(boardNameToDelete) });
+  await boardRow.waitFor({ state: 'visible' });
+  await boardRow.getByRole('link').nth(1).click();
+  
+  // The dialog handler at the top of the test will accept the confirmation.
+
+  // Step 15: Verify that the second board is no longer visible
+  await page.waitForLoadState('networkidle');
+  await expect(page.getByText(boardNameToDelete)).not.toBeVisible();
+  
+  // Final check: ensure the first board still exists
+  await expect(page.getByText(boardName1)).toBeVisible();
+});

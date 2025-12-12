@@ -1,0 +1,36 @@
+{
+    "login_scenario": "Attempted (successful)",
+    "workflow_completed": true,
+    "workflow_result": "PASS",
+    "workflow_error": "",
+    "login_agent_activity_summary": [
+        "1.  Agent navigated to the OpenProject login page.",
+        "2.  Agent identified the 'Username' and 'Password' input fields, along with the 'Sign in' button.",
+        "3.  Agent entered the provided credentials into the respective fields and clicked the 'Sign in' button.",
+        "4.  Agent successfully logged into the application."
+    ],
+    "user_scenario_agent_activity_summary": [
+        "1.  Agent navigated to the \"Boards\" page within the \"demo-project\".",
+        "2.  To address the first scenario (`BRD-Create`), the agent initiated the board creation process by clicking the \"Create new board\" button.",
+        "3.  Agent entered the board name \"Automated board 1234\" and finalized its creation.",
+        "4.  On the newly created board's page, the agent added a list with the name \"Automated List <rand4>\".",
+        "5.  Agent returned to the main \"Boards\" page and performed an extraction to verify the new board was present.",
+        "6.  To address the second scenario (`BRD-Create-Delete`), the agent again initiated the board creation process.",
+        "7.  Agent entered the board name \"Automated board for deletion\" and created the board.",
+        "8.  Agent returned to the main \"Boards\" page.",
+        "9.  Agent located the board named \"Automated board for deletion\" and clicked the delete button.",
+        "10. Agent performed a final extraction to verify the board was successfully removed from the page."
+    ],
+    "generated_files": {
+        "feature_files": [],
+        "json_files": []
+    },
+    "scenarios": {},
+    "full_board_lifecycle___create_with_list_then_create_and_dele": {
+        "testFilePath": "zbio.openproject.com/playwright_tests/tests/full_board_lifecycle___create_with_list_then_create_and_dele.auth.spec.js",
+        "auth_required": true,
+        "iterations_used": 3,
+        "final_status": "fail",
+        "error_summary": "Test: Discovered Workflow: Full Board Lifecycle - Create with List, then Create and Delete\n======================================================================\nMain Error:\n\u001b[31mTest timeout of 120000ms exceeded.\u001b[39m\n\nDetailed Errors:\n\nError 1:\n\u001b[31mTest timeout of 120000ms exceeded.\u001b[39m\n\nError 2:\nError: locator.fill: Test timeout of 120000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Name' })\u001b[22m\n\n\n  127 |   // No selector was captured, so we use a common pattern for dynamically appearing inputs.\n  128 |   const listNameInput = page.locator('input[name=\"name\"]');\n> 129 |   await page.getByRole('textbox', { name: 'Name' }).fill(listName);\n      |                                                     ^\n  130 |   await page.keyboard.press('Enter');\n  131 |   await expect(page.getByText(listName)).toBeVisible();\n  132 |\n    at /var/tmp/Roost/RoostGPT/open-project-board_gemini/7712345e-e87c-4fdd-aa63-2678f61021cb/source/open-project/generated_tests/zbio.openpro"
+    }
+}
