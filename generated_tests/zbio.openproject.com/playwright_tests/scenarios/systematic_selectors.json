@@ -1,0 +1,862 @@
+[
+  {
+    "index": 1272,
+    "element": "<a> '\n    \nWork packages'",
+    "action": "click",
+    "selector": "page.locator('#main-menu-work-packages-wrapper').getByRole('link', { name: 'Work packages' })",
+    "confidence": 82,
+    "input_value": "\n    \nWork packages",
+    "url": "https://zbio.openproject.com/projects/demo-project",
+    "timestamp": "2025-12-12T07:46:25.716027",
+    "tag_name": "a",
+    "text_content": "\n    \nWork packages",
+    "accessible_name": "Work packages",
+    "role": "link",
+    "viable_selectors": [
+      {
+        "selector": "page.getByRole('link', { name: /Work packages/ })",
+        "strategy": "role_name_regex",
+        "confidence": 80,
+        "element_count": 7,
+        "is_unique": false,
+        "target_index": 46,
+        "tier": "semantic_fallback",
+        "warning": "Matches 7 elements (use .nth(46) for disambiguation)",
+        "selector_with_index": "page.getByRole('link', { name: /Work packages/ }) >> nth=46"
+      },
+      {
+        "selector": "page.locator('#main-menu-work-packages-wrapper').getByRole('link', { name: 'Work packages' })",
+        "strategy": "parent_id_role",
+        "confidence": 82,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('a.work-packages-menu-item')",
+        "strategy": "css_stable_class",
+        "confidence": 78,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('#main-menu-work-packages')",
+        "strategy": "id",
+        "confidence": 75,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('a').filter({ hasText: /^Work packages$/ })",
+        "strategy": "link_filter_exact",
+        "confidence": 74,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 46,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.locator('a').filter({ hasText: /^Work packages$/ }) >> nth=46"
+      },
+      {
+        "selector": "page.locator('a').filter({ hasText: 'Work packages' })",
+        "strategy": "tag_filter_text",
+        "confidence": 55,
+        "element_count": 7,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "semantic_fallback",
+        "warning": "Matches 7 elements (use .nth(1) for disambiguation)",
+        "selector_with_index": "page.locator('a').filter({ hasText: 'Work packages' }) >> nth=1"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[2]/div[1]/div[1]/div/ul/li[2]/div[1]/a')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 11,
+    "viable_count": 7,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": true,
+      "has_scoped": true,
+      "best_strategy": "parent_id_role",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 2720,
+    "element": "<button> ''",
+    "action": "click",
+    "selector": "page.locator('button.spot-link')",
+    "confidence": 54,
+    "input_value": "",
+    "url": "https://zbio.openproject.com/projects/demo-project/work_packages",
+    "timestamp": "2025-12-12T07:46:43.188375",
+    "tag_name": "button",
+    "text_content": "",
+    "accessible_name": null,
+    "role": null,
+    "viable_selectors": [
+      {
+        "selector": "page.locator('button.spot-link')",
+        "strategy": "css_tag_semantic_empty",
+        "confidence": 54,
+        "element_count": 3,
+        "is_unique": false,
+        "warning": "Matches 3 elements"
+      }
+    ],
+    "tested_count": 3,
+    "viable_count": 1,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": false,
+      "has_text_based": false,
+      "has_scoped": false,
+      "best_strategy": "css_tag_semantic_empty",
+      "uniqueness_status": "ambiguous",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 6162,
+    "element": "<button> 'Create'",
+    "action": "click",
+    "selector": "page.locator('button.button.-primary')",
+    "confidence": 80,
+    "input_value": "Create",
+    "url": "https://zbio.openproject.com/projects/demo-project/work_packages",
+    "timestamp": "2025-12-12T07:47:01.217627",
+    "tag_name": "button",
+    "text_content": "Create",
+    "accessible_name": "Create new work package",
+    "role": "button",
+    "viable_selectors": [
+      {
+        "selector": "page.getByRole('button', { name: /Create new work package/ })",
+        "strategy": "aria_label_regex",
+        "confidence": 96,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 22,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.getByRole('button', { name: /Create new work package/ }) >> nth=22"
+      },
+      {
+        "selector": "page.getByRole('button', { name: /Create new work package/ })",
+        "strategy": "role_name_regex",
+        "confidence": 95,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 22,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.getByRole('button', { name: /Create new work package/ }) >> nth=22"
+      },
+      {
+        "selector": "page.locator('#content-body').getByRole('button', { name: 'Create new work package' })",
+        "strategy": "parent_id_role",
+        "confidence": 82,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('#content-body').getByRole('button', { name: 'Create new work package' }) >> nth=0"
+      },
+      {
+        "selector": "page.locator('button.button.-primary')",
+        "strategy": "css_combined_classes",
+        "confidence": 80,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('button.button')",
+        "strategy": "css_stable_class",
+        "confidence": 63,
+        "element_count": 7,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "semantic_fallback",
+        "warning": "Matches 7 elements (use .nth(0) for disambiguation)",
+        "selector_with_index": "page.locator('button.button') >> nth=0"
+      },
+      {
+        "selector": "page.locator('button, input[type=\"submit\"], input[type=\"button\"]').filter({ hasText: /^Create$/ })",
+        "strategy": "button_filter_exact",
+        "confidence": 75,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('button').filter({ hasText: 'Create' })",
+        "strategy": "tag_filter_text",
+        "confidence": 69,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('button').filter({ hasText: 'Create' }) >> nth=0"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/openproject-base/div/ui-view/work-packages-base/div/ui-view/wp-view-page/div/div[1]/div/ul/li[1]/wp-create-button/div/button')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 9,
+    "viable_count": 8,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": true,
+      "has_scoped": true,
+      "best_strategy": "css_combined_classes",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 3749,
+    "element": "<button> '  \n      \n        \n    \n\n     '",
+    "action": "click",
+    "selector": "page.locator('#op-app-header--quick-add-menu-button')",
+    "confidence": 75,
+    "input_value": "  \n      \n        \n    \n\n      \n    \n    \n\n  \n",
+    "url": "https://zbio.openproject.com/projects/demo-project/work_packages",
+    "timestamp": "2025-12-12T07:47:23.957934",
+    "tag_name": "button",
+    "text_content": "  \n      \n        \n    \n\n      \n    \n    \n\n  \n",
+    "accessible_name": "  \n      \n        \n    \n\n      \n    \n    \n\n  \n",
+    "role": "button",
+    "viable_selectors": [
+      {
+        "selector": "page.locator('button[data-view-component=\"true\"]')",
+        "strategy": "data_attr_view-component",
+        "confidence": 67,
+        "element_count": 8,
+        "is_unique": false,
+        "target_index": 2,
+        "tier": "semantic_fallback",
+        "warning": "Matches 8 elements (use .nth(2) for disambiguation)",
+        "selector_with_index": "page.locator('button[data-view-component=\"true\"]') >> nth=2"
+      },
+      {
+        "selector": "page.locator('#op-app-header--quick-add-menu-button')",
+        "strategy": "id",
+        "confidence": 75,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[2]/header/div[3]/action-menu[1]/button')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 6,
+    "viable_count": 3,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": false,
+      "has_text_based": false,
+      "has_scoped": false,
+      "best_strategy": "id",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 3789,
+    "element": "<a> '\n      \n        \n          Tas'",
+    "action": "click",
+    "selector": "page.locator('#item-6e55c1d3-4845-445b-8135-13a579219174')",
+    "confidence": 75,
+    "input_value": "\n      \n        \n          Task\n      \n",
+    "url": "https://zbio.openproject.com/projects/demo-project/work_packages",
+    "timestamp": "2025-12-12T07:47:35.567518",
+    "tag_name": "a",
+    "text_content": "\n      \n        \n          Task\n      \n",
+    "accessible_name": "TASK",
+    "role": "menuitem",
+    "viable_selectors": [
+      {
+        "selector": "page.locator('[role=\"menu\"]').getByRole('menuitem', { name: 'TASK' })",
+        "strategy": "portal_role_name",
+        "confidence": 87,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(0) for disambiguation)",
+        "selector_with_index": "page.locator('[role=\"menu\"]').getByRole('menuitem', { name: 'TASK' }) >> nth=0"
+      },
+      {
+        "selector": "page.locator('[role=\"menu\"]').getByRole('menuitem', { name: 'TASK' })",
+        "strategy": "portal_role_child_role",
+        "confidence": 87,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(0) for disambiguation)",
+        "selector_with_index": "page.locator('[role=\"menu\"]').getByRole('menuitem', { name: 'TASK' }) >> nth=0"
+      },
+      {
+        "selector": "page.getByRole('menuitem', { name: 'TASK' })",
+        "strategy": "role_name",
+        "confidence": 85,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(0) for disambiguation)",
+        "selector_with_index": "page.getByRole('menuitem', { name: 'TASK' }) >> nth=0"
+      },
+      {
+        "selector": "page.locator('[role=\"none\"]').getByRole('menuitem', { name: 'TASK' })",
+        "strategy": "parent_role_child_role",
+        "confidence": 88,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('[role=\"none\"]').getByRole('menuitem', { name: 'TASK' }) >> nth=0"
+      },
+      {
+        "selector": "page.locator('#group-0e0fffe7-f0c7-40c9-be31-2ba34111b8c5').getByRole('menuitem', { name: 'TASK' })",
+        "strategy": "parent_id_role",
+        "confidence": 82,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('#group-0e0fffe7-f0c7-40c9-be31-2ba34111b8c5').getByRole('menuitem', { name: 'TASK' }) >> nth=0"
+      },
+      {
+        "selector": "page.locator('#item-6e55c1d3-4845-445b-8135-13a579219174')",
+        "strategy": "id",
+        "confidence": 75,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('a').filter({ hasText: /^Task$/ })",
+        "strategy": "link_filter_exact",
+        "confidence": 74,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[2]/header/div[3]/action-menu[1]/anchored-position/div/div/action-list/div/ul/action-list[3]/div/ul/li[1]/a')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 12,
+    "viable_count": 8,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": false,
+      "has_scoped": true,
+      "best_strategy": "id",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 11456,
+    "element": "<input> ''",
+    "action": "input",
+    "selector": "page.getByRole('textbox', { name: 'Subject' })",
+    "confidence": 95,
+    "input_value": "",
+    "url": "https://zbio.openproject.com/projects/demo-project/work_packages/new?type=1",
+    "timestamp": "2025-12-12T07:47:59.854031",
+    "tag_name": "input",
+    "text_content": "",
+    "accessible_name": "Subject",
+    "role": "textbox",
+    "viable_selectors": [
+      {
+        "selector": "page.getByRole('textbox', { name: 'Subject' })",
+        "strategy": "role_name",
+        "confidence": 95,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.getByLabel('Subject')",
+        "strategy": "label_text",
+        "confidence": 93,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.getByLabel('Subject') >> nth=0"
+      },
+      {
+        "selector": "page.getByLabel('Subject', { exact: true })",
+        "strategy": "label_text_exact",
+        "confidence": 92,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.getByLabel('Subject')",
+        "strategy": "label",
+        "confidence": 90,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.getByLabel('Subject') >> nth=0"
+      },
+      {
+        "selector": "page.locator('[role=\"form\"]').getByRole('textbox', { name: 'Subject' })",
+        "strategy": "parent_role_child_role",
+        "confidence": 88,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('#wp-new-inline-edit--field-subject')",
+        "strategy": "id",
+        "confidence": 75,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/openproject-base/div/ui-view/work-packages-base/div/ui-view/wp-new-full-view/div/edit-form/wp-single-view/div[1]/div[1]/op-editable-attribute-field/div/div[1]/edit-form-portal/div/form/ng-component/input')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 10,
+    "viable_count": 7,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": true,
+      "has_scoped": true,
+      "best_strategy": "role_name",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 11451,
+    "element": "<div> ''",
+    "action": "input",
+    "selector": "page.getByRole('textbox', { name: /Rich Text Editor\\. Editing area: main\\. Press Alt\\+0 for help\\./ })",
+    "confidence": 96,
+    "input_value": null,
+    "url": "https://zbio.openproject.com/projects/demo-project/work_packages/new?type=1",
+    "timestamp": "2025-12-12T07:48:07.344549",
+    "tag_name": "div",
+    "text_content": "",
+    "accessible_name": "Rich Text Editor. Editing area: main. Press Alt+0 for help.",
+    "role": "textbox",
+    "viable_selectors": [
+      {
+        "selector": "page.getByRole('textbox', { name: /Rich Text Editor\\. Editing area: main\\. Press Alt\\+0 for help\\./ })",
+        "strategy": "aria_label_regex",
+        "confidence": 96,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.getByRole('textbox', { name: /Rich Text Editor\\. Editing area: main\\. Press Alt\\+0 for help\\./ })",
+        "strategy": "role_name_regex",
+        "confidence": 95,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('[role=\"form\"]').getByRole('textbox', { name: /Rich Text Editor\\. Editing area: main\\. Press Alt\\+0 for help\\./ })",
+        "strategy": "parent_role_child_role_regex",
+        "confidence": 88,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('div.ck-blurred')",
+        "strategy": "css_stable_class",
+        "confidence": 78,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/openproject-base/div/ui-view/work-packages-base/div/ui-view/wp-new-full-view/div/edit-form/wp-single-view/div[1]/div[3]/div/op-editable-attribute-field/div/div[1]/edit-form-portal/div/form/ng-component/div/div/op-ckeditor/div/div[2]/div')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 6,
+    "viable_count": 5,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": false,
+      "has_scoped": true,
+      "best_strategy": "aria_label_regex",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 11157,
+    "element": "<button> 'Save'",
+    "action": "click",
+    "selector": "page.getByRole('button', { name: 'Save' })",
+    "confidence": 95,
+    "input_value": "Save",
+    "url": "https://zbio.openproject.com/projects/demo-project/work_packages/new?type=1",
+    "timestamp": "2025-12-12T07:48:26.413891",
+    "tag_name": "button",
+    "text_content": "Save",
+    "accessible_name": "Save",
+    "role": "button",
+    "viable_selectors": [
+      {
+        "selector": "page.getByRole('button', { name: 'Save' })",
+        "strategy": "role_name",
+        "confidence": 95,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.getByText('Save')",
+        "strategy": "text",
+        "confidence": 88,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('#content-body').getByRole('button', { name: 'Save' })",
+        "strategy": "parent_id_role",
+        "confidence": 82,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('button.button.-primary')",
+        "strategy": "css_combined_classes",
+        "confidence": 80,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('button.button')",
+        "strategy": "css_stable_class",
+        "confidence": 68,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 2,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(2) for disambiguation)",
+        "selector_with_index": "page.locator('button.button') >> nth=2"
+      },
+      {
+        "selector": "page.locator('#work-packages--edit-actions-save')",
+        "strategy": "id",
+        "confidence": 75,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('button, input[type=\"submit\"], input[type=\"button\"]').filter({ hasText: /^Save$/ })",
+        "strategy": "button_filter_exact",
+        "confidence": 75,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/openproject-base/div/ui-view/work-packages-base/div/ui-view/wp-new-full-view/div/edit-form/wp-edit-actions-bar/div/button[1]')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 8,
+    "viable_count": 8,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": true,
+      "has_scoped": true,
+      "best_strategy": "role_name",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 20236,
+    "element": "<input> ''",
+    "action": "input",
+    "selector": "page.getByRole('textbox', { name: 'Search', exact: true })",
+    "confidence": 96,
+    "input_value": "",
+    "url": "https://zbio.openproject.com/projects/demo-project/work_packages",
+    "timestamp": "2025-12-12T07:49:07.483999",
+    "tag_name": "input",
+    "text_content": "",
+    "accessible_name": "Search",
+    "role": "textbox",
+    "viable_selectors": [
+      {
+        "selector": "page.getByRole('textbox', { name: 'Search', exact: true })",
+        "strategy": "aria_label_exact",
+        "confidence": 96,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.getByRole('textbox', { name: 'Search' })",
+        "strategy": "role_name",
+        "confidence": 95,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.getByRole('textbox', { name: 'Search' }) >> nth=1"
+      },
+      {
+        "selector": "page.getByLabel('Search')",
+        "strategy": "label_text",
+        "confidence": 83,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(0) for disambiguation)",
+        "selector_with_index": "page.getByLabel('Search') >> nth=0"
+      },
+      {
+        "selector": "page.getByLabel('Search', { exact: true })",
+        "strategy": "label_text_exact",
+        "confidence": 92,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.getByLabel('Search', { exact: true }) >> nth=0"
+      },
+      {
+        "selector": "page.getByLabel('Search')",
+        "strategy": "label",
+        "confidence": 80,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(0) for disambiguation)",
+        "selector_with_index": "page.getByLabel('Search') >> nth=0"
+      },
+      {
+        "selector": "page.locator('input[type=\"text\"][name=\"search\"]')",
+        "strategy": "css_combined",
+        "confidence": 89,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('input[name=\"search\"]')",
+        "strategy": "name_attribute",
+        "confidence": 87,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('input[data-action=\"input->filter--filter-list#filterLists\"]')",
+        "strategy": "data_attr_action",
+        "confidence": 85,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('input[data-filter--filter-list-target=\"filter\"]')",
+        "strategy": "data_attr_filter--filter-list-target",
+        "confidence": 85,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('input[data-target=\"primer-text-field.inputElement \"]')",
+        "strategy": "data_attr_target",
+        "confidence": 85,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.getByPlaceholder('Search by name')",
+        "strategy": "placeholder",
+        "confidence": 85,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('#work_packages_sidemenu').getByRole('textbox', { name: 'Search' })",
+        "strategy": "parent_id_role",
+        "confidence": 82,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('input.FormControl-input.FormControl-medium')",
+        "strategy": "css_combined_classes",
+        "confidence": 80,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('input.FormControl-input')",
+        "strategy": "css_stable_class",
+        "confidence": 78,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('#search')",
+        "strategy": "id",
+        "confidence": 75,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[2]/div[1]/div[1]/div/ul/li[2]/ul/li/turbo-frame/div/div[1]/primer-text-field/div[1]/input')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 16,
+    "viable_count": 16,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": true,
+      "has_scoped": true,
+      "best_strategy": "aria_label_exact",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  }
+]
