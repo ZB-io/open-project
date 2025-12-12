@@ -1,0 +1,1057 @@
+[
+  {
+    "index": 667,
+    "element": "<a> 'Admin'",
+    "action": "click",
+    "selector": "page.getByRole('link', { name: 'Admin' })",
+    "confidence": 95,
+    "input_value": "Admin",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+    "timestamp": "2025-12-12T07:22:21.755315",
+    "tag_name": "a",
+    "text_content": "Admin",
+    "accessible_name": "Admin",
+    "role": "link",
+    "viable_selectors": [
+      {
+        "selector": "page.getByRole('link', { name: 'Admin' })",
+        "strategy": "role_name",
+        "confidence": 95,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('[role=\"navigation\"]').getByRole('link', { name: 'Admin' })",
+        "strategy": "parent_role_child_role",
+        "confidence": 88,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.getByText('Admin')",
+        "strategy": "text",
+        "confidence": 88,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('#app').getByRole('link', { name: 'Admin' })",
+        "strategy": "parent_id_role",
+        "confidence": 82,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('a').filter({ hasText: /^Admin$/ })",
+        "strategy": "link_filter_exact",
+        "confidence": 74,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div/div[1]/div[1]/aside/nav/div[2]/ul/li[1]/a')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 8,
+    "viable_count": 6,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": true,
+      "has_scoped": true,
+      "best_strategy": "role_name",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 1778,
+    "element": "<button> ' Add '",
+    "action": "click",
+    "selector": "page.getByRole('button', { name: 'Add' })",
+    "confidence": 95,
+    "input_value": " Add ",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+    "timestamp": "2025-12-12T07:22:44.694606",
+    "tag_name": "button",
+    "text_content": " Add ",
+    "accessible_name": " Add",
+    "role": "button",
+    "viable_selectors": [
+      {
+        "selector": "page.getByRole('button', { name: 'Add' })",
+        "strategy": "role_name",
+        "confidence": 95,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('button[data-v-10d463b7]')",
+        "strategy": "data_attr_v-10d463b7_presence",
+        "confidence": 90,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 2,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.locator('button[data-v-10d463b7]') >> nth=2"
+      },
+      {
+        "selector": "page.getByText('Add')",
+        "strategy": "text",
+        "confidence": 88,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('#app').getByRole('button', { name: 'Add' })",
+        "strategy": "parent_id_role",
+        "confidence": 82,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('button.oxd-button')",
+        "strategy": "css_stable_class",
+        "confidence": 78,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 2,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.locator('button.oxd-button') >> nth=2"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div/div[1]/div[2]/div[2]/div/div[2]/div[1]/button')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 7,
+    "viable_count": 6,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": true,
+      "has_scoped": true,
+      "best_strategy": "role_name",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 3188,
+    "element": "<div> '-- Select --'",
+    "action": "click",
+    "selector": "page.locator('xpath=html/body/div/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div/div[1]')",
+    "confidence": 50,
+    "input_value": "-- Select --",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+    "timestamp": "2025-12-12T07:23:07.027598",
+    "tag_name": "div",
+    "text_content": "-- Select --",
+    "accessible_name": "-- Select --",
+    "role": null,
+    "viable_selectors": [
+      {
+        "selector": "page.locator('div[data-v-67d2aedf]')",
+        "strategy": "data_attr_v-67d2aedf_presence",
+        "confidence": 75,
+        "element_count": 6,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "semantic_fallback",
+        "warning": "Matches 6 elements (use .nth(1) for disambiguation)",
+        "selector_with_index": "page.locator('div[data-v-67d2aedf]') >> nth=1"
+      },
+      {
+        "selector": "page.getByText('-- Select --')",
+        "strategy": "text",
+        "confidence": 88,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.getByText('-- Select --') >> nth=0"
+      },
+      {
+        "selector": "page.getByText('Select')",
+        "strategy": "text_phrase",
+        "confidence": 80,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.getByText('Select') >> nth=0"
+      },
+      {
+        "selector": "page.locator('div.oxd-select-text-input')",
+        "strategy": "css_stable_class",
+        "confidence": 78,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('div.oxd-select-text-input') >> nth=0"
+      },
+      {
+        "selector": "page.locator('div').filter({ hasText: /^-- Select --$/ })",
+        "strategy": "div_filter_exact",
+        "confidence": 55,
+        "element_count": 8,
+        "is_unique": false,
+        "target_index": 28,
+        "tier": "semantic_fallback",
+        "warning": "Matches 8 elements (use .nth(28) for disambiguation)",
+        "selector_with_index": "page.locator('div').filter({ hasText: /^-- Select --$/ }) >> nth=28"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div/div[1]')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 8,
+    "viable_count": 6,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": false,
+      "has_text_based": true,
+      "has_scoped": false,
+      "best_strategy": "xpath",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 3614,
+    "element": "<div> 'Admin'",
+    "action": "click",
+    "selector": "page.locator('[role=\"listbox\"]').getByRole('option', { name: 'Admin' })",
+    "confidence": 98,
+    "input_value": "Admin",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+    "timestamp": "2025-12-12T07:23:16.897852",
+    "tag_name": "div",
+    "text_content": "Admin",
+    "accessible_name": "Admin",
+    "role": "option",
+    "viable_selectors": [
+      {
+        "selector": "page.locator('[role=\"listbox\"]').getByRole('option', { name: 'Admin' })",
+        "strategy": "portal_role_name",
+        "confidence": 98,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('[role=\"listbox\"]').getByRole('option', { name: 'Admin' })",
+        "strategy": "portal_role_child_role",
+        "confidence": 98,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.getByRole('option', { name: 'Admin' })",
+        "strategy": "role_name",
+        "confidence": 95,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('div[data-v-d130bb63]')",
+        "strategy": "data_attr_v-d130bb63_presence",
+        "confidence": 90,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.locator('div[data-v-d130bb63]') >> nth=1"
+      },
+      {
+        "selector": "page.locator('div[data-v-13cf171c]')",
+        "strategy": "data_attr_v-13cf171c_presence",
+        "confidence": 72,
+        "element_count": 8,
+        "is_unique": false,
+        "target_index": 4,
+        "tier": "semantic_fallback",
+        "warning": "Matches 8 elements (use .nth(4) for disambiguation)",
+        "selector_with_index": "page.locator('div[data-v-13cf171c]') >> nth=4"
+      },
+      {
+        "selector": "page.locator('[role=\"listbox\"]').getByRole('option', { name: 'Admin' })",
+        "strategy": "parent_role_child_role",
+        "confidence": 88,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('#app').getByRole('option', { name: 'Admin' })",
+        "strategy": "parent_id_role",
+        "confidence": 82,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('div.oxd-select-option')",
+        "strategy": "css_stable_class",
+        "confidence": 78,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.locator('div.oxd-select-option') >> nth=1"
+      },
+      {
+        "selector": "page.locator('div').filter({ hasText: /^Admin$/ })",
+        "strategy": "div_filter_exact",
+        "confidence": 68,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 32,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('div').filter({ hasText: /^Admin$/ }) >> nth=32"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div[2]/div[2]')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 13,
+    "viable_count": 10,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": false,
+      "has_scoped": true,
+      "best_strategy": "portal_role_name",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 3199,
+    "element": "<input> ''",
+    "action": "input",
+    "selector": "page.locator('input[data-v-75e744cd]')",
+    "confidence": 90,
+    "input_value": "",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+    "timestamp": "2025-12-12T07:23:26.346898",
+    "tag_name": "input",
+    "text_content": "",
+    "accessible_name": "Type for hints...",
+    "role": "textbox",
+    "viable_selectors": [
+      {
+        "selector": "page.locator('input[data-v-75e744cd]')",
+        "strategy": "data_attr_v-75e744cd_presence",
+        "confidence": 90,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.getByPlaceholder('Type for hints...')",
+        "strategy": "placeholder",
+        "confidence": 85,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[2]/div/div[2]/div/div/input')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 7,
+    "viable_count": 3,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": false,
+      "has_text_based": false,
+      "has_scoped": false,
+      "best_strategy": "data_attr_v-75e744cd_presence",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 3208,
+    "element": "<div> '-- Select --'",
+    "action": "click",
+    "selector": "page.getByText('-- Select --')",
+    "confidence": 88,
+    "input_value": "-- Select --",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+    "timestamp": "2025-12-12T07:23:35.767234",
+    "tag_name": "div",
+    "text_content": "-- Select --",
+    "accessible_name": "-- Select --",
+    "role": null,
+    "viable_selectors": [
+      {
+        "selector": "page.locator('div[data-v-67d2aedf]')",
+        "strategy": "data_attr_v-67d2aedf_presence",
+        "confidence": 75,
+        "element_count": 6,
+        "is_unique": false,
+        "target_index": 4,
+        "tier": "semantic_fallback",
+        "warning": "Matches 6 elements (use .nth(4) for disambiguation)",
+        "selector_with_index": "page.locator('div[data-v-67d2aedf]') >> nth=4"
+      },
+      {
+        "selector": "page.getByText('-- Select --')",
+        "strategy": "text",
+        "confidence": 88,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.getByText('Select')",
+        "strategy": "text_phrase",
+        "confidence": 80,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('div.oxd-select-text-input')",
+        "strategy": "css_stable_class",
+        "confidence": 78,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('div.oxd-select-text-input') >> nth=1"
+      },
+      {
+        "selector": "page.locator('div').filter({ hasText: /^-- Select --$/ })",
+        "strategy": "div_filter_exact",
+        "confidence": 58,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 46,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(46) for disambiguation)",
+        "selector_with_index": "page.locator('div').filter({ hasText: /^-- Select --$/ }) >> nth=46"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[3]/div/div[2]/div/div/div[1]')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 8,
+    "viable_count": 6,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": false,
+      "has_text_based": true,
+      "has_scoped": false,
+      "best_strategy": "text",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 3665,
+    "element": "<div> 'Enabled'",
+    "action": "click",
+    "selector": "page.locator('[role=\"listbox\"]').getByRole('option', { name: 'Enabled' })",
+    "confidence": 98,
+    "input_value": "Enabled",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+    "timestamp": "2025-12-12T07:23:45.892089",
+    "tag_name": "div",
+    "text_content": "Enabled",
+    "accessible_name": "Enabled",
+    "role": "option",
+    "viable_selectors": [
+      {
+        "selector": "page.locator('[role=\"listbox\"]').getByRole('option', { name: 'Enabled' })",
+        "strategy": "portal_role_name",
+        "confidence": 98,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('[role=\"listbox\"]').getByRole('option', { name: 'Enabled' })",
+        "strategy": "portal_role_child_role",
+        "confidence": 98,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.getByRole('option', { name: 'Enabled' })",
+        "strategy": "role_name",
+        "confidence": 95,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('div[data-v-d130bb63]')",
+        "strategy": "data_attr_v-d130bb63_presence",
+        "confidence": 90,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.locator('div[data-v-d130bb63]') >> nth=1"
+      },
+      {
+        "selector": "page.locator('div[data-v-13cf171c]')",
+        "strategy": "data_attr_v-13cf171c_presence",
+        "confidence": 72,
+        "element_count": 8,
+        "is_unique": false,
+        "target_index": 6,
+        "tier": "semantic_fallback",
+        "warning": "Matches 8 elements (use .nth(6) for disambiguation)",
+        "selector_with_index": "page.locator('div[data-v-13cf171c]') >> nth=6"
+      },
+      {
+        "selector": "page.locator('[role=\"listbox\"]').getByRole('option', { name: 'Enabled' })",
+        "strategy": "parent_role_child_role",
+        "confidence": 88,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.getByText('Enabled')",
+        "strategy": "text",
+        "confidence": 88,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('#app').getByRole('option', { name: 'Enabled' })",
+        "strategy": "parent_id_role",
+        "confidence": 82,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('div.oxd-select-option')",
+        "strategy": "css_stable_class",
+        "confidence": 78,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.locator('div.oxd-select-option') >> nth=1"
+      },
+      {
+        "selector": "page.locator('div').filter({ hasText: /^Enabled$/ })",
+        "strategy": "div_filter_exact",
+        "confidence": 68,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[3]/div/div[2]/div/div[2]/div[2]')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 14,
+    "viable_count": 11,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": true,
+      "has_scoped": true,
+      "best_strategy": "portal_role_name",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 3218,
+    "element": "<input> ''",
+    "action": "input",
+    "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[4]/div/div[2]/input')",
+    "confidence": 50,
+    "input_value": "",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+    "timestamp": "2025-12-12T07:23:55.907903",
+    "tag_name": "input",
+    "text_content": "",
+    "accessible_name": "",
+    "role": "textbox",
+    "viable_selectors": [
+      {
+        "selector": "page.locator('input[data-v-1f99f73c]')",
+        "strategy": "data_attr_v-1f99f73c_presence",
+        "confidence": 80,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(1) for disambiguation)",
+        "selector_with_index": "page.locator('input[data-v-1f99f73c]') >> nth=1"
+      },
+      {
+        "selector": "page.locator('input.oxd-input--active')",
+        "strategy": "css_tag_semantic_empty",
+        "confidence": 74,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(1) for disambiguation)",
+        "selector_with_index": "page.locator('input.oxd-input--active') >> nth=1"
+      },
+      {
+        "selector": "page.locator('.oxd-input--active')",
+        "strategy": "css_semantic_empty",
+        "confidence": 72,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(1) for disambiguation)",
+        "selector_with_index": "page.locator('.oxd-input--active') >> nth=1"
+      },
+      {
+        "selector": "page.locator('#app').locator('input')",
+        "strategy": "parent_id_tag",
+        "confidence": 68,
+        "element_count": 5,
+        "is_unique": false,
+        "target_index": 2,
+        "tier": "semantic_fallback",
+        "warning": "Matches 5 elements (use .nth(2) for disambiguation)",
+        "selector_with_index": "page.locator('#app').locator('input') >> nth=2"
+      },
+      {
+        "selector": "page.locator('input.oxd-input')",
+        "strategy": "css_stable_class",
+        "confidence": 68,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(1) for disambiguation)",
+        "selector_with_index": "page.locator('input.oxd-input') >> nth=1"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[4]/div/div[2]/input')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 7,
+    "viable_count": 6,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": false,
+      "has_text_based": false,
+      "has_scoped": true,
+      "best_strategy": "xpath",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 3227,
+    "element": "<input> ''",
+    "action": "input",
+    "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div[1]/div/div[2]/input')",
+    "confidence": 50,
+    "input_value": "",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+    "timestamp": "2025-12-12T07:24:06.970417",
+    "tag_name": "input",
+    "text_content": "",
+    "accessible_name": "",
+    "role": "textbox",
+    "viable_selectors": [
+      {
+        "selector": "page.locator('input[data-v-1f99f73c]')",
+        "strategy": "data_attr_v-1f99f73c_presence",
+        "confidence": 80,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 2,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(2) for disambiguation)",
+        "selector_with_index": "page.locator('input[data-v-1f99f73c]') >> nth=2"
+      },
+      {
+        "selector": "page.locator('input[type=\"password\"]')",
+        "strategy": "input_type",
+        "confidence": 88,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('input[type=\"password\"]') >> nth=0"
+      },
+      {
+        "selector": "page.locator('input.oxd-input--active')",
+        "strategy": "css_tag_semantic_empty",
+        "confidence": 84,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.locator('input.oxd-input--active') >> nth=1"
+      },
+      {
+        "selector": "page.locator('.oxd-input--active')",
+        "strategy": "css_semantic_empty",
+        "confidence": 82,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.locator('.oxd-input--active') >> nth=1"
+      },
+      {
+        "selector": "page.locator('#app').locator('input')",
+        "strategy": "parent_id_tag",
+        "confidence": 68,
+        "element_count": 5,
+        "is_unique": false,
+        "target_index": 3,
+        "tier": "semantic_fallback",
+        "warning": "Matches 5 elements (use .nth(3) for disambiguation)",
+        "selector_with_index": "page.locator('#app').locator('input') >> nth=3"
+      },
+      {
+        "selector": "page.locator('input.oxd-input')",
+        "strategy": "css_stable_class",
+        "confidence": 68,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 2,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(2) for disambiguation)",
+        "selector_with_index": "page.locator('input.oxd-input') >> nth=2"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div[1]/div/div[2]/input')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 8,
+    "viable_count": 7,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": false,
+      "has_text_based": false,
+      "has_scoped": true,
+      "best_strategy": "xpath",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 3235,
+    "element": "<input> ''",
+    "action": "input",
+    "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div[2]/div/div[2]/input')",
+    "confidence": 50,
+    "input_value": "",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+    "timestamp": "2025-12-12T07:24:14.374570",
+    "tag_name": "input",
+    "text_content": "",
+    "accessible_name": "",
+    "role": "textbox",
+    "viable_selectors": [
+      {
+        "selector": "page.locator('input[data-v-1f99f73c]')",
+        "strategy": "data_attr_v-1f99f73c_presence",
+        "confidence": 80,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 3,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(3) for disambiguation)",
+        "selector_with_index": "page.locator('input[data-v-1f99f73c]') >> nth=3"
+      },
+      {
+        "selector": "page.locator('input[type=\"password\"]')",
+        "strategy": "input_type",
+        "confidence": 88,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('input[type=\"password\"]') >> nth=1"
+      },
+      {
+        "selector": "page.locator('input.oxd-input--active')",
+        "strategy": "css_tag_semantic_empty",
+        "confidence": 84,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 2,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.locator('input.oxd-input--active') >> nth=2"
+      },
+      {
+        "selector": "page.locator('.oxd-input--active')",
+        "strategy": "css_semantic_empty",
+        "confidence": 82,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 2,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.locator('.oxd-input--active') >> nth=2"
+      },
+      {
+        "selector": "page.locator('#app').locator('input')",
+        "strategy": "parent_id_tag",
+        "confidence": 68,
+        "element_count": 5,
+        "is_unique": false,
+        "target_index": 4,
+        "tier": "semantic_fallback",
+        "warning": "Matches 5 elements (use .nth(4) for disambiguation)",
+        "selector_with_index": "page.locator('#app').locator('input') >> nth=4"
+      },
+      {
+        "selector": "page.locator('input.oxd-input')",
+        "strategy": "css_stable_class",
+        "confidence": 68,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 3,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(3) for disambiguation)",
+        "selector_with_index": "page.locator('input.oxd-input') >> nth=3"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div[2]/div/div[2]/input')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 8,
+    "viable_count": 7,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": false,
+      "has_text_based": false,
+      "has_scoped": true,
+      "best_strategy": "xpath",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 3244,
+    "element": "<button> ' Save '",
+    "action": "click",
+    "selector": "page.getByRole('button', { name: 'Save' })",
+    "confidence": 95,
+    "input_value": " Save ",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+    "timestamp": "2025-12-12T07:24:27.039673",
+    "tag_name": "button",
+    "text_content": " Save ",
+    "accessible_name": "Save",
+    "role": "button",
+    "viable_selectors": [
+      {
+        "selector": "page.getByRole('button', { name: 'Save' })",
+        "strategy": "role_name",
+        "confidence": 95,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('button[data-v-10d463b7]')",
+        "strategy": "data_attr_v-10d463b7_presence",
+        "confidence": 90,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('button[data-v-10d463b7]') >> nth=1"
+      },
+      {
+        "selector": "page.getByText('Save')",
+        "strategy": "text",
+        "confidence": 88,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('#app').getByRole('button', { name: 'Save' })",
+        "strategy": "parent_id_role",
+        "confidence": 82,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('button.oxd-button.orangehrm-left-space')",
+        "strategy": "css_combined_classes",
+        "confidence": 80,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('button.oxd-button')",
+        "strategy": "css_stable_class",
+        "confidence": 78,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('button.oxd-button') >> nth=1"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[3]/button[2]')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 9,
+    "viable_count": 7,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": true,
+      "has_scoped": true,
+      "best_strategy": "role_name",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  }
+]
