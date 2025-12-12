@@ -1,0 +1,16 @@
+{
+  "variations": [
+    {
+      "boardName": "Automated Test Board",
+      "projectName": "demo-project"
+    },
+    {
+      "boardName": "Project Alpha Kanban",
+      "projectName": "demo-project"
+    },
+    {
+      "boardName": "Sprint Planning Board",
+      "projectName": "demo-project"
+    }
+  ]
+}
