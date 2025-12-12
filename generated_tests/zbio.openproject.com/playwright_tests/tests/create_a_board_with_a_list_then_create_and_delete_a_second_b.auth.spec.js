@@ -67,7 +67,9 @@ test('Discovered Workflow: Create a Board with a List, then Create and Delete a 
   // Captured selectors:
   //   1. page.getByPlaceholder('Name of this view') (confidence: 85%, strategy: placeholder)
   //   2. page.locator('xpath=.../input') (confidence: 50%, strategy: xpath)
-  await page.getByPlaceholder('Name of this view').fill(listName1);
+
+  await page.getByRole('heading', { name: 'Unnamed list' }).getByPlaceholder('Name of this view').fill(listName1);
+  // await page.getByPlaceholder('Name of this view').fill(listName1);
 
   // Step 8: Press the 'Enter' key to confirm the new list name
   await page.keyboard.press('Enter');
@@ -125,6 +127,7 @@ test('Discovered Workflow: Create a Board with a List, then Create and Delete a 
   //   2. page.locator('a[href*="91"]') (confidence: 79%, strategy: href_relative)
   //   3. page.locator('xpath=.../tr[5]/td[4]/a') (confidence: 50%, strategy: xpath)
   await page.locator('tr').filter({ hasText: boardName2 }).locator('a.icon-delete').click();
+  await page.waitForLoadState('networkidle');
 
   // Step 16: Verify that the second board is no longer visible
   // Wait for the element to be hidden to confirm deletion.
