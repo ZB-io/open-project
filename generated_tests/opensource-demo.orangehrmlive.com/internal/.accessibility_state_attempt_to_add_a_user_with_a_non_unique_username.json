@@ -1,0 +1,6068 @@
+{
+  "accessibility_tree": {
+    "role": "WebArea",
+    "name": "OrangeHRM",
+    "children": [
+      {
+        "role": "link",
+        "name": "client brand banner"
+      },
+      {
+        "role": "textbox",
+        "name": "Search"
+      },
+      {
+        "role": "button",
+        "name": ""
+      },
+      {
+        "role": "link",
+        "name": "Admin"
+      },
+      {
+        "role": "link",
+        "name": "PIM"
+      },
+      {
+        "role": "link",
+        "name": "Leave"
+      },
+      {
+        "role": "link",
+        "name": "Time"
+      },
+      {
+        "role": "link",
+        "name": "Recruitment"
+      },
+      {
+        "role": "link",
+        "name": "My Info"
+      },
+      {
+        "role": "link",
+        "name": "Performance"
+      },
+      {
+        "role": "link",
+        "name": "Dashboard"
+      },
+      {
+        "role": "link",
+        "name": "Directory"
+      },
+      {
+        "role": "link",
+        "name": "Maintenance"
+      },
+      {
+        "role": "link",
+        "name": "Claim"
+      },
+      {
+        "role": "link",
+        "name": "Buzz"
+      },
+      {
+        "role": "heading",
+        "name": "Admin",
+        "level": 6
+      },
+      {
+        "role": "link",
+        "name": "Upgrade",
+        "children": [
+          {
+            "role": "button",
+            "name": "Upgrade"
+          }
+        ]
+      },
+      {
+        "role": "image",
+        "name": "profile picture"
+      },
+      {
+        "role": "text",
+        "name": "manda user"
+      },
+      {
+        "role": "text",
+        "name": ""
+      },
+      {
+        "role": "text",
+        "name": "User Management "
+      },
+      {
+        "role": "text",
+        "name": ""
+      },
+      {
+        "role": "text",
+        "name": "Job "
+      },
+      {
+        "role": "text",
+        "name": ""
+      },
+      {
+        "role": "text",
+        "name": "Organization "
+      },
+      {
+        "role": "text",
+        "name": ""
+      },
+      {
+        "role": "text",
+        "name": "Qualifications "
+      },
+      {
+        "role": "text",
+        "name": ""
+      },
+      {
+        "role": "link",
+        "name": "Nationalities"
+      },
+      {
+        "role": "link",
+        "name": "Corporate Branding"
+      },
+      {
+        "role": "text",
+        "name": "Configuration "
+      },
+      {
+        "role": "text",
+        "name": ""
+      },
+      {
+        "role": "button",
+        "name": "",
+        "description": "Help"
+      },
+      {
+        "role": "heading",
+        "name": "Add User",
+        "level": 6
+      },
+      {
+        "role": "text",
+        "name": "User Role"
+      },
+      {
+        "role": "text",
+        "name": "*"
+      },
+      {
+        "role": "generic",
+        "name": "Admin",
+        "focused": true
+      },
+      {
+        "role": "text",
+        "name": ""
+      },
+      {
+        "role": "listbox",
+        "name": "",
+        "orientation": "vertical"
+      },
+      {
+        "role": "text",
+        "name": "Employee Name"
+      },
+      {
+        "role": "text",
+        "name": "*"
+      },
+      {
+        "role": "textbox",
+        "name": "Type for hints..."
+      },
+      {
+        "role": "text",
+        "name": "Status"
+      },
+      {
+        "role": "text",
+        "name": "*"
+      },
+      {
+        "role": "generic",
+        "name": "",
+        "children": [
+          {
+            "role": "text",
+            "name": "-- Select --"
+          }
+        ]
+      },
+      {
+        "role": "text",
+        "name": ""
+      },
+      {
+        "role": "text",
+        "name": "Username"
+      },
+      {
+        "role": "text",
+        "name": "*"
+      },
+      {
+        "role": "textbox",
+        "name": ""
+      },
+      {
+        "role": "text",
+        "name": "Password"
+      },
+      {
+        "role": "text",
+        "name": "*"
+      },
+      {
+        "role": "textbox",
+        "name": ""
+      },
+      {
+        "role": "text",
+        "name": "For a strong password, please use a hard to guess combination of text with upper and lower case characters, symbols and numbers"
+      },
+      {
+        "role": "text",
+        "name": "Confirm Password"
+      },
+      {
+        "role": "text",
+        "name": "*"
+      },
+      {
+        "role": "textbox",
+        "name": ""
+      },
+      {
+        "role": "text",
+        "name": "* Required"
+      },
+      {
+        "role": "button",
+        "name": "Cancel"
+      },
+      {
+        "role": "button",
+        "name": "Save"
+      },
+      {
+        "role": "text",
+        "name": "OrangeHRM OS 5.7"
+      },
+      {
+        "role": "text",
+        "name": "© 2005 - 2025 "
+      },
+      {
+        "role": "link",
+        "name": "OrangeHRM, Inc"
+      },
+      {
+        "role": "text",
+        "name": ". All rights reserved."
+      },
+      {
+        "role": "LineBreak",
+        "name": "\n"
+      }
+    ]
+  },
+  "dom_snapshot": [
+    {
+      "tag": "html",
+      "id": null,
+      "classes": null,
+      "text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nAdmi",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "classes": null
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "tag": "body",
+      "id": null,
+      "classes": null,
+      "text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nAdmi",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "html",
+        "classes": null
+      },
+      "position": {
+        "x": 0,
+        "y": 100,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "tag": "div",
+      "id": "app",
+      "classes": null,
+      "text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nAdmi",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "body",
+        "classes": null
+      },
+      "position": {
+        "x": 0,
+        "y": 100,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-layout orangehrm-upgrade-layout",
+      "text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nAdmi",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": null
+      },
+      "position": {
+        "x": 0,
+        "y": 100,
+        "width": 1280,
+        "height": 658
+      }
+    },
+    {
+      "tag": "aside",
+      "id": null,
+      "classes": "oxd-sidepanel",
+      "text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-layout-navigation"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 256,
+        "height": 720
+      }
+    },
+    {
+      "tag": "nav",
+      "id": null,
+      "classes": "oxd-navbar-nav",
+      "text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz",
+      "value": null,
+      "role": "navigation",
+      "ariaLabel": "Sidepanel",
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "aside",
+        "classes": "oxd-sidepanel"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 256,
+        "height": 720
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-sidepanel-header",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "nav",
+        "classes": "oxd-navbar-nav"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 256,
+        "height": 103
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "oxd-brand",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://www.orangehrm.com/",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-sidepanel-header"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 256,
+        "height": 103
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-brand-banner",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-brand"
+      },
+      "position": {
+        "x": 16,
+        "y": 24,
+        "width": 182,
+        "height": 55
+      }
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": null,
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-brand-banner"
+      },
+      "position": {
+        "x": 16,
+        "y": 24,
+        "width": 182,
+        "height": 50
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-sidepanel-body",
+      "text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "nav",
+        "classes": "oxd-navbar-nav"
+      },
+      "position": {
+        "x": 0,
+        "y": 103,
+        "width": 256,
+        "height": 617
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-main-menu --fixed",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-sidepanel-body"
+      },
+      "position": {
+        "x": 0,
+        "y": 103,
+        "width": 256,
+        "height": 55
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-main-menu-search",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-main-menu --fixed"
+      },
+      "position": {
+        "x": 0,
+        "y": 103,
+        "width": 286,
+        "height": 44
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "presentation",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-main-menu-search"
+      },
+      "position": {
+        "x": 24,
+        "y": 111,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 111,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 111,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "classes": "oxd-input oxd-input--active",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "text",
+      "href": null,
+      "cursor": "text",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-main-menu-search"
+      },
+      "position": {
+        "x": 46,
+        "y": 119,
+        "width": 189,
+        "height": 20
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "oxd-icon-button oxd-main-menu-button",
+      "text": "",
+      "value": null,
+      "role": "none",
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-main-menu-search"
+      },
+      "position": {
+        "x": 243,
+        "y": 110,
+        "width": 25,
+        "height": 25
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "oxd-icon bi-chevron-left",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "oxd-icon-button oxd-main-menu-button"
+      },
+      "position": {
+        "x": 251,
+        "y": 117,
+        "width": 10,
+        "height": 11
+      }
+    },
+    {
+      "tag": "hr",
+      "id": null,
+      "classes": "oxd-main-menu-divider",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-main-menu --fixed"
+      },
+      "position": {
+        "x": 16,
+        "y": 152,
+        "width": 214,
+        "height": 1
+      }
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "classes": "oxd-main-menu",
+      "text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-sidepanel-body"
+      },
+      "position": {
+        "x": 0,
+        "y": 158,
+        "width": 256,
+        "height": 456
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-main-menu-item-wrapper",
+      "text": "Admin",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "oxd-main-menu"
+      },
+      "position": {
+        "x": 0,
+        "y": 158,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "oxd-main-menu-item active",
+      "text": "Admin",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-main-menu-item-wrapper"
+      },
+      "position": {
+        "x": 0,
+        "y": 158,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "presentation",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item active"
+      },
+      "position": {
+        "x": 24,
+        "y": 166,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 166,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 166,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-text oxd-text--span oxd-main-menu-item--name",
+      "text": "Admin",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item active"
+      },
+      "position": {
+        "x": 46,
+        "y": 168,
+        "width": 56,
+        "height": 19
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-main-menu-item-wrapper",
+      "text": "PIM",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "oxd-main-menu"
+      },
+      "position": {
+        "x": 0,
+        "y": 196,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "oxd-main-menu-item",
+      "text": "PIM",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-main-menu-item-wrapper"
+      },
+      "position": {
+        "x": 0,
+        "y": 196,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "presentation",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 24,
+        "y": 204,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 206,
+        "width": 22,
+        "height": 18
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 214,
+        "width": 22,
+        "height": 10
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 214,
+        "width": 22,
+        "height": 10
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 214,
+        "width": 22,
+        "height": 10
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 25,
+        "y": 210,
+        "width": 6,
+        "height": 6
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 25,
+        "y": 210,
+        "width": 6,
+        "height": 6
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 25,
+        "y": 210,
+        "width": 6,
+        "height": 6
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 31,
+        "y": 206,
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 31,
+        "y": 206,
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 31,
+        "y": 206,
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 39,
+        "y": 210,
+        "width": 6,
+        "height": 6
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 39,
+        "y": 210,
+        "width": 6,
+        "height": 6
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 39,
+        "y": 210,
+        "width": 6,
+        "height": 6
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-text oxd-text--span oxd-main-menu-item--name",
+      "text": "PIM",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 46,
+        "y": 206,
+        "width": 39,
+        "height": 19
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-main-menu-item-wrapper",
+      "text": "Leave",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "oxd-main-menu"
+      },
+      "position": {
+        "x": 0,
+        "y": 234,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "oxd-main-menu-item",
+      "text": "Leave",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-main-menu-item-wrapper"
+      },
+      "position": {
+        "x": 0,
+        "y": 234,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "presentation",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 24,
+        "y": 242,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 242,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 242,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-text oxd-text--span oxd-main-menu-item--name",
+      "text": "Leave",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 46,
+        "y": 244,
+        "width": 50,
+        "height": 19
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-main-menu-item-wrapper",
+      "text": "Time",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "oxd-main-menu"
+      },
+      "position": {
+        "x": 0,
+        "y": 272,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "oxd-main-menu-item",
+      "text": "Time",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-main-menu-item-wrapper"
+      },
+      "position": {
+        "x": 0,
+        "y": 272,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "presentation",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 24,
+        "y": 280,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 280,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 280,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 295,
+        "width": 22,
+        "height": 8
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 29,
+        "y": 280,
+        "width": 13,
+        "height": 13
+      }
+    },
+    {
+      "tag": "polygon",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 34,
+        "y": 283,
+        "width": 5,
+        "height": 5
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-text oxd-text--span oxd-main-menu-item--name",
+      "text": "Time",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 46,
+        "y": 282,
+        "width": 45,
+        "height": 19
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-main-menu-item-wrapper",
+      "text": "Recruitment",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "oxd-main-menu"
+      },
+      "position": {
+        "x": 0,
+        "y": 310,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "oxd-main-menu-item",
+      "text": "Recruitment",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-main-menu-item-wrapper"
+      },
+      "position": {
+        "x": 0,
+        "y": 310,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "presentation",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 24,
+        "y": 318,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 318,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 318,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 34,
+        "y": 324,
+        "width": 6,
+        "height": 6
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 30,
+        "y": 321,
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 318,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-text oxd-text--span oxd-main-menu-item--name",
+      "text": "Recruitment",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 46,
+        "y": 320,
+        "width": 91,
+        "height": 19
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-main-menu-item-wrapper",
+      "text": "My Info",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "oxd-main-menu"
+      },
+      "position": {
+        "x": 0,
+        "y": 348,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "oxd-main-menu-item",
+      "text": "My Info",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-main-menu-item-wrapper"
+      },
+      "position": {
+        "x": 0,
+        "y": 348,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "presentation",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 24,
+        "y": 356,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 357,
+        "width": 22,
+        "height": 21
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 357,
+        "width": 14,
+        "height": 18
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 34,
+        "y": 366,
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "tag": "g",
+      "id": "svgg",
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 36,
+        "y": 368,
+        "width": 6,
+        "height": 7
+      }
+    },
+    {
+      "tag": "path",
+      "id": "path4",
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 36,
+        "y": 368,
+        "width": 6,
+        "height": 7
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-text oxd-text--span oxd-main-menu-item--name",
+      "text": "My Info",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 46,
+        "y": 358,
+        "width": 62,
+        "height": 19
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-main-menu-item-wrapper",
+      "text": "Performance",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "oxd-main-menu"
+      },
+      "position": {
+        "x": 0,
+        "y": 386,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "oxd-main-menu-item",
+      "text": "Performance",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-main-menu-item-wrapper"
+      },
+      "position": {
+        "x": 0,
+        "y": 386,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "presentation",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 24,
+        "y": 394,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 394,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 409,
+        "width": 22,
+        "height": 7
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 409,
+        "width": 22,
+        "height": 7
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 409,
+        "width": 22,
+        "height": 7
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 28,
+        "y": 394,
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 28,
+        "y": 394,
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 28,
+        "y": 394,
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-text oxd-text--span oxd-main-menu-item--name",
+      "text": "Performance",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 46,
+        "y": 396,
+        "width": 96,
+        "height": 19
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-main-menu-item-wrapper",
+      "text": "Dashboard",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "oxd-main-menu"
+      },
+      "position": {
+        "x": 0,
+        "y": 424,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "oxd-main-menu-item",
+      "text": "Dashboard",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-main-menu-item-wrapper"
+      },
+      "position": {
+        "x": 0,
+        "y": 424,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "presentation",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 24,
+        "y": 432,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 433,
+        "width": 22,
+        "height": 21
+      }
+    },
+    {
+      "tag": "path",
+      "id": "path0",
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 433,
+        "width": 22,
+        "height": 21
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-text oxd-text--span oxd-main-menu-item--name",
+      "text": "Dashboard",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 46,
+        "y": 434,
+        "width": 83,
+        "height": 19
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-main-menu-item-wrapper",
+      "text": "Directory",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "oxd-main-menu"
+      },
+      "position": {
+        "x": 0,
+        "y": 462,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "oxd-main-menu-item",
+      "text": "Directory",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-main-menu-item-wrapper"
+      },
+      "position": {
+        "x": 0,
+        "y": 462,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "presentation",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 24,
+        "y": 470,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 470,
+        "width": 21,
+        "height": 22
+      }
+    },
+    {
+      "tag": "path",
+      "id": "path-2",
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 470,
+        "width": 21,
+        "height": 22
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-text oxd-text--span oxd-main-menu-item--name",
+      "text": "Directory",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 46,
+        "y": 472,
+        "width": 72,
+        "height": 19
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-main-menu-item-wrapper",
+      "text": "Maintenance",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "oxd-main-menu"
+      },
+      "position": {
+        "x": 0,
+        "y": 500,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "oxd-main-menu-item",
+      "text": "Maintenance",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-main-menu-item-wrapper"
+      },
+      "position": {
+        "x": 0,
+        "y": 500,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "presentation",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 24,
+        "y": 508,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 508,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": "svgg",
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 508,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "path",
+      "id": "path4",
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 508,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-text oxd-text--span oxd-main-menu-item--name",
+      "text": "Maintenance",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 46,
+        "y": 510,
+        "width": 93,
+        "height": 19
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-main-menu-item-wrapper",
+      "text": "Claim",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "oxd-main-menu"
+      },
+      "position": {
+        "x": 0,
+        "y": 538,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "oxd-main-menu-item",
+      "text": "Claim",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-main-menu-item-wrapper"
+      },
+      "position": {
+        "x": 0,
+        "y": 538,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "presentation",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 24,
+        "y": 546,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 546,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 546,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 546,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 29,
+        "y": 546,
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 33,
+        "y": 549,
+        "width": 4,
+        "height": 6
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 549,
+        "width": 22,
+        "height": 20
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-text oxd-text--span oxd-main-menu-item--name",
+      "text": "Claim",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 46,
+        "y": 548,
+        "width": 49,
+        "height": 19
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-main-menu-item-wrapper",
+      "text": "Buzz",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "oxd-main-menu"
+      },
+      "position": {
+        "x": 0,
+        "y": 576,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "oxd-main-menu-item",
+      "text": "Buzz",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-main-menu-item-wrapper"
+      },
+      "position": {
+        "x": 0,
+        "y": 576,
+        "width": 246,
+        "height": 38
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "presentation",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 24,
+        "y": 584,
+        "width": 22,
+        "height": 22
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 584,
+        "width": 22,
+        "height": 21
+      }
+    },
+    {
+      "tag": "path",
+      "id": "path4",
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 24,
+        "y": 584,
+        "width": 22,
+        "height": 21
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-text oxd-text--span oxd-main-menu-item--name",
+      "text": "Buzz",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "oxd-main-menu-item"
+      },
+      "position": {
+        "x": 46,
+        "y": 586,
+        "width": 46,
+        "height": 19
+      }
+    },
+    {
+      "tag": "header",
+      "id": null,
+      "classes": "oxd-topbar",
+      "text": "Admin\nUpgrade\n\nmanda user\n\nUser Management \nJob \nOrganization \nQualifications \nNationalities\nCorpora",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-layout-navigation"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 100
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-topbar-header",
+      "text": "Admin\nUpgrade\n\nmanda user",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "header",
+        "classes": "oxd-topbar"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 66
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-topbar-header-title",
+      "text": "Admin",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-topbar-header"
+      },
+      "position": {
+        "x": 304,
+        "y": 8,
+        "width": 621,
+        "height": 50
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-topbar-header-breadcrumb",
+      "text": "Admin",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-topbar-header-title"
+      },
+      "position": {
+        "x": 304,
+        "y": 24,
+        "width": 42,
+        "height": 19
+      }
+    },
+    {
+      "tag": "h6",
+      "id": null,
+      "classes": "oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module",
+      "text": "Admin",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "oxd-topbar-header-breadcrumb"
+      },
+      "position": {
+        "x": 304,
+        "y": 24,
+        "width": 42,
+        "height": 19
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "orangehrm-upgrade-container",
+      "text": "Upgrade",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-topbar-header"
+      },
+      "position": {
+        "x": 950,
+        "y": 10,
+        "width": 114,
+        "height": 48
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "orangehrm-upgrade-link",
+      "text": "Upgrade",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://orangehrm.com/open-source/upgrade-to-advanced",
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "orangehrm-upgrade-container"
+      },
+      "position": {
+        "x": 950,
+        "y": 10,
+        "width": 114,
+        "height": 48
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "oxd-glass-button orangehrm-upgrade-button",
+      "text": "Upgrade",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "a",
+        "classes": "orangehrm-upgrade-link"
+      },
+      "position": {
+        "x": 950,
+        "y": 10,
+        "width": 114,
+        "height": 48
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": "presentation",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "oxd-glass-button orangehrm-upgrade-button"
+      },
+      "position": {
+        "x": 961,
+        "y": 21,
+        "width": 27,
+        "height": 27
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 966,
+        "y": 22,
+        "width": 18,
+        "height": 23
+      }
+    },
+    {
+      "tag": "g",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 966,
+        "y": 22,
+        "width": 18,
+        "height": 23
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 970,
+        "y": 40,
+        "width": 10,
+        "height": 5
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "g",
+        "classes": {}
+      },
+      "position": {
+        "x": 966,
+        "y": 22,
+        "width": 18,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-topbar-header-userarea",
+      "text": "manda user",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-topbar-header"
+      },
+      "position": {
+        "x": 1039,
+        "y": -10,
+        "width": 193,
+        "height": 86
+      }
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "classes": null,
+      "text": "manda user",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-topbar-header-userarea"
+      },
+      "position": {
+        "x": 1039,
+        "y": 6,
+        "width": 193,
+        "height": 54
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-userdropdown",
+      "text": "manda user",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "list-item",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": null
+      },
+      "position": {
+        "x": 1079,
+        "y": 6,
+        "width": 153,
+        "height": 54
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-userdropdown-tab",
+      "text": "manda user",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-userdropdown"
+      },
+      "position": {
+        "x": 1079,
+        "y": 6,
+        "width": 153,
+        "height": 54
+      }
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": "oxd-userdropdown-img",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "oxd-userdropdown-tab"
+      },
+      "position": {
+        "x": 1079,
+        "y": 6,
+        "width": 53,
+        "height": 54
+      }
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "classes": "oxd-userdropdown-name",
+      "text": "manda user",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "oxd-userdropdown-tab"
+      },
+      "position": {
+        "x": 1140,
+        "y": 25,
+        "width": 62,
+        "height": 16
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "oxd-icon bi-caret-down-fill oxd-userdropdown-icon",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "oxd-userdropdown-tab"
+      },
+      "position": {
+        "x": 1202,
+        "y": 25,
+        "width": 18,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-topbar-body",
+      "text": "User Management \nJob \nOrganization \nQualifications \nNationalities\nCorporate Branding\nConfiguration",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "header",
+        "classes": "oxd-topbar"
+      },
+      "position": {
+        "x": 256,
+        "y": 66,
+        "width": 1024,
+        "height": 53
+      }
+    },
+    {
+      "tag": "nav",
+      "id": null,
+      "classes": "oxd-topbar-body-nav",
+      "text": "User Management \nJob \nOrganization \nQualifications \nNationalities\nCorporate Branding\nConfiguration",
+      "value": null,
+      "role": "navigation",
+      "ariaLabel": "Topbar Menu",
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-topbar-body"
+      },
+      "position": {
+        "x": 304,
+        "y": 74,
+        "width": 928,
+        "height": 36
+      }
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "classes": null,
+      "text": "User Management \nJob \nOrganization \nQualifications \nNationalities\nCorporate Branding\nConfiguration",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "nav",
+        "classes": "oxd-topbar-body-nav"
+      },
+      "position": {
+        "x": 304,
+        "y": 74,
+        "width": 928,
+        "height": 36
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-topbar-body-nav-tab --parent --visited",
+      "text": "User Management",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": null
+      },
+      "position": {
+        "x": 304,
+        "y": 74,
+        "width": 136,
+        "height": 35
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-topbar-body-nav-tab-item",
+      "text": "User Management",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-topbar-body-nav-tab --parent --visited"
+      },
+      "position": {
+        "x": 316,
+        "y": 84,
+        "width": 112,
+        "height": 16
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "oxd-icon bi-chevron-down",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "oxd-topbar-body-nav-tab-item"
+      },
+      "position": {
+        "x": 416,
+        "y": 84,
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-topbar-body-nav-tab --parent",
+      "text": "Job",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": null
+      },
+      "position": {
+        "x": 455,
+        "y": 74,
+        "width": 57,
+        "height": 35
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-topbar-body-nav-tab-item",
+      "text": "Job",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-topbar-body-nav-tab --parent"
+      },
+      "position": {
+        "x": 467,
+        "y": 84,
+        "width": 33,
+        "height": 16
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "oxd-icon bi-chevron-down",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "oxd-topbar-body-nav-tab-item"
+      },
+      "position": {
+        "x": 488,
+        "y": 84,
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-topbar-body-nav-tab --parent",
+      "text": "Organization",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": null
+      },
+      "position": {
+        "x": 527,
+        "y": 74,
+        "width": 108,
+        "height": 35
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-topbar-body-nav-tab-item",
+      "text": "Organization",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-topbar-body-nav-tab --parent"
+      },
+      "position": {
+        "x": 539,
+        "y": 84,
+        "width": 84,
+        "height": 16
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "oxd-icon bi-chevron-down",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "oxd-topbar-body-nav-tab-item"
+      },
+      "position": {
+        "x": 611,
+        "y": 84,
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-topbar-body-nav-tab --parent",
+      "text": "Qualifications",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": null
+      },
+      "position": {
+        "x": 650,
+        "y": 74,
+        "width": 113,
+        "height": 35
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-topbar-body-nav-tab-item",
+      "text": "Qualifications",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-topbar-body-nav-tab --parent"
+      },
+      "position": {
+        "x": 662,
+        "y": 84,
+        "width": 89,
+        "height": 16
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "oxd-icon bi-chevron-down",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "oxd-topbar-body-nav-tab-item"
+      },
+      "position": {
+        "x": 739,
+        "y": 84,
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-topbar-body-nav-tab",
+      "text": "Nationalities",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": null
+      },
+      "position": {
+        "x": 778,
+        "y": 74,
+        "width": 91,
+        "height": 35
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "oxd-topbar-body-nav-tab-item",
+      "text": "Nationalities",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser#",
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-topbar-body-nav-tab"
+      },
+      "position": {
+        "x": 790,
+        "y": 84,
+        "width": 67,
+        "height": 16
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-topbar-body-nav-tab",
+      "text": "Corporate Branding",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": null
+      },
+      "position": {
+        "x": 884,
+        "y": 74,
+        "width": 129,
+        "height": 35
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "oxd-topbar-body-nav-tab-item",
+      "text": "Corporate Branding",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser#",
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-topbar-body-nav-tab"
+      },
+      "position": {
+        "x": 896,
+        "y": 84,
+        "width": 105,
+        "height": 16
+      }
+    },
+    {
+      "tag": "li",
+      "id": null,
+      "classes": "oxd-topbar-body-nav-tab --parent",
+      "text": "Configuration",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": null
+      },
+      "position": {
+        "x": 1028,
+        "y": 74,
+        "width": 113,
+        "height": 35
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "oxd-topbar-body-nav-tab-item",
+      "text": "Configuration",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "li",
+        "classes": "oxd-topbar-body-nav-tab --parent"
+      },
+      "position": {
+        "x": 1040,
+        "y": 84,
+        "width": 89,
+        "height": 16
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "oxd-icon bi-chevron-down",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "oxd-topbar-body-nav-tab-item"
+      },
+      "position": {
+        "x": 1117,
+        "y": 84,
+        "width": 12,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-topbar-body-nav-slot",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": null
+      },
+      "position": {
+        "x": 1196,
+        "y": 74,
+        "width": 36,
+        "height": 36
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "oxd-icon-button",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-topbar-body-nav-slot"
+      },
+      "position": {
+        "x": 1196,
+        "y": 74,
+        "width": 36,
+        "height": 36
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "oxd-icon bi-question-lg",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "oxd-icon-button"
+      },
+      "position": {
+        "x": 1205,
+        "y": 81,
+        "width": 18,
+        "height": 22
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-layout-container",
+      "text": "Add User\nUser Role\nAdmin\n-- Select --\nAdmin\nESS\nEmployee Name\nStatus\n-- Select --\nUsername\nPassword\n",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-layout orangehrm-upgrade-layout"
+      },
+      "position": {
+        "x": 256,
+        "y": 100,
+        "width": 1024,
+        "height": 658
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-layout-context",
+      "text": "Add User\nUser Role\nAdmin\n-- Select --\nAdmin\nESS\nEmployee Name\nStatus\n-- Select --\nUsername\nPassword\n",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-layout-container"
+      },
+      "position": {
+        "x": 256,
+        "y": 100,
+        "width": 1024,
+        "height": 572
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "orangehrm-background-container",
+      "text": "Add User\nUser Role\nAdmin\n-- Select --\nAdmin\nESS\nEmployee Name\nStatus\n-- Select --\nUsername\nPassword\n",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-layout-context"
+      },
+      "position": {
+        "x": 304,
+        "y": 132,
+        "width": 928,
+        "height": 488
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "orangehrm-card-container",
+      "text": "Add User\nUser Role\nAdmin\n-- Select --\nAdmin\nESS\nEmployee Name\nStatus\n-- Select --\nUsername\nPassword\n",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "orangehrm-background-container"
+      },
+      "position": {
+        "x": 304,
+        "y": 156,
+        "width": 928,
+        "height": 440
+      }
+    },
+    {
+      "tag": "h6",
+      "id": null,
+      "classes": "oxd-text oxd-text--h6 orangehrm-main-title",
+      "text": "Add User",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "orangehrm-card-container"
+      },
+      "position": {
+        "x": 329,
+        "y": 181,
+        "width": 878,
+        "height": 22
+      }
+    },
+    {
+      "tag": "hr",
+      "id": null,
+      "classes": "oxd-divider",
+      "text": "",
+      "value": null,
+      "role": "separator",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "orangehrm-card-container"
+      },
+      "position": {
+        "x": 329,
+        "y": 211,
+        "width": 878,
+        "height": 1
+      }
+    },
+    {
+      "tag": "form",
+      "id": null,
+      "classes": "oxd-form",
+      "text": "User Role\nAdmin\n-- Select --\nAdmin\nESS\nEmployee Name\nStatus\n-- Select --\nUsername\nPassword\n\nFor a st",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "orangehrm-card-container"
+      },
+      "position": {
+        "x": 329,
+        "y": 220,
+        "width": 878,
+        "height": 351
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-form-row",
+      "text": "User Role\nAdmin\n-- Select --\nAdmin\nESS\nEmployee Name\nStatus\n-- Select --\nUsername",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "form",
+        "classes": "oxd-form"
+      },
+      "position": {
+        "x": 329,
+        "y": 220,
+        "width": 878,
+        "height": 167
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-grid-2 orangehrm-full-width-grid",
+      "text": "User Role\nAdmin\n-- Select --\nAdmin\nESS\nEmployee Name\nStatus\n-- Select --\nUsername",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-form-row"
+      },
+      "position": {
+        "x": 319,
+        "y": 220,
+        "width": 898,
+        "height": 167
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-grid-item oxd-grid-item--gutters",
+      "text": "User Role\nAdmin\n-- Select --\nAdmin\nESS",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-grid-2 orangehrm-full-width-grid"
+      },
+      "position": {
+        "x": 319,
+        "y": 220,
+        "width": 449,
+        "height": 83
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-input-group oxd-input-field-bottom-space",
+      "text": "User Role\nAdmin\n-- Select --\nAdmin\nESS",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-grid-item oxd-grid-item--gutters"
+      },
+      "position": {
+        "x": 331,
+        "y": 220,
+        "width": 425,
+        "height": 67
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-input-group__label-wrapper",
+      "text": "User Role",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group oxd-input-field-bottom-space"
+      },
+      "position": {
+        "x": 331,
+        "y": 220,
+        "width": 425,
+        "height": 16
+      }
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": "oxd-label oxd-input-field-required",
+      "text": "User Role",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group__label-wrapper"
+      },
+      "position": {
+        "x": 331,
+        "y": 220,
+        "width": 57,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": null,
+      "text": "Admin\n-- Select --\nAdmin\nESS",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group oxd-input-field-bottom-space"
+      },
+      "position": {
+        "x": 331,
+        "y": 242,
+        "width": 425,
+        "height": 45
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-select-wrapper",
+      "text": "Admin\n-- Select --\nAdmin\nESS",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": null
+      },
+      "position": {
+        "x": 331,
+        "y": 242,
+        "width": 425,
+        "height": 45
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-select-text oxd-select-text--focus",
+      "text": "Admin",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-select-wrapper"
+      },
+      "position": {
+        "x": 331,
+        "y": 242,
+        "width": 425,
+        "height": 45
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-select-text-input",
+      "text": "Admin",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-select-text oxd-select-text--focus"
+      },
+      "position": {
+        "x": 332,
+        "y": 256,
+        "width": 384,
+        "height": 18
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-select-text--after",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-select-text oxd-select-text--focus"
+      },
+      "position": {
+        "x": 716,
+        "y": 247,
+        "width": 39,
+        "height": 35
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "oxd-icon bi-caret-up-fill oxd-select-text--arrow",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-select-text--after"
+      },
+      "position": {
+        "x": 716,
+        "y": 247,
+        "width": 35,
+        "height": 35
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-select-dropdown --positon-bottom",
+      "text": "-- Select --\nAdmin\nESS",
+      "value": null,
+      "role": "listbox",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-select-wrapper"
+      },
+      "position": {
+        "x": 331,
+        "y": 292,
+        "width": 425,
+        "height": 117
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-select-option",
+      "text": "-- Select --",
+      "value": null,
+      "role": "option",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-select-dropdown --positon-bottom"
+      },
+      "position": {
+        "x": 336,
+        "y": 297,
+        "width": 415,
+        "height": 36
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-select-option --selected",
+      "text": "Admin",
+      "value": null,
+      "role": "option",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-select-dropdown --positon-bottom"
+      },
+      "position": {
+        "x": 336,
+        "y": 333,
+        "width": 415,
+        "height": 36
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": null,
+      "text": "Admin",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flow-root",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-select-option --selected"
+      },
+      "position": {
+        "x": 340,
+        "y": 343,
+        "width": 36,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-select-option",
+      "text": "ESS",
+      "value": null,
+      "role": "option",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-select-dropdown --positon-bottom"
+      },
+      "position": {
+        "x": 336,
+        "y": 369,
+        "width": 415,
+        "height": 35
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": null,
+      "text": "ESS",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flow-root",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-select-option"
+      },
+      "position": {
+        "x": 340,
+        "y": 379,
+        "width": 21,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-grid-item oxd-grid-item--gutters",
+      "text": "Employee Name",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-grid-2 orangehrm-full-width-grid"
+      },
+      "position": {
+        "x": 768,
+        "y": 220,
+        "width": 449,
+        "height": 83
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-input-group oxd-input-field-bottom-space",
+      "text": "Employee Name",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-grid-item oxd-grid-item--gutters"
+      },
+      "position": {
+        "x": 780,
+        "y": 220,
+        "width": 425,
+        "height": 67
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-input-group__label-wrapper",
+      "text": "Employee Name",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group oxd-input-field-bottom-space"
+      },
+      "position": {
+        "x": 780,
+        "y": 220,
+        "width": 425,
+        "height": 16
+      }
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": "oxd-label oxd-input-field-required",
+      "text": "Employee Name",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group__label-wrapper"
+      },
+      "position": {
+        "x": 780,
+        "y": 220,
+        "width": 91,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": null,
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group oxd-input-field-bottom-space"
+      },
+      "position": {
+        "x": 780,
+        "y": 242,
+        "width": 425,
+        "height": 45
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-autocomplete-wrapper",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": null
+      },
+      "position": {
+        "x": 780,
+        "y": 242,
+        "width": 425,
+        "height": 45
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-autocomplete-text-input oxd-autocomplete-text-input--active",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-autocomplete-wrapper"
+      },
+      "position": {
+        "x": 780,
+        "y": 242,
+        "width": 425,
+        "height": 45
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "classes": null,
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "text",
+      "href": null,
+      "cursor": "text",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-autocomplete-text-input oxd-autocomplete-text-input--active"
+      },
+      "position": {
+        "x": 781,
+        "y": 245,
+        "width": 423,
+        "height": 40
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-grid-item oxd-grid-item--gutters",
+      "text": "Status\n-- Select --",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-grid-2 orangehrm-full-width-grid"
+      },
+      "position": {
+        "x": 319,
+        "y": 303,
+        "width": 449,
+        "height": 83
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-input-group oxd-input-field-bottom-space",
+      "text": "Status\n-- Select --",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-grid-item oxd-grid-item--gutters"
+      },
+      "position": {
+        "x": 331,
+        "y": 303,
+        "width": 425,
+        "height": 67
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-input-group__label-wrapper",
+      "text": "Status",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group oxd-input-field-bottom-space"
+      },
+      "position": {
+        "x": 331,
+        "y": 303,
+        "width": 425,
+        "height": 16
+      }
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": "oxd-label oxd-input-field-required",
+      "text": "Status",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group__label-wrapper"
+      },
+      "position": {
+        "x": 331,
+        "y": 303,
+        "width": 40,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": null,
+      "text": "-- Select --",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group oxd-input-field-bottom-space"
+      },
+      "position": {
+        "x": 331,
+        "y": 326,
+        "width": 425,
+        "height": 45
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-select-wrapper",
+      "text": "-- Select --",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": null
+      },
+      "position": {
+        "x": 331,
+        "y": 326,
+        "width": 425,
+        "height": 45
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-select-text oxd-select-text--active",
+      "text": "-- Select --",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-select-wrapper"
+      },
+      "position": {
+        "x": 331,
+        "y": 326,
+        "width": 425,
+        "height": 45
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-select-text-input",
+      "text": "-- Select --",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-select-text oxd-select-text--active"
+      },
+      "position": {
+        "x": 332,
+        "y": 339,
+        "width": 384,
+        "height": 18
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-select-text--after",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-select-text oxd-select-text--active"
+      },
+      "position": {
+        "x": 716,
+        "y": 331,
+        "width": 39,
+        "height": 35
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "oxd-icon bi-caret-down-fill oxd-select-text--arrow",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-select-text--after"
+      },
+      "position": {
+        "x": 716,
+        "y": 331,
+        "width": 35,
+        "height": 35
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-grid-item oxd-grid-item--gutters",
+      "text": "Username",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-grid-2 orangehrm-full-width-grid"
+      },
+      "position": {
+        "x": 768,
+        "y": 303,
+        "width": 449,
+        "height": 83
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-input-group oxd-input-field-bottom-space",
+      "text": "Username",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-grid-item oxd-grid-item--gutters"
+      },
+      "position": {
+        "x": 780,
+        "y": 303,
+        "width": 425,
+        "height": 67
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-input-group__label-wrapper",
+      "text": "Username",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group oxd-input-field-bottom-space"
+      },
+      "position": {
+        "x": 780,
+        "y": 303,
+        "width": 425,
+        "height": 16
+      }
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": "oxd-label oxd-input-field-required",
+      "text": "Username",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group__label-wrapper"
+      },
+      "position": {
+        "x": 780,
+        "y": 303,
+        "width": 59,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": null,
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group oxd-input-field-bottom-space"
+      },
+      "position": {
+        "x": 780,
+        "y": 326,
+        "width": 425,
+        "height": 45
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "classes": "oxd-input oxd-input--active",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "text",
+      "href": null,
+      "cursor": "text",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": null
+      },
+      "position": {
+        "x": 780,
+        "y": 326,
+        "width": 425,
+        "height": 45
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-form-row user-password-row",
+      "text": "Password\n\nFor a strong password, please use a hard to guess combination of text with upper and lower",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "form",
+        "classes": "oxd-form"
+      },
+      "position": {
+        "x": 329,
+        "y": 387,
+        "width": 878,
+        "height": 135
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-grid-2 orangehrm-full-width-grid",
+      "text": "Password\n\nFor a strong password, please use a hard to guess combination of text with upper and lower",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-form-row user-password-row"
+      },
+      "position": {
+        "x": 329,
+        "y": 397,
+        "width": 878,
+        "height": 115
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-grid-item oxd-grid-item--gutters user-password-cell",
+      "text": "Password\n\nFor a strong password, please use a hard to guess combination of text with upper and lower",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-grid-2 orangehrm-full-width-grid"
+      },
+      "position": {
+        "x": 329,
+        "y": 397,
+        "width": 439,
+        "height": 115
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-input-group oxd-input-field-bottom-space",
+      "text": "Password",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-grid-item oxd-grid-item--gutters user-password-cell"
+      },
+      "position": {
+        "x": 341,
+        "y": 397,
+        "width": 415,
+        "height": 67
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-input-group__label-wrapper",
+      "text": "Password",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group oxd-input-field-bottom-space"
+      },
+      "position": {
+        "x": 341,
+        "y": 397,
+        "width": 415,
+        "height": 16
+      }
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": "oxd-label oxd-input-field-required",
+      "text": "Password",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group__label-wrapper"
+      },
+      "position": {
+        "x": 341,
+        "y": 397,
+        "width": 59,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": null,
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group oxd-input-field-bottom-space"
+      },
+      "position": {
+        "x": 341,
+        "y": 419,
+        "width": 415,
+        "height": 45
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "classes": "oxd-input oxd-input--active",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "password",
+      "href": null,
+      "cursor": "text",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": null
+      },
+      "position": {
+        "x": 341,
+        "y": 419,
+        "width": 415,
+        "height": 45
+      }
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "classes": "oxd-text oxd-text--p user-password-hint",
+      "text": "For a strong password, please use a hard to guess combination of text with upper and lower case char",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-grid-item oxd-grid-item--gutters user-password-cell"
+      },
+      "position": {
+        "x": 341,
+        "y": 480,
+        "width": 415,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-grid-item oxd-grid-item--gutters",
+      "text": "Confirm Password",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-grid-2 orangehrm-full-width-grid"
+      },
+      "position": {
+        "x": 768,
+        "y": 397,
+        "width": 439,
+        "height": 115
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-input-group oxd-input-field-bottom-space",
+      "text": "Confirm Password",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-grid-item oxd-grid-item--gutters"
+      },
+      "position": {
+        "x": 780,
+        "y": 397,
+        "width": 415,
+        "height": 67
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-input-group__label-wrapper",
+      "text": "Confirm Password",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group oxd-input-field-bottom-space"
+      },
+      "position": {
+        "x": 780,
+        "y": 397,
+        "width": 415,
+        "height": 16
+      }
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": "oxd-label oxd-input-field-required",
+      "text": "Confirm Password",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group__label-wrapper"
+      },
+      "position": {
+        "x": 780,
+        "y": 397,
+        "width": 105,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": null,
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-input-group oxd-input-field-bottom-space"
+      },
+      "position": {
+        "x": 780,
+        "y": 419,
+        "width": 415,
+        "height": 45
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "classes": "oxd-input oxd-input--active",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "password",
+      "href": null,
+      "cursor": "text",
+      "display": "inline-block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": null
+      },
+      "position": {
+        "x": 780,
+        "y": 419,
+        "width": 415,
+        "height": 45
+      }
+    },
+    {
+      "tag": "hr",
+      "id": null,
+      "classes": "oxd-divider",
+      "text": "",
+      "value": null,
+      "role": "separator",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "form",
+        "classes": "oxd-form"
+      },
+      "position": {
+        "x": 329,
+        "y": 530,
+        "width": 878,
+        "height": 1
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-form-actions",
+      "text": "* Required\n\nCancel\nSave",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "form",
+        "classes": "oxd-form"
+      },
+      "position": {
+        "x": 329,
+        "y": 539,
+        "width": 878,
+        "height": 32
+      }
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "classes": "oxd-text oxd-text--p orangehrm-form-hint",
+      "text": "* Required",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-form-actions"
+      },
+      "position": {
+        "x": 329,
+        "y": 539,
+        "width": 56,
+        "height": 32
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "oxd-button oxd-button--medium oxd-button--ghost",
+      "text": "Cancel",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-form-actions"
+      },
+      "position": {
+        "x": 990,
+        "y": 539,
+        "width": 107,
+        "height": 32
+      }
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "classes": "oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space",
+      "text": "Save",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "submit",
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-form-actions"
+      },
+      "position": {
+        "x": 1107,
+        "y": 539,
+        "width": 100,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "oxd-layout-footer",
+      "text": "OrangeHRM OS 5.7\n\n© 2005 - 2025 OrangeHRM, Inc. All rights reserved.",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-layout-container"
+      },
+      "position": {
+        "x": 256,
+        "y": 704,
+        "width": 1024,
+        "height": 54
+      }
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "classes": "oxd-text oxd-text--p orangehrm-copyright",
+      "text": "OrangeHRM OS 5.7",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-layout-footer"
+      },
+      "position": {
+        "x": 304,
+        "y": 704,
+        "width": 928,
+        "height": 18
+      }
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "classes": "oxd-text oxd-text--p orangehrm-copyright",
+      "text": "© 2005 - 2025 OrangeHRM, Inc. All rights reserved.",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "oxd-layout-footer"
+      },
+      "position": {
+        "x": 304,
+        "y": 722,
+        "width": 928,
+        "height": 18
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": null,
+      "text": "OrangeHRM, Inc",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "http://www.orangehrm.com/",
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "p",
+        "classes": "oxd-text oxd-text--p orangehrm-copyright"
+      },
+      "position": {
+        "x": 709,
+        "y": 722,
+        "width": 96,
+        "height": 18
+      }
+    }
+  ],
+  "element_count": 241,
+  "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser"
+}
