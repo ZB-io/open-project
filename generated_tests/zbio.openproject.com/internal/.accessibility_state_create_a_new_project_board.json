@@ -1,0 +1,1734 @@
+{
+  "accessibility_tree": {
+    "role": "WebArea",
+    "name": "Sign in | zbio.openproject.com",
+    "children": [
+      {
+        "role": "text",
+        "name": "Open link in a new tab"
+      },
+      {
+        "role": "heading",
+        "name": "Top Menu",
+        "level": 1
+      },
+      {
+        "role": "link",
+        "name": "Click here to skip over the menu and go to the content"
+      },
+      {
+        "role": "button",
+        "name": "Global modules"
+      },
+      {
+        "role": "link",
+        "name": "Home"
+      },
+      {
+        "role": "button",
+        "name": "Search",
+        "description": "Search"
+      },
+      {
+        "role": "text",
+        "name": "Search in zbio.openproject.com"
+      },
+      {
+        "role": "combobox",
+        "name": "Search in zbio.openproject.com",
+        "autocomplete": "list",
+        "haspopup": "listbox"
+      },
+      {
+        "role": "button",
+        "name": "Help",
+        "haspopup": "menu"
+      },
+      {
+        "role": "button",
+        "name": "Sign in"
+      },
+      {
+        "role": "heading",
+        "name": "Content",
+        "level": 1
+      },
+      {
+        "role": "heading",
+        "name": "Sign in",
+        "level": 1
+      },
+      {
+        "role": "text",
+        "name": "Username"
+      },
+      {
+        "role": "text",
+        "name": "*"
+      },
+      {
+        "role": "textbox",
+        "name": "Username*"
+      },
+      {
+        "role": "text",
+        "name": "Password"
+      },
+      {
+        "role": "text",
+        "name": "*"
+      },
+      {
+        "role": "textbox",
+        "name": "Password*"
+      },
+      {
+        "role": "button",
+        "name": "Sign in"
+      },
+      {
+        "role": "link",
+        "name": "Forgot your password?"
+      },
+      {
+        "role": "LineBreak",
+        "name": "\n"
+      }
+    ]
+  },
+  "dom_snapshot": [
+    {
+      "tag": "html",
+      "id": null,
+      "classes": null,
+      "text": "Open link in a new tab\nTop Menu\nJump to content\nHome\nSearch in zbio.openproject.com\nSign in\nContent\n",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "classes": null
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "tag": "body",
+      "id": null,
+      "classes": "theme-core_design controller-account action-login env-production -browser-chrome -browser-windows bcf-deactivated __overflowing_element_container __overflowing_body __ng2-bootstrap-has-run",
+      "text": "Open link in a new tab\nTop Menu\nJump to content\nHome\nSearch in zbio.openproject.com\nSign in\nContent\n",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "html",
+        "classes": null
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "cdk-visually-hidden cdk-focus-trap-anchor",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "opce-modal-overlay",
+        "classes": null
+      },
+      "position": {
+        "x": -1,
+        "y": -1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "cdk-visually-hidden cdk-focus-trap-anchor",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "opce-modal-overlay",
+        "classes": null
+      },
+      "position": {
+        "x": -1,
+        "y": -1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "live-region",
+      "id": null,
+      "classes": null,
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "body",
+        "classes": "theme-core_design controller-account action-login env-production -browser-chrome -browser-windows bcf-deactivated __overflowing_element_container __overflowing_body __ng2-bootstrap-has-run"
+      },
+      "position": {
+        "x": -1,
+        "y": -1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "span",
+      "id": "open-blank-target-link-description",
+      "classes": "sr-only",
+      "text": "Open link in a new tab",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "body",
+        "classes": "theme-core_design controller-account action-login env-production -browser-chrome -browser-windows bcf-deactivated __overflowing_element_container __overflowing_body __ng2-bootstrap-has-run"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "div",
+      "id": "wrapper",
+      "classes": "can-hide-navigation nosidebar",
+      "text": "Top Menu\nJump to content\nHome\nSearch in zbio.openproject.com\nSign in\nContent\nSign in\nUsername\nPasswo",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "body",
+        "classes": "theme-core_design controller-account action-login env-production -browser-chrome -browser-windows bcf-deactivated __overflowing_element_container __overflowing_body __ng2-bootstrap-has-run"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "tag": "header",
+      "id": null,
+      "classes": "op-app-header",
+      "text": "Top Menu\nJump to content\nHome\nSearch in zbio.openproject.com\nSign in",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "can-hide-navigation nosidebar"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 55
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-app-header--start",
+      "text": "Top Menu\nJump to content\nHome",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "header",
+        "classes": "op-app-header"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 456,
+        "height": 55
+      }
+    },
+    {
+      "tag": "h1",
+      "id": null,
+      "classes": "sr-only",
+      "text": "Top Menu",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-header--start"
+      },
+      "position": {
+        "x": 4,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "a",
+      "id": "skip-navigation--content",
+      "classes": "sr-only skip-navigation-link",
+      "text": "Jump to content",
+      "value": null,
+      "role": null,
+      "ariaLabel": "Click here to skip over the menu and go to the content",
+      "type": null,
+      "href": "https://zbio.openproject.com/",
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-header--start"
+      },
+      "position": {
+        "x": 4,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "classes": "op-app-menu op-app-menu_drop-left",
+      "text": "Home",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-header--start"
+      },
+      "position": {
+        "x": 4,
+        "y": 0,
+        "width": 178,
+        "height": 55
+      }
+    },
+    {
+      "tag": "button",
+      "id": "dialog-show-dialog-266b072d-ae89-4c14-b636-1f2c6c01fe49",
+      "classes": "Button Button--iconOnly Button--invisible Button--medium op-app-header--primer-button",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "op-app-menu op-app-menu_drop-left"
+      },
+      "position": {
+        "x": 4,
+        "y": 12,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "Button Button--iconOnly Button--invisible Button--medium op-app-header--primer-button"
+      },
+      "position": {
+        "x": 12,
+        "y": 20,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 13,
+        "y": 21,
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-logo",
+      "text": "Home",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ul",
+        "classes": "op-app-menu op-app-menu_drop-left"
+      },
+      "position": {
+        "x": 44,
+        "y": 0,
+        "width": 130,
+        "height": 55
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "op-logo--link",
+      "text": "Home",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/",
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-logo"
+      },
+      "position": {
+        "x": 44,
+        "y": 16,
+        "width": 130,
+        "height": 24
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-app-header--center",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "header",
+        "classes": "op-app-header"
+      },
+      "position": {
+        "x": 456,
+        "y": 0,
+        "width": 368,
+        "height": 55
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-app-search",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-header--center"
+      },
+      "position": {
+        "x": 456,
+        "y": 0,
+        "width": 368,
+        "height": 55
+      }
+    },
+    {
+      "tag": "opce-global-search",
+      "id": null,
+      "classes": "op-angular-component",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-search"
+      },
+      "position": {
+        "x": 456,
+        "y": 0,
+        "width": 368,
+        "height": 55
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "top-menu-search",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": "search",
+      "ariaLabel": "Search in zbio.openproject.com",
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "opce-global-search",
+        "classes": "op-angular-component"
+      },
+      "position": {
+        "x": 471,
+        "y": 0,
+        "width": 338,
+        "height": 55
+      }
+    },
+    {
+      "tag": "button",
+      "id": "top-menu-search-button",
+      "classes": "top-menu-search--button search-form-normal",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": "Search",
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "top-menu-search"
+      },
+      "position": {
+        "x": 473,
+        "y": 0,
+        "width": 30,
+        "height": 55
+      }
+    },
+    {
+      "tag": "op-icon",
+      "id": null,
+      "classes": "op-icon--wrapper",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "top-menu-search--button search-form-normal"
+      },
+      "position": {
+        "x": 473,
+        "y": 19,
+        "width": 30,
+        "height": 16
+      }
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "classes": "icon5 icon-search ellipsis",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "op-icon",
+        "classes": "op-icon--wrapper"
+      },
+      "position": {
+        "x": 473,
+        "y": 19,
+        "width": 30,
+        "height": 16
+      }
+    },
+    {
+      "tag": "op-autocompleter",
+      "id": null,
+      "classes": "global-search op-autocompleter",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "top-menu-search"
+      },
+      "position": {
+        "x": 471,
+        "y": 12,
+        "width": 338,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "inline-label",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "op-autocompleter",
+        "classes": "global-search op-autocompleter"
+      },
+      "position": {
+        "x": 471,
+        "y": 12,
+        "width": 338,
+        "height": 32
+      }
+    },
+    {
+      "tag": "ng-select",
+      "id": "global-search-input",
+      "classes": "top-menu-search--input ng-select--primerized ng-select-typeahead ng-select-searchable ng-select-clearable ng-select ng-select-single ng-untouched ng-pristine ng-valid",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "inline-label"
+      },
+      "position": {
+        "x": 471,
+        "y": 12,
+        "width": 338,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "ng-select-container",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ng-select",
+        "classes": "top-menu-search--input ng-select--primerized ng-select-typeahead ng-select-searchable ng-select-clearable ng-select ng-select-single ng-untouched ng-pristine ng-valid"
+      },
+      "position": {
+        "x": 471,
+        "y": 12,
+        "width": 338,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "ng-value-container",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "ng-select-container"
+      },
+      "position": {
+        "x": 472,
+        "y": 12,
+        "width": 336,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "ng-placeholder",
+      "text": "Search in zbio.openproject.com",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "ng-value-container"
+      },
+      "position": {
+        "x": 507,
+        "y": 12,
+        "width": 271,
+        "height": 32
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "ng-input",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "ng-value-container"
+      },
+      "position": {
+        "x": 472,
+        "y": 18,
+        "width": 336,
+        "height": 16
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "classes": "global-search--input",
+      "text": "",
+      "value": null,
+      "role": "combobox",
+      "ariaLabel": "Search in zbio.openproject.com",
+      "type": "text",
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "ng-input"
+      },
+      "position": {
+        "x": 482,
+        "y": 18,
+        "width": 276,
+        "height": 16
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "ng-visually-hidden",
+      "text": "",
+      "value": null,
+      "role": "status",
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "ng-select",
+        "classes": "top-menu-search--input ng-select--primerized ng-select-typeahead ng-select-searchable ng-select-clearable ng-select ng-select-single ng-untouched ng-pristine ng-valid"
+      },
+      "position": {
+        "x": 470,
+        "y": 43,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "op-app-header--end",
+      "text": "Sign in",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "header",
+        "classes": "op-app-header"
+      },
+      "position": {
+        "x": 824,
+        "y": 0,
+        "width": 456,
+        "height": 55
+      }
+    },
+    {
+      "tag": "action-menu",
+      "id": null,
+      "classes": "op-app-menu--item pl-1",
+      "text": "Help\n\n\n\n  \n    \n            \n  \n    \n        \n  \n      \n  \n    Getting started\n  \n\n    \n        \n   ",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-header--end"
+      },
+      "position": {
+        "x": 1141,
+        "y": 0,
+        "width": 48,
+        "height": 55
+      }
+    },
+    {
+      "tag": "button",
+      "id": "op-app-header--help-menu-button",
+      "classes": "Button Button--iconOnly Button--invisible Button--medium op-app-header--primer-button hidden-for-mobile",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "action-menu",
+        "classes": "op-app-menu--item pl-1"
+      },
+      "position": {
+        "x": 1145,
+        "y": 12,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "Button Button--iconOnly Button--invisible Button--medium op-app-header--primer-button hidden-for-mobile"
+      },
+      "position": {
+        "x": 1153,
+        "y": 20,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 1153,
+        "y": 20,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "button",
+      "id": "dialog-show-dialog-b13bd2f1-ed66-4b5b-8ffa-f71c937a7806",
+      "classes": "op-app-header--primer-button op-app-menu--item Button--invisible Button--medium Button px-1",
+      "text": "Sign in",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "button",
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "op-app-header--end"
+      },
+      "position": {
+        "x": 1189,
+        "y": 12,
+        "width": 77,
+        "height": 32
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "Button-content",
+      "text": "Sign in",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "button",
+        "classes": "op-app-header--primer-button op-app-menu--item Button--invisible Button--medium Button px-1"
+      },
+      "position": {
+        "x": 1194,
+        "y": 18,
+        "width": 67,
+        "height": 20
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "Button-label",
+      "text": "Sign in",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "Button-content"
+      },
+      "position": {
+        "x": 1194,
+        "y": 18,
+        "width": 43,
+        "height": 20
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "Button-visual Button-trailingVisual",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "Button-content"
+      },
+      "position": {
+        "x": 1245,
+        "y": 19,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "svg",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "Button-visual Button-trailingVisual"
+      },
+      "position": {
+        "x": 1245,
+        "y": 19,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "tag": "path",
+      "id": null,
+      "classes": {},
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "svg",
+        "classes": {}
+      },
+      "position": {
+        "x": 1249,
+        "y": 26,
+        "width": 7,
+        "height": 4
+      }
+    },
+    {
+      "tag": "div",
+      "id": "main",
+      "classes": "can-hide-navigation nosidebar",
+      "text": "Content\nSign in\nUsername\nPassword\nForgot your password?",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "can-hide-navigation nosidebar"
+      },
+      "position": {
+        "x": 0,
+        "y": 55,
+        "width": 1280,
+        "height": 665
+      }
+    },
+    {
+      "tag": "main",
+      "id": "content-wrapper",
+      "classes": "can-hide-navigation nosidebar",
+      "text": "Content\nSign in\nUsername\nPassword\nForgot your password?",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "can-hide-navigation nosidebar"
+      },
+      "position": {
+        "x": 0,
+        "y": 55,
+        "width": 1280,
+        "height": 665
+      }
+    },
+    {
+      "tag": "div",
+      "id": "content",
+      "classes": "can-hide-navigation nosidebar ",
+      "text": "Content\nSign in\nUsername\nPassword\nForgot your password?",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "grid",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "main",
+        "classes": "can-hide-navigation nosidebar"
+      },
+      "position": {
+        "x": 0,
+        "y": 55,
+        "width": 1280,
+        "height": 665
+      }
+    },
+    {
+      "tag": "h1",
+      "id": null,
+      "classes": "sr-only accessibility-helper",
+      "text": "Content",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "can-hide-navigation nosidebar "
+      },
+      "position": {
+        "x": 0,
+        "y": 55,
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "tag": "div",
+      "id": "content-body",
+      "classes": null,
+      "text": "Sign in\nUsername\nPassword\nForgot your password?",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "can-hide-navigation nosidebar "
+      },
+      "position": {
+        "x": 0,
+        "y": 55,
+        "width": 1280,
+        "height": 665
+      }
+    },
+    {
+      "tag": "div",
+      "id": "login-form",
+      "classes": "form -bordered",
+      "text": "Sign in\nUsername\nPassword\nForgot your password?",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": null
+      },
+      "position": {
+        "x": 385,
+        "y": 123,
+        "width": 511,
+        "height": 264
+      }
+    },
+    {
+      "tag": "h1",
+      "id": null,
+      "classes": null,
+      "text": "Sign in",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "form -bordered"
+      },
+      "position": {
+        "x": 406,
+        "y": 144,
+        "width": 469,
+        "height": 48
+      }
+    },
+    {
+      "tag": "hr",
+      "id": null,
+      "classes": "form--separator",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "form -bordered"
+      },
+      "position": {
+        "x": 406,
+        "y": 192,
+        "width": 469,
+        "height": 2
+      }
+    },
+    {
+      "tag": "form",
+      "id": null,
+      "classes": "-wide-labels user-login--form form",
+      "text": "Username\nPassword\nForgot your password?",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "form -bordered"
+      },
+      "position": {
+        "x": 406,
+        "y": 224,
+        "width": 469,
+        "height": 132
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "form--field -required",
+      "text": "Username",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "form",
+        "classes": "-wide-labels user-login--form form"
+      },
+      "position": {
+        "x": 406,
+        "y": 224,
+        "width": 469,
+        "height": 36
+      }
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": "form--label",
+      "text": "Username",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "form--field -required"
+      },
+      "position": {
+        "x": 406,
+        "y": 231,
+        "width": 156,
+        "height": 21
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "form--field-container",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "form--field -required"
+      },
+      "position": {
+        "x": 562,
+        "y": 224,
+        "width": 313,
+        "height": 36
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "form--text-field-container",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "form--field-container"
+      },
+      "position": {
+        "x": 562,
+        "y": 224,
+        "width": 313,
+        "height": 36
+      }
+    },
+    {
+      "tag": "input",
+      "id": "username",
+      "classes": "form--text-field",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "text",
+      "href": null,
+      "cursor": "text",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "form--text-field-container"
+      },
+      "position": {
+        "x": 562,
+        "y": 224,
+        "width": 313,
+        "height": 36
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "form--field -required",
+      "text": "Password",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "form",
+        "classes": "-wide-labels user-login--form form"
+      },
+      "position": {
+        "x": 406,
+        "y": 273,
+        "width": 469,
+        "height": 36
+      }
+    },
+    {
+      "tag": "label",
+      "id": null,
+      "classes": "form--label",
+      "text": "Password",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "default",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "form--field -required"
+      },
+      "position": {
+        "x": 406,
+        "y": 280,
+        "width": 156,
+        "height": 21
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "form--field-container",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "form--field -required"
+      },
+      "position": {
+        "x": 562,
+        "y": 273,
+        "width": 313,
+        "height": 36
+      }
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "classes": "form--text-field-container",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "form--field-container"
+      },
+      "position": {
+        "x": 562,
+        "y": 273,
+        "width": 313,
+        "height": 36
+      }
+    },
+    {
+      "tag": "input",
+      "id": "password",
+      "classes": "form--text-field -password",
+      "text": "",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": "password",
+      "href": null,
+      "cursor": "text",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "span",
+        "classes": "form--text-field-container"
+      },
+      "position": {
+        "x": 562,
+        "y": 273,
+        "width": 313,
+        "height": 36
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "login-form--footer",
+      "text": "Forgot your password?",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "flex",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "form",
+        "classes": "-wide-labels user-login--form form"
+      },
+      "position": {
+        "x": 406,
+        "y": 322,
+        "width": 469,
+        "height": 34
+      }
+    },
+    {
+      "tag": "input",
+      "id": null,
+      "classes": "button -primary button_no-margin",
+      "text": "",
+      "value": "Sign in",
+      "role": null,
+      "ariaLabel": null,
+      "type": "submit",
+      "href": null,
+      "cursor": "pointer",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "login-form--footer"
+      },
+      "position": {
+        "x": 406,
+        "y": 322,
+        "width": 61,
+        "height": 34
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "login-options-container",
+      "text": "Forgot your password?",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "login-form--footer"
+      },
+      "position": {
+        "x": 731,
+        "y": 322,
+        "width": 143,
+        "height": 34
+      }
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": "login-links",
+      "text": "Forgot your password?",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": null,
+      "cursor": "auto",
+      "display": "block",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "login-options-container"
+      },
+      "position": {
+        "x": 731,
+        "y": 322,
+        "width": 143,
+        "height": 21
+      }
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "classes": "login-form--footer-link",
+      "text": "Forgot your password?",
+      "value": null,
+      "role": null,
+      "ariaLabel": null,
+      "type": null,
+      "href": "https://zbio.openproject.com/account/lost_password",
+      "cursor": "pointer",
+      "display": "inline",
+      "hasOnclick": false,
+      "parent": {
+        "tag": "div",
+        "classes": "login-links"
+      },
+      "position": {
+        "x": 731,
+        "y": 324,
+        "width": 143,
+        "height": 16
+      }
+    }
+  ],
+  "element_count": 68,
+  "url": "https://zbio.openproject.com/login?back_url=https%3A%2F%2Fzbio.openproject.com%2Fprojects%2Fdemo-project"
+}
