@@ -1,0 +1,55 @@
+{
+  "site_url": "https://zbio.openproject.com/login",
+  "site_type": "login_workflow",
+  "site_category": "authentication",
+  "test_name": "login_analysis_happy_path",
+  "login_mechanisms": [
+    "form_login"
+  ],
+  "user_journeys": [],
+  "proposed_scenarios": [
+    {
+      "scenario_name": "login_analysis_happy_path",
+      "test_name": "login_analysis_happy_path",
+      "description": "Intended happy-path login analysis. However, the captured flow shows no interactions (about:blank only), so this scenario documents an incomplete login attempt with zero executable steps.",
+      "test_type": "e2e_authentication_workflow",
+      "priority": "critical",
+      "business_goal": "Analyze and document the login workflow based on captured exploration data; highlight that authentication did not proceed due to no captured interactions.",
+      "user_story": "As a registered user, I want to log in with my credentials so that I can access my account and authenticated features.",
+      "auth_required": false,
+      "detailed_steps": [],
+      "expected_results": [
+        "No authentication actions were executed (captured URLs are about:blank only).",
+        "Login workflow is incomplete; no navigation to https://zbio.openproject.com/login occurred.",
+        "No credential entry or form submission was performed.",
+        "This scenario serves as a failure/incomplete flow documentation for further investigation."
+      ],
+      "edge_cases_to_test": [
+        "Handling of initial navigation failures (page remains at about:blank).",
+        "Behavior when browser blocks navigation due to network or CSP issues.",
+        "Session initialization issues preventing page load.",
+        "Impact of multiple tabs/windows opening without navigation."
+      ],
+      "data_requirements": [
+        "Valid registered test user credentials (username/email and password).",
+        "Stable network connectivity to reach https://zbio.openproject.com/login.",
+        "Browser configuration allowing page navigation."
+      ],
+      "prerequisites": [
+        "Website is accessible and the login endpoint is available.",
+        "Test user account exists and is active.",
+        "No network/proxy restrictions that prevent navigation from about:blank."
+      ]
+    }
+  ],
+  "login_completion_state": "incomplete",
+  "analysis_timestamp": "2025-12-13T08:37:27.133411",
+  "confidence_score": 0.5,
+  "flow_type": "happy_path_only",
+  "excluded_scenarios": [],
+  "scenario_count": 1,
+  "focus": "failed_authentication_documented",
+  "generated_from": "login_analysis.json",
+  "generation_timestamp": "2025-12-13T08:37:27.134838",
+  "captured_selectors": []
+}

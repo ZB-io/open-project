@@ -1,0 +1,56 @@
+{
+  "metadata_version": "1.0",
+  "created_at": "2025-12-13T08:36:36.245389",
+  "last_updated": "2025-12-13T08:39:27.354433",
+  "Login_File": {
+    "name": "standard",
+    "path": null,
+    "hash": "dddec5f5f2cd412834edb794026cdbcbc2231c73610487147ef15e7b2c759ad8",
+    "agent_workflow_completed": false,
+    "agent_workflow_file_path": "/var/tmp/Roost/RoostGPT/open-project-board/f85bb3a1-bc03-4fc0-a16b-b37913760394/temp_info/zbio.openproject.com/extracted_data/login_result_dddec5f5f2cd412834edb794026cdbcbc2231c73610487147ef15e7b2c759ad8.json",
+    "agent_interaction_file_path": "/var/tmp/Roost/RoostGPT/open-project-board/f85bb3a1-bc03-4fc0-a16b-b37913760394/temp_info/zbio.openproject.com/extracted_data/login_data_6c93d30688e1116bc501c4453701461fa10e2edb8717149417d2e6c03bc79552.json",
+    "scenario_name": "login_analysis_happy_path",
+    "scenario_file_path": "scenarios/login_analysis_happy_path.json",
+    "test_generated": true,
+    "test_name": "login_analysis_happy_path.spec.js",
+    "test_file_path": "tests/login_analysis_happy_path.spec.js",
+    "test_executed_success": false,
+    "agent_activity_summary": [
+      "1. Agent launched the browser but did not navigate to the application; URL remained \"about:blank\".",
+      "2. Agent did not locate username or password fields; no interactions were recorded.",
+      "3. Agent did not enter credentials or attempt to submit the login form; session remained on \"about:blank\".",
+      "4. Agent ended the workflow without navigation, input, or clicks related to the login process."
+    ],
+    "agent_activity_error": [
+      "- Step 1: Navigation to the login page was not executed (URL remained \"about:blank\"). Without the application page loaded, the agent could not locate username/password fields. No recovery attempted.",
+      "- Step 2: No actionable elements present on \"about:blank\". Agent did not attempt alternative navigation or retry. No recovery attempted.",
+      "- Step 3: Still on \"about:blank\"; inputs and clicks were not possible. No recovery attempted.",
+      "- Step 4: Workflow concluded without performing any login-related actions. No recovery attempted."
+    ],
+    "agent_activity_outcome": [
+      "Task not completed. The agent did not perform the login and did not attempt core actions required by the scenario."
+    ],
+    "agent_recommendation": "- Configure and validate the target application login URL; add an explicit navigation step to the login page.\n- Add pre-checks to fail fast if the URL is \"about:blank\" or if the page fails to load.\n- Implement navigation retries with timeouts and page load assertions (e.g., wait for login form selectors).\n- Verify environment/network availability and that the application is accessible.\n- Ensure credentials are provided and mapped to the correct input selectors.\n- Capture console/network logs and screenshots on navigation failure to aid diagnosis.",
+    "test_execution_error": [
+      "Top-level Playwright errors (test setup/configuration issues):",
+      "",
+      "Error: ReferenceError: require is not defined in ES module scope, you can use import instead",
+      "Location: /var/tmp/Roost/RoostGPT/open-project-board/f85bb3a1-bc03-4fc0-a16b-b37913760394/source/open-project/generated_tests/zbio.openproject.com/playwright_tests/tests/login_analysis_happy_path.spec.js:3:1",
+      "Code snippet:",
+      "   at login_analysis_happy_path.spec.js:3",
+      "",
+      "  1 | import 'dotenv/config';",
+      "  2 | import { test, expect } from '@playwright/test';",
+      "> 3 | import fs from 'fs';",
+      "    | ^",
+      "  4 | import path from 'path';",
+      "  5 |",
+      "  6 | const __dirname = path.dirname(new URL(import.meta.url).pathname);",
+      "",
+      "Error: Error: No tests found.",
+      "Make sure that arguments are regular expressions matching test files.",
+      "You may need to escape symbols like \"$\" or \"*\" and quote the arguments."
+    ]
+  },
+  "User_Scenarios_File": []
+}
