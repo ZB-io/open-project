@@ -1,0 +1,258 @@
+{
+  "site_url": "https://zbio.openproject.com/login",
+  "site_type": "login_workflow",
+  "site_category": "authentication",
+  "test_name": "login_analysis_happy_path",
+  "login_mechanisms": [
+    "form_login"
+  ],
+  "user_journeys": [],
+  "proposed_scenarios": [
+    {
+      "scenario_name": "login_analysis_happy_path",
+      "test_name": "login_analysis_happy_path",
+      "test_type": "e2e_authentication_workflow",
+      "auth_required": false,
+      "detailed_steps": [
+        {
+          "step_number": 1,
+          "action": "navigate",
+          "description": "Navigate to the OpenProject login page.",
+          "expected_page_url": "https://zbio.openproject.com/login",
+          "verification_point": "Page URL is the login page.",
+          "based_on_interaction": false
+        },
+        {
+          "step_number": 2,
+          "action": "input_text",
+          "description": "Enter the username into the username field.",
+          "selector": "page.getByRole('textbox', { name: 'Username*' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('textbox', { name: 'Username*' })",
+              "strategy": "roost_primary",
+              "confidence": 99,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique",
+              "source": "roost-primary-selector"
+            },
+            {
+              "selector": "page.locator('form[action*=\"login\"]').getByRole('textbox', { name: 'Username' })",
+              "strategy": "form_action_role",
+              "confidence": 97,
+              "element_count": 2,
+              "is_unique": false,
+              "target_index": 1,
+              "tier": "near_unique",
+              "warning": "Matches 2 elements",
+              "selector_with_index": "page.locator('form[action*=\"login\"]').getByRole('textbox', { name: 'Username' }) >> nth=1"
+            },
+            {
+              "selector": "page.getByRole('textbox', { name: 'Username' })",
+              "strategy": "role_name",
+              "confidence": 95,
+              "element_count": 3,
+              "is_unique": false,
+              "target_index": 1,
+              "tier": "near_unique",
+              "warning": "Matches 3 elements",
+              "selector_with_index": "page.getByRole('textbox', { name: 'Username' }) >> nth=1"
+            },
+            {
+              "selector": "page.getByLabel('Username')",
+              "strategy": "label_text",
+              "confidence": 93,
+              "element_count": 3,
+              "is_unique": false,
+              "target_index": 1,
+              "tier": "near_unique",
+              "warning": "Matches 3 elements",
+              "selector_with_index": "page.getByLabel('Username') >> nth=1"
+            },
+            {
+              "selector": "page.locator('#username')",
+              "strategy": "id",
+              "confidence": 75,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            }
+          ],
+          "expected_page_url": "https://zbio.openproject.com/login",
+          "confidence": 99,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 3,
+          "action": "input_text",
+          "description": "Enter the password into the password field.",
+          "selector": "page.getByRole('textbox', { name: 'Password*' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('textbox', { name: 'Password*' })",
+              "strategy": "roost_primary",
+              "confidence": 99,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique",
+              "source": "roost-primary-selector"
+            },
+            {
+              "selector": "page.locator('form[action*=\"login\"]').getByRole('textbox', { name: 'Password' })",
+              "strategy": "form_action_role",
+              "confidence": 97,
+              "element_count": 2,
+              "is_unique": false,
+              "target_index": 1,
+              "tier": "near_unique",
+              "warning": "Matches 2 elements",
+              "selector_with_index": "page.locator('form[action*=\"login\"]').getByRole('textbox', { name: 'Password' }) >> nth=1"
+            },
+            {
+              "selector": "page.getByRole('textbox', { name: 'Password' })",
+              "strategy": "role_name",
+              "confidence": 95,
+              "element_count": 3,
+              "is_unique": false,
+              "target_index": 1,
+              "tier": "near_unique",
+              "warning": "Matches 3 elements",
+              "selector_with_index": "page.getByRole('textbox', { name: 'Password' }) >> nth=1"
+            },
+            {
+              "selector": "page.getByLabel('Password')",
+              "strategy": "label_text",
+              "confidence": 93,
+              "element_count": 3,
+              "is_unique": false,
+              "target_index": 1,
+              "tier": "near_unique",
+              "warning": "Matches 3 elements",
+              "selector_with_index": "page.getByLabel('Password') >> nth=1"
+            },
+            {
+              "selector": "page.locator('#password')",
+              "strategy": "id",
+              "confidence": 75,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            }
+          ],
+          "expected_page_url": "https://zbio.openproject.com/login",
+          "confidence": 99,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 4,
+          "action": "click",
+          "description": "Click the 'Sign in' button to submit credentials.",
+          "selector": "page.locator('#login-form').getByRole('button', { name: 'Sign in' })",
+          "all_selectors": [
+            {
+              "selector": "page.locator('#login-form').getByRole('button', { name: 'Sign in' })",
+              "strategy": "roost_primary",
+              "confidence": 99,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique",
+              "source": "roost-primary-selector"
+            },
+            {
+              "selector": "page.locator('form[action*=\"login\"]').getByRole('button', { name: /Sign in/ })",
+              "strategy": "form_action_role_regex",
+              "confidence": 97,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            },
+            {
+              "selector": "page.getByRole('button', { name: /Sign in/ })",
+              "strategy": "role_name_regex",
+              "confidence": 95,
+              "element_count": 2,
+              "is_unique": false,
+              "target_index": 9,
+              "tier": "near_unique",
+              "warning": "Matches 2 elements",
+              "selector_with_index": "page.getByRole('button', { name: /Sign in/ }) >> nth=9"
+            },
+            {
+              "selector": "page.locator('input[value=\"Sign in\"]')",
+              "strategy": "css_tag_value",
+              "confidence": 89,
+              "element_count": 2,
+              "is_unique": false,
+              "target_index": 1,
+              "tier": "near_unique",
+              "warning": "Matches 2 elements",
+              "selector_with_index": "page.locator('input[value=\"Sign in\"]') >> nth=1"
+            },
+            {
+              "selector": "page.locator('input[data-controller=\"disable-when-clicked\"]')",
+              "strategy": "data_attr_controller",
+              "confidence": 85,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            }
+          ],
+          "expected_page_url": "https://zbio.openproject.com/login",
+          "confidence": 99,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 5,
+          "action": "verify_url",
+          "description": "Verify successful login by confirming the URL has changed to the main application page.",
+          "expected_page_url": "https://zbio.openproject.com/",
+          "verification_point": "Page URL is the authenticated homepage.",
+          "based_on_interaction": false
+        }
+      ]
+    }
+  ],
+  "login_completion_state": "successful",
+  "analysis_timestamp": "2025-12-13T06:55:39.186530",
+  "confidence_score": 1.0,
+  "flow_type": "happy_path_only",
+  "excluded_scenarios": [],
+  "scenario_count": 1,
+  "focus": "successful_authentication_only",
+  "generated_from": "login_analysis.json",
+  "generation_timestamp": "2025-12-13T06:55:39.188620",
+  "captured_selectors": [
+    {
+      "selector": "page.getByRole('textbox', { name: 'Username*' })",
+      "confidence": 99,
+      "action": "input",
+      "element": "<input> ''",
+      "url": "https://zbio.openproject.com/login",
+      "timestamp": "2025-12-13T06:53:52.602367"
+    },
+    {
+      "selector": "page.getByRole('textbox', { name: 'Password*' })",
+      "confidence": 99,
+      "action": "input",
+      "element": "<input> ''",
+      "url": "https://zbio.openproject.com/login",
+      "timestamp": "2025-12-13T06:54:02.415913"
+    },
+    {
+      "selector": "page.locator('#login-form').getByRole('button', { name: 'Sign in' })",
+      "confidence": 99,
+      "action": "click",
+      "element": "<input> ''",
+      "url": "https://zbio.openproject.com/login",
+      "timestamp": "2025-12-13T06:54:11.343551"
+    }
+  ]
+}
