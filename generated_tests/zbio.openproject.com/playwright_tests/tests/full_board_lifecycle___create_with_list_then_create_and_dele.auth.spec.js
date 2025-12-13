@@ -58,7 +58,7 @@ test('Full Board Lifecycle - Create with List, then Create and Delete a Second B
   // Step 7: Enter a name for the new list
   // Captured selectors:
   //   1. page.getByRole('textbox', { name: 'Click to edit title of this' }).nth(2) (confidence: 99%, strategy: roost_primary, unique: true)
-  const listNameInput = page.getByRole('textbox', { name: 'Click to edit title of this' }).last();
+  const listNameInput = page.getByRole('textbox', { name: 'Click to edit title of this' }).nth(2);
   await listNameInput.fill(listName);
   await listNameInput.press('Enter'); // Press Enter to confirm the list name
 
@@ -90,6 +90,7 @@ test('Full Board Lifecycle - Create with List, then Create and Delete a Second B
   //   1. page.locator('#content-body').getByRole('link', { name: 'Boards' }) (confidence: 99%, strategy: roost_primary, unique: true)
   await page.locator('#content-body').getByRole('link', { name: 'Boards' }).click();
   await page.waitForURL(`${BASE_HOST_URL}/projects/demo-project/boards`);
+  await page.goto(`${BASE_HOST_URL}/projects/demo-project/boards?page=1&per_page=100`);
 
   // Step 13: Locate and delete the second board
   // This step requires handling a confirmation dialog
@@ -104,7 +105,8 @@ test('Full Board Lifecycle - Create with List, then Create and Delete a Second B
 
   // Step 14: Verification
   // Wait for the page to reload after deletion
-  await page.waitForURL(`${BASE_HOST_URL}/projects/demo-project/boards`);
+  await page.waitForURL(new RegExp(`${BASE_HOST_URL}/projects/demo-project/boards`));
+  await page.goto(`${BASE_HOST_URL}/projects/demo-project/boards?page=1&per_page=100`);
   await page.waitForLoadState('networkidle');
 
   // Verify the second board is no longer visible
