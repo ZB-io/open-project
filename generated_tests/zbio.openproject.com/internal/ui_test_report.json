@@ -1,0 +1,20 @@
+{
+    "login_scenario": "Skipped",
+    "workflow_completed": false,
+    "workflow_result": "FAIL",
+    "workflow_error": "",
+    "login_agent_activity_summary": "Not available",
+    "user_scenario_agent_activity_summary": "Not available",
+    "generated_files": {
+        "feature_files": [],
+        "json_files": []
+    },
+    "scenarios": {},
+    "login_analysis_happy_path": {
+        "testFilePath": "zbio.openproject.com/playwright_tests/tests/login_analysis_happy_path.spec.js",
+        "auth_required": false,
+        "iterations_used": 3,
+        "final_status": "fail",
+        "error_summary": "Top-level Playwright errors (test setup/configuration issues):\n\nError: ReferenceError: require is not defined in ES module scope, you can use import instead\nLocation: /var/tmp/Roost/RoostGPT/open-project-board/f85bb3a1-bc03-4fc0-a16b-b37913760394/source/open-project/generated_tests/zbio.openproject.com/playwright_tests/tests/login_analysis_happy_path.spec.js:3:1\nCode snippet:\n   at login_analysis_happy_path.spec.js:3\n\n  1 | import 'dotenv/config';\n  2 | import { test, expect } from '@playwright/test';\n> 3 | import fs from 'fs';\n    | ^\n  4 | import path from 'path';\n  5 |\n  6 | const __dirname = path.dirname(new URL(import.meta.url).pathname);\n\nError: Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."
+    }
+}
