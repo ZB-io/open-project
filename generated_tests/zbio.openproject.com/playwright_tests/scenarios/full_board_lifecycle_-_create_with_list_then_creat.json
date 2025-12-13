@@ -1,0 +1,810 @@
+{
+  "site_url": "https://zbio.openproject.com/projects/demo-project",
+  "site_type": "unknown",
+  "site_category": "general",
+  "test_name": "full_board_lifecycle_-_create_with_list_then_create_and_dele",
+  "login_mechanisms": [
+    "content_browsing",
+    "site_navigation"
+  ],
+  "user_journeys": [
+    {
+      "workflow_type": "navigation_flow",
+      "path": [
+        "projects"
+      ],
+      "success_rate": "discovered_site_navigation",
+      "scenario_priority": "medium",
+      "description": "General website navigation and content discovery"
+    }
+  ],
+  "proposed_scenarios": [
+    {
+      "scenario_name": "Discovered Workflow: Full Board Lifecycle - Create with List, then Create and Delete a Second Board",
+      "description": "This end-to-end scenario validates the complete lifecycle of project boards by following the exact path taken by the agent. It includes creating a board, adding a list, returning to the main view, creating a second board, and then deleting the second board to ensure all core CRUD operations function correctly.",
+      "test_type": "e2e_business_workflow",
+      "priority": "critical",
+      "business_goal": "Verify that users can reliably create, populate, and delete boards, ensuring the fundamental functionality of the project management module is stable.",
+      "user_story": "As a project manager, I want to create boards to track different project phases, add task lists to them, and remove obsolete boards, so that I can maintain an organized and up-to-date project overview.",
+      "detailed_steps": [
+        {
+          "step_number": 1,
+          "action": "Navigate to website homepage",
+          "description": "Load the main project page to begin the test.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project",
+          "verification_point": "Page URL is the project's main dashboard.",
+          "business_impact": "Ensures the application's entry point is accessible.",
+          "selector": "page.goto('https://zbio.openproject.com/projects/demo-project')",
+          "confidence": 100,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 2,
+          "action": "click",
+          "description": "Navigate to the 'Boards' section from the side menu.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/boards",
+          "verification_point": "Page URL changes to the boards overview page.",
+          "business_impact": "Verifies that users can access the core Boards feature.",
+          "selector": "page.getByRole('link', { name: 'Boards' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('link', { name: 'Boards' })",
+              "strategy": "roost_primary",
+              "confidence": 99
+            },
+            {
+              "selector": "page.getByRole('link', { name: 'Boards' })",
+              "strategy": "role_name",
+              "confidence": 95
+            },
+            {
+              "selector": "page.locator('#boards-wrapper').getByRole('link', { name: 'Boards' })",
+              "strategy": "parent_id_role",
+              "confidence": 82
+            },
+            {
+              "selector": "page.locator('a.boards-menu-item')",
+              "strategy": "css_stable_class",
+              "confidence": 78
+            },
+            {
+              "selector": "page.locator('a').filter({ hasText: /^Boards$/ })",
+              "strategy": "link_filter_exact",
+              "confidence": 74
+            },
+            {
+              "selector": "page.locator('a').filter({ hasText: 'Boards' })",
+              "strategy": "tag_filter_text",
+              "confidence": 69
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/div[1]/div/ul/li[5]/div[1]/a')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 3,
+          "action": "click",
+          "description": "Click the 'Create new board' button to start the board creation process.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/boards/new",
+          "verification_point": "Page navigates to the new board creation form.",
+          "business_impact": "Initiates the primary workflow for creating a new board.",
+          "selector": "page.getByRole('link', { name: 'Create new board' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('link', { name: 'Create new board' })",
+              "strategy": "roost_primary",
+              "confidence": 99
+            },
+            {
+              "selector": "page.getByRole('link', { name: /Create new board/ })",
+              "strategy": "aria_label_regex",
+              "confidence": 96
+            },
+            {
+              "selector": "page.getByRole('link', { name: /Create new board/ })",
+              "strategy": "role_name_regex",
+              "confidence": 95
+            },
+            {
+              "selector": "page.locator('#content-body').getByRole('link', { name: 'Create new board' })",
+              "strategy": "parent_id_role",
+              "confidence": 82
+            },
+            {
+              "selector": "page.locator('a.Button.Button')",
+              "strategy": "css_combined_classes",
+              "confidence": 65
+            },
+            {
+              "selector": "page.locator('a.Button')",
+              "strategy": "css_stable_class",
+              "confidence": 63
+            },
+            {
+              "selector": "page.locator('#add-board-button')",
+              "strategy": "id",
+              "confidence": 75
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/sub-header/div[3]/a[1]')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 4,
+          "action": "input_text",
+          "description": "Enter a name for the new board in the 'Title' field.",
+          "input_value": "Automated board <uuid4>",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/boards/new",
+          "verification_point": "The title field is populated with the specified board name.",
+          "business_impact": "Defines the identity of the new board being created.",
+          "selector": "page.getByRole('textbox', { name: 'Title*' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('textbox', { name: 'Title*' })",
+              "strategy": "roost_primary",
+              "confidence": 99
+            },
+            {
+              "selector": "page.locator('form[action*=\"boards\"]').getByRole('textbox', { name: 'Title' })",
+              "strategy": "form_action_role",
+              "confidence": 97
+            },
+            {
+              "selector": "page.locator('form#board-form').getByRole('textbox', { name: 'Title' })",
+              "strategy": "form_id_role",
+              "confidence": 96
+            },
+            {
+              "selector": "page.getByRole('textbox', { name: 'Title' })",
+              "strategy": "role_name",
+              "confidence": 95
+            },
+            {
+              "selector": "page.getByLabel('Title')",
+              "strategy": "label_text",
+              "confidence": 93
+            },
+            {
+              "selector": "page.getByLabel('Title', { exact: true })",
+              "strategy": "label_text_exact",
+              "confidence": 92
+            },
+            {
+              "selector": "page.getByLabel('Title')",
+              "strategy": "label",
+              "confidence": 90
+            },
+            {
+              "selector": "page.locator('input[type=\"text\"][name=\"boards_grid[name]\"]')",
+              "strategy": "css_combined",
+              "confidence": 89
+            },
+            {
+              "selector": "page.locator('input[name=\"boards_grid[name]\"]')",
+              "strategy": "name_attribute",
+              "confidence": 87
+            },
+            {
+              "selector": "page.locator('#board-form').getByRole('textbox', { name: 'Title' })",
+              "strategy": "parent_id_role",
+              "confidence": 82
+            },
+            {
+              "selector": "page.locator('#boards_grid_name')",
+              "strategy": "id",
+              "confidence": 75
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/form/section/div[1]/span/span/input')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 5,
+          "action": "click",
+          "description": "Click the 'Create' button to finalize the creation of the first board.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/boards/131",
+          "verification_point": "Page navigates to the newly created board's view.",
+          "business_impact": "Completes the board creation process.",
+          "selector": "page.getByRole('button', { name: 'Create' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('button', { name: 'Create' })",
+              "strategy": "roost_primary",
+              "confidence": 99
+            },
+            {
+              "selector": "page.locator('form[action*=\"boards\"]').getByRole('button', { name: 'Create' })",
+              "strategy": "form_action_role",
+              "confidence": 97
+            },
+            {
+              "selector": "page.locator('form#board-form').getByRole('button', { name: 'Create' })",
+              "strategy": "form_id_role",
+              "confidence": 96
+            },
+            {
+              "selector": "page.getByRole('button', { name: 'Create' })",
+              "strategy": "role_name",
+              "confidence": 95
+            },
+            {
+              "selector": "page.getByText('Create')",
+              "strategy": "text",
+              "confidence": 88
+            },
+            {
+              "selector": "page.locator('#board-form').getByRole('button', { name: 'Create' })",
+              "strategy": "parent_id_role",
+              "confidence": 82
+            },
+            {
+              "selector": "page.locator('button.-primary.button')",
+              "strategy": "css_combined_classes",
+              "confidence": 80
+            },
+            {
+              "selector": "page.locator('button.-primary')",
+              "strategy": "css_stable_class",
+              "confidence": 78
+            },
+            {
+              "selector": "page.locator('button, input[type=\"submit\"], input[type=\"button\"]').filter({ hasText: /^Create$/ })",
+              "strategy": "button_filter_exact",
+              "confidence": 75
+            },
+            {
+              "selector": "page.locator('button').filter({ hasText: 'Create' })",
+              "strategy": "tag_filter_text",
+              "confidence": 69
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/form/button')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 6,
+          "action": "click",
+          "description": "Click the 'Add list to board' button to add a new column/list.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/boards/131",
+          "verification_point": "An input field appears to name the new list.",
+          "business_impact": "Allows users to structure and organize tasks within a board.",
+          "selector": "page.getByText('Add list to board')",
+          "all_selectors": [
+            {
+              "selector": "page.getByText('Add list to board')",
+              "strategy": "roost_primary",
+              "confidence": 99
+            },
+            {
+              "selector": "page.getByText('Add list to board')",
+              "strategy": "text",
+              "confidence": 88
+            },
+            {
+              "selector": "page.getByText('board', { exact: true })",
+              "strategy": "text_exact_extracted",
+              "confidence": 80
+            },
+            {
+              "selector": "page.locator('#cdk-drop-list-0').locator('span')",
+              "strategy": "parent_id_tag",
+              "confidence": 78
+            },
+            {
+              "selector": "page.locator('span').filter({ hasText: 'Add list to board' })",
+              "strategy": "tag_filter_text",
+              "confidence": 69
+            },
+            {
+              "selector": "page.locator('span').filter({ hasText: /^Add list to board$/ })",
+              "strategy": "tag_filter_exact",
+              "confidence": 67
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/openproject-base/div/ui-view/openproject-base/div/ui-view/boards-entry/ui-view/ng-component/div/div[3]/div[1]/ng-component/div/div[2]/div/span')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 7,
+          "action": "input_text",
+          "description": "Enter a name for the new list.",
+          "input_value": "Automated List <rand4>",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/boards/131",
+          "verification_point": "The new list is created and named correctly.",
+          "business_impact": "Completes the process of adding an organizational column to the board.",
+          "selector": "page.getByRole('textbox', { name: 'Click to edit title of this' }).nth(2)",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('textbox', { name: 'Click to edit title of this' }).nth(2)",
+              "strategy": "roost_primary",
+              "confidence": 99
+            },
+            {
+              "selector": "page.locator('input[type=\"text\"][name=\"editable-toolbar-title\"]')",
+              "strategy": "css_combined",
+              "confidence": 89
+            },
+            {
+              "selector": "page.locator('input[name=\"editable-toolbar-title\"]')",
+              "strategy": "name_attribute",
+              "confidence": 87
+            },
+            {
+              "selector": "page.getByPlaceholder('Name of this view')",
+              "strategy": "placeholder",
+              "confidence": 85
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/openproject-base/div/ui-view/openproject-base/div/ui-view/boards-entry/ui-view/ng-component/div/div[3]/div[1]/ng-component/div/div[2]/board-list/div/div[1]/h3/editable-toolbar-title/div/input')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 8,
+          "action": "click",
+          "description": "Return to the main 'Boards' page using the breadcrumb navigation.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/boards",
+          "verification_point": "Page navigates back to the boards overview.",
+          "business_impact": "Confirms navigation away from a specific board is functional.",
+          "selector": "page.locator('#content-body').getByRole('link', { name: 'Boards' })",
+          "all_selectors": [
+            {
+              "selector": "page.locator('#content-body').getByRole('link', { name: 'Boards' })",
+              "strategy": "roost_primary",
+              "confidence": 99
+            },
+            {
+              "selector": "page.getByRole('link', { name: 'Boards' })",
+              "strategy": "role_name",
+              "confidence": 85
+            },
+            {
+              "selector": "page.getByText('Boards')",
+              "strategy": "text",
+              "confidence": 78
+            },
+            {
+              "selector": "page.locator('a').filter({ hasText: /^Boards$/ })",
+              "strategy": "link_filter_exact",
+              "confidence": 74
+            },
+            {
+              "selector": "page.locator('a').filter({ hasText: 'Boards' })",
+              "strategy": "tag_filter_text",
+              "confidence": 59
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/openproject-base/div/ui-view/openproject-base/div/ui-view/boards-entry/ui-view/ng-component/div/op-breadcrumbs/div/nav[1]/ol/li[3]/a')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 9,
+          "action": "click",
+          "description": "Click 'Create new board' again to create a second board for the deletion test.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/boards/new",
+          "verification_point": "Page navigates to the new board creation form.",
+          "business_impact": "Initiates the creation of a second board to test deletion.",
+          "selector": "page.getByRole('link', { name: 'Create new board' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('link', { name: 'Create new board' })",
+              "strategy": "roost_primary",
+              "confidence": 99
+            },
+            {
+              "selector": "page.getByRole('link', { name: /Create new board/ })",
+              "strategy": "aria_label_regex",
+              "confidence": 96
+            },
+            {
+              "selector": "page.getByRole('link', { name: /Create new board/ })",
+              "strategy": "role_name_regex",
+              "confidence": 95
+            },
+            {
+              "selector": "page.locator('#content-body').getByRole('link', { name: 'Create new board' })",
+              "strategy": "parent_id_role",
+              "confidence": 82
+            },
+            {
+              "selector": "page.locator('a.Button.Button')",
+              "strategy": "css_combined_classes",
+              "confidence": 65
+            },
+            {
+              "selector": "page.locator('a.Button')",
+              "strategy": "css_stable_class",
+              "confidence": 63
+            },
+            {
+              "selector": "page.locator('#add-board-button')",
+              "strategy": "id",
+              "confidence": 75
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/sub-header/div[3]/a[1]')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 10,
+          "action": "input_text",
+          "description": "Enter a name for the second board in the 'Title' field.",
+          "input_value": "Automated board for deletion <uuid4>",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/boards/new",
+          "verification_point": "The title field is populated with the second board's name.",
+          "business_impact": "Defines the identity of the board that will be deleted.",
+          "selector": "page.getByRole('textbox', { name: 'Title*' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('textbox', { name: 'Title*' })",
+              "strategy": "roost_primary",
+              "confidence": 99
+            },
+            {
+              "selector": "page.locator('form[action*=\"boards\"]').getByRole('textbox', { name: 'Title' })",
+              "strategy": "form_action_role",
+              "confidence": 97
+            },
+            {
+              "selector": "page.locator('form#board-form').getByRole('textbox', { name: 'Title' })",
+              "strategy": "form_id_role",
+              "confidence": 96
+            },
+            {
+              "selector": "page.getByRole('textbox', { name: 'Title' })",
+              "strategy": "role_name",
+              "confidence": 95
+            },
+            {
+              "selector": "page.getByLabel('Title')",
+              "strategy": "label_text",
+              "confidence": 93
+            },
+            {
+              "selector": "page.getByLabel('Title', { exact: true })",
+              "strategy": "label_text_exact",
+              "confidence": 92
+            },
+            {
+              "selector": "page.getByLabel('Title')",
+              "strategy": "label",
+              "confidence": 90
+            },
+            {
+              "selector": "page.locator('input[type=\"text\"][name=\"boards_grid[name]\"]')",
+              "strategy": "css_combined",
+              "confidence": 89
+            },
+            {
+              "selector": "page.locator('input[name=\"boards_grid[name]\"]')",
+              "strategy": "name_attribute",
+              "confidence": 87
+            },
+            {
+              "selector": "page.locator('#board-form').getByRole('textbox', { name: 'Title' })",
+              "strategy": "parent_id_role",
+              "confidence": 82
+            },
+            {
+              "selector": "page.locator('#boards_grid_name')",
+              "strategy": "id",
+              "confidence": 75
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/form/section/div[1]/span/span/input')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 11,
+          "action": "click",
+          "description": "Click the 'Create' button to finalize the creation of the second board.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/boards/132",
+          "verification_point": "Page navigates to the second newly created board's view.",
+          "business_impact": "Completes the setup for the deletion test.",
+          "selector": "page.getByRole('button', { name: 'Create' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('button', { name: 'Create' })",
+              "strategy": "roost_primary",
+              "confidence": 99
+            },
+            {
+              "selector": "page.locator('form[action*=\"boards\"]').getByRole('button', { name: 'Create' })",
+              "strategy": "form_action_role",
+              "confidence": 97
+            },
+            {
+              "selector": "page.locator('form#board-form').getByRole('button', { name: 'Create' })",
+              "strategy": "form_id_role",
+              "confidence": 96
+            },
+            {
+              "selector": "page.getByRole('button', { name: 'Create' })",
+              "strategy": "role_name",
+              "confidence": 95
+            },
+            {
+              "selector": "page.getByText('Create')",
+              "strategy": "text",
+              "confidence": 88
+            },
+            {
+              "selector": "page.locator('#board-form').getByRole('button', { name: 'Create' })",
+              "strategy": "parent_id_role",
+              "confidence": 82
+            },
+            {
+              "selector": "page.locator('button.-primary.button')",
+              "strategy": "css_combined_classes",
+              "confidence": 80
+            },
+            {
+              "selector": "page.locator('button.-primary')",
+              "strategy": "css_stable_class",
+              "confidence": 78
+            },
+            {
+              "selector": "page.locator('button, input[type=\"submit\"], input[type=\"button\"]').filter({ hasText: /^Create$/ })",
+              "strategy": "button_filter_exact",
+              "confidence": 75
+            },
+            {
+              "selector": "page.locator('button').filter({ hasText: 'Create' })",
+              "strategy": "tag_filter_text",
+              "confidence": 69
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/form/button')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 12,
+          "action": "click",
+          "description": "Return to the main 'Boards' page again to locate the board for deletion.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/boards",
+          "verification_point": "Page navigates back to the boards overview.",
+          "business_impact": "Positions the user to perform the deletion action.",
+          "selector": "page.locator('#content-body').getByRole('link', { name: 'Boards' })",
+          "all_selectors": [
+            {
+              "selector": "page.locator('#content-body').getByRole('link', { name: 'Boards' })",
+              "strategy": "roost_primary",
+              "confidence": 99
+            },
+            {
+              "selector": "page.getByRole('link', { name: 'Boards' })",
+              "strategy": "role_name",
+              "confidence": 85
+            },
+            {
+              "selector": "page.getByText('Boards')",
+              "strategy": "text",
+              "confidence": 78
+            },
+            {
+              "selector": "page.locator('a').filter({ hasText: /^Boards$/ })",
+              "strategy": "link_filter_exact",
+              "confidence": 74
+            },
+            {
+              "selector": "page.locator('a').filter({ hasText: 'Boards' })",
+              "strategy": "tag_filter_text",
+              "confidence": 59
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/openproject-base/div/ui-view/openproject-base/div/ui-view/boards-entry/ui-view/ng-component/div/op-breadcrumbs/div/nav[1]/ol/li[3]/a')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 13,
+          "action": "click",
+          "description": "Locate the second newly created board in the list and click the delete icon.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/boards/",
+          "verification_point": "The board is removed from the list and the page reloads.",
+          "business_impact": "Validates the critical functionality of deleting a board.",
+          "selector": "page.getByRole('row', { name: 'Automated board 1765553595317' }).getByRole('link').nth(1)",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('row', { name: 'Automated board 1765553595317' }).getByRole('link').nth(1)",
+              "strategy": "roost_primary",
+              "confidence": 99
+            },
+            {
+              "selector": "page.locator('a.icon-delete[href*=\"/boards/121\"]')",
+              "strategy": "css_class_href_combined",
+              "confidence": 88
+            },
+            {
+              "selector": "page.locator('a[href*=\"121\"]')",
+              "strategy": "href_relative",
+              "confidence": 79
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/div[1]/div/table/tbody/tr[20]/td[4]/a')",
+              "strategy": "xpath",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 14,
+          "action": "Verification",
+          "description": "Verify that the user is on the Boards page and the second board is no longer visible.",
+          "expected_page_url": "https://zbio.openproject.com/projects/demo-project/boards/",
+          "verification_point": "Page URL confirms return to boards list, and deleted board is absent.",
+          "business_impact": "Confirms the deletion was successful and the UI reflects the change.",
+          "confidence": 100,
+          "based_on_interaction": false
+        }
+      ],
+      "expected_results": [
+        "User successfully creates a board and adds a list.",
+        "User successfully creates a second board.",
+        "User successfully deletes the second board.",
+        "The first board remains on the boards page after the second is deleted.",
+        "The application remains stable throughout the entire CRUD lifecycle."
+      ],
+      "edge_cases_to_test": [
+        "Attempting to delete a board with active tasks or lists.",
+        "Network interruption during the creation or deletion process.",
+        "Permissions issues related to creating or deleting boards.",
+        "Creating boards with duplicate names or special characters."
+      ],
+      "data_requirements": [
+        "A valid, authenticated user account with permissions to create and delete boards in the 'demo-project'.",
+        "Unique names for boards and lists to avoid conflicts, potentially using timestamps or UUIDs."
+      ],
+      "prerequisites": [
+        "The OpenProject instance at zbio.openproject.com is online and accessible.",
+        "The 'demo-project' exists and is enabled for the test user.",
+        "The user is authenticated before the scenario begins."
+      ],
+      "auth_required": true,
+      "starting_url": "https://zbio.openproject.com/projects/demo-project"
+    }
+  ],
+  "login_completion_state": "successful",
+  "analysis_timestamp": "2025-12-13T09:35:37.017819",
+  "confidence_score": 0.5,
+  "captured_selectors": [
+    {
+      "selector": "page.getByRole('link', { name: 'Boards' })",
+      "confidence": 99,
+      "action": "click",
+      "input_value": "\n    \nBoards",
+      "element": "<a> '\n    \nBoards'",
+      "url": "https://zbio.openproject.com/projects/demo-project",
+      "timestamp": "2025-12-13T09:28:38.606127"
+    },
+    {
+      "selector": "page.getByTitle('You are here: Boards')",
+      "confidence": 99,
+      "action": "click",
+      "input_value": "\n    \nBoards",
+      "element": "<a> '\n    \nBoards'",
+      "url": "https://zbio.openproject.com/projects/demo-project/boards/",
+      "timestamp": "2025-12-13T09:28:53.005346"
+    },
+    {
+      "selector": "page.getByRole('link', { name: 'Create new board' })",
+      "confidence": 99,
+      "action": "click",
+      "input_value": "  \n      \n        \n    \n\n      \n    Board\n  \n",
+      "element": "<a> '  \n      \n        \n    \n\n     '",
+      "url": "https://zbio.openproject.com/projects/demo-project/boards/",
+      "timestamp": "2025-12-13T09:29:20.065298"
+    },
+    {
+      "selector": "page.getByRole('textbox', { name: 'Title*' })",
+      "confidence": 99,
+      "action": "input",
+      "input_value": "",
+      "element": "<input> ''",
+      "url": "https://zbio.openproject.com/projects/demo-project/boards/new",
+      "timestamp": "2025-12-13T09:29:38.052179"
+    },
+    {
+      "selector": "page.getByRole('button', { name: 'Create' })",
+      "confidence": 99,
+      "action": "click",
+      "input_value": "Create",
+      "element": "<button> 'Create'",
+      "url": "https://zbio.openproject.com/projects/demo-project/boards/new",
+      "timestamp": "2025-12-13T09:29:45.451179"
+    },
+    {
+      "selector": "page.getByText('Add list to board')",
+      "confidence": 99,
+      "action": "click",
+      "input_value": "Add list to board",
+      "element": "<span> 'Add list to board'",
+      "url": "https://zbio.openproject.com/projects/demo-project/boards/131",
+      "timestamp": "2025-12-13T09:30:19.214328"
+    },
+    {
+      "selector": "page.getByRole('textbox', { name: 'Click to edit title of this' }).nth(2)",
+      "confidence": 99,
+      "action": "input",
+      "input_value": "Unnamed list",
+      "element": "<input> ''",
+      "url": "https://zbio.openproject.com/projects/demo-project/boards/131",
+      "timestamp": "2025-12-13T09:30:37.171881"
+    },
+    {
+      "selector": "page.locator('#content-body').getByRole('link', { name: 'Boards' })",
+      "confidence": 99,
+      "action": "click",
+      "input_value": "Boards",
+      "element": "<a> 'Boards'",
+      "url": "https://zbio.openproject.com/projects/demo-project/boards/131",
+      "timestamp": "2025-12-13T09:30:52.463405"
+    },
+    {
+      "selector": "page.getByRole('row', { name: 'Automated board 1765553595317' }).getByRole('link').nth(1)",
+      "confidence": 99,
+      "action": "click",
+      "input_value": "",
+      "element": "<a> ''",
+      "url": "https://zbio.openproject.com/projects/demo-project/boards/",
+      "timestamp": "2025-12-13T09:32:51.114727"
+    }
+  ],
+  "auth_required": true,
+  "starting_url": "https://zbio.openproject.com/projects/demo-project"
+}
