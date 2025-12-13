@@ -1,0 +1,702 @@
+[
+  {
+    "index": 4741,
+    "element": "<input> ''",
+    "action": "input",
+    "selector": "page.getByRole('textbox', { name: 'Username*' })",
+    "confidence": 99,
+    "input_value": "",
+    "url": "https://zbio.openproject.com/login?back_url=https%3A%2F%2Fzbio.openproject.com%2F",
+    "timestamp": "2025-12-13T06:57:32.081176",
+    "tag_name": "input",
+    "text_content": "",
+    "accessible_name": "Username",
+    "role": "textbox",
+    "viable_selectors": [
+      {
+        "selector": "page.getByRole('textbox', { name: 'Username*' })",
+        "strategy": "roost_primary",
+        "confidence": 99,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique",
+        "source": "roost-primary-selector"
+      },
+      {
+        "selector": "page.locator('form[action*=\"login\"]').getByRole('textbox', { name: 'Username' })",
+        "strategy": "form_action_role",
+        "confidence": 97,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('form[action*=\"login\"]').getByRole('textbox', { name: 'Username' }) >> nth=1"
+      },
+      {
+        "selector": "page.getByRole('textbox', { name: 'Username' })",
+        "strategy": "role_name",
+        "confidence": 95,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.getByRole('textbox', { name: 'Username' }) >> nth=1"
+      },
+      {
+        "selector": "page.getByLabel('Username')",
+        "strategy": "label_text",
+        "confidence": 93,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.getByLabel('Username') >> nth=1"
+      },
+      {
+        "selector": "page.getByLabel('Username', { exact: true })",
+        "strategy": "label_text_exact",
+        "confidence": 92,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.getByLabel('Username', { exact: true }) >> nth=1"
+      },
+      {
+        "selector": "page.getByLabel('Username')",
+        "strategy": "label",
+        "confidence": 90,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.getByLabel('Username') >> nth=1"
+      },
+      {
+        "selector": "page.locator('input[type=\"text\"][name=\"username\"]')",
+        "strategy": "css_combined",
+        "confidence": 89,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('input[type=\"text\"][name=\"username\"]') >> nth=1"
+      },
+      {
+        "selector": "page.locator('input[name=\"username\"]')",
+        "strategy": "name_attribute",
+        "confidence": 87,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('input[name=\"username\"]') >> nth=1"
+      },
+      {
+        "selector": "page.getByRole('heading', { name: 'Sign in' }).locator('..').getByLabel('Username')",
+        "strategy": "heading_context_label",
+        "confidence": 83,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.getByRole('heading', { name: 'Sign in' }).locator('..').getByLabel('Username') >> nth=0"
+      },
+      {
+        "selector": "page.locator('#login-form').getByRole('textbox', { name: 'Username' })",
+        "strategy": "parent_id_role",
+        "confidence": 82,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('#login-form').getByRole('textbox', { name: 'Username' }) >> nth=0"
+      },
+      {
+        "selector": "page.locator('#username')",
+        "strategy": "id",
+        "confidence": 75,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/div/form/div[1]/div/span/input')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 13,
+    "viable_count": 12,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": true,
+      "has_scoped": true,
+      "best_strategy": "roost_primary",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 4753,
+    "element": "<input> ''",
+    "action": "input",
+    "selector": "page.getByRole('textbox', { name: 'Password*' })",
+    "confidence": 99,
+    "input_value": "",
+    "url": "https://zbio.openproject.com/login?back_url=https%3A%2F%2Fzbio.openproject.com%2F",
+    "timestamp": "2025-12-13T06:57:39.393603",
+    "tag_name": "input",
+    "text_content": "",
+    "accessible_name": "Password",
+    "role": "textbox",
+    "viable_selectors": [
+      {
+        "selector": "page.getByRole('textbox', { name: 'Password*' })",
+        "strategy": "roost_primary",
+        "confidence": 99,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique",
+        "source": "roost-primary-selector"
+      },
+      {
+        "selector": "page.locator('form[action*=\"login\"]').getByRole('textbox', { name: 'Password' })",
+        "strategy": "form_action_role",
+        "confidence": 97,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('form[action*=\"login\"]').getByRole('textbox', { name: 'Password' }) >> nth=1"
+      },
+      {
+        "selector": "page.getByRole('textbox', { name: 'Password' })",
+        "strategy": "role_name",
+        "confidence": 95,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.getByRole('textbox', { name: 'Password' }) >> nth=1"
+      },
+      {
+        "selector": "page.getByLabel('Password')",
+        "strategy": "label_text",
+        "confidence": 93,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.getByLabel('Password') >> nth=1"
+      },
+      {
+        "selector": "page.getByLabel('Password', { exact: true })",
+        "strategy": "label_text_exact",
+        "confidence": 92,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.getByLabel('Password', { exact: true }) >> nth=1"
+      },
+      {
+        "selector": "page.getByLabel('Password')",
+        "strategy": "label",
+        "confidence": 90,
+        "element_count": 3,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 3 elements",
+        "selector_with_index": "page.getByLabel('Password') >> nth=1"
+      },
+      {
+        "selector": "page.locator('input[type=\"password\"][name=\"password\"]')",
+        "strategy": "css_combined",
+        "confidence": 89,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('input[type=\"password\"][name=\"password\"]') >> nth=1"
+      },
+      {
+        "selector": "page.locator('input[type=\"password\"]')",
+        "strategy": "input_type",
+        "confidence": 78,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(1) for disambiguation)",
+        "selector_with_index": "page.locator('input[type=\"password\"]') >> nth=1"
+      },
+      {
+        "selector": "page.locator('input[name=\"password\"]')",
+        "strategy": "name_attribute",
+        "confidence": 87,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('input[name=\"password\"]') >> nth=1"
+      },
+      {
+        "selector": "page.getByRole('heading', { name: 'Sign in' }).locator('..').getByLabel('Password')",
+        "strategy": "heading_context_label",
+        "confidence": 83,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.getByRole('heading', { name: 'Sign in' }).locator('..').getByLabel('Password') >> nth=0"
+      },
+      {
+        "selector": "page.locator('#login-form').getByRole('textbox', { name: 'Password' })",
+        "strategy": "parent_id_role",
+        "confidence": 82,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('#login-form').getByRole('textbox', { name: 'Password' }) >> nth=0"
+      },
+      {
+        "selector": "page.locator('#password')",
+        "strategy": "id",
+        "confidence": 75,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/div/form/div[2]/div/span/input')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 15,
+    "viable_count": 13,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": true,
+      "has_scoped": true,
+      "best_strategy": "roost_primary",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 4759,
+    "element": "<input> ''",
+    "action": "click",
+    "selector": "page.locator('#login-form').getByRole('button', { name: 'Sign in' })",
+    "confidence": 99,
+    "input_value": "Sign in",
+    "url": "https://zbio.openproject.com/login?back_url=https%3A%2F%2Fzbio.openproject.com%2F",
+    "timestamp": "2025-12-13T06:57:45.267815",
+    "tag_name": "input",
+    "text_content": "",
+    "accessible_name": "Sign in",
+    "role": "button",
+    "viable_selectors": [
+      {
+        "selector": "page.locator('#login-form').getByRole('button', { name: 'Sign in' })",
+        "strategy": "roost_primary",
+        "confidence": 99,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique",
+        "source": "roost-primary-selector"
+      },
+      {
+        "selector": "page.locator('form[action*=\"login\"]').getByRole('button', { name: /Sign in/ })",
+        "strategy": "form_action_role_regex",
+        "confidence": 97,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.getByRole('button', { name: /Sign in/ })",
+        "strategy": "role_name_regex",
+        "confidence": 95,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 9,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.getByRole('button', { name: /Sign in/ }) >> nth=9"
+      },
+      {
+        "selector": "page.locator('input[value=\"Sign in\"]')",
+        "strategy": "css_tag_value",
+        "confidence": 89,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('input[value=\"Sign in\"]') >> nth=1"
+      },
+      {
+        "selector": "page.locator('input[type=\"submit\"][name=\"login\"][value=\"Sign in\"]')",
+        "strategy": "css_combined",
+        "confidence": 89,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('input[type=\"submit\"][name=\"login\"][value=\"Sign in\"]') >> nth=1"
+      },
+      {
+        "selector": "page.locator('input[type=\"submit\"]')",
+        "strategy": "input_type",
+        "confidence": 88,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('input[type=\"submit\"]') >> nth=1"
+      },
+      {
+        "selector": "page.locator('.button_no-margin[value=\"Sign in\"]')",
+        "strategy": "css_class_value",
+        "confidence": 87,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('.button_no-margin[value=\"Sign in\"]') >> nth=1"
+      },
+      {
+        "selector": "page.locator('input[name=\"login\"]')",
+        "strategy": "name_attribute",
+        "confidence": 87,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('input[name=\"login\"]') >> nth=1"
+      },
+      {
+        "selector": "page.locator('input[data-controller=\"disable-when-clicked\"]')",
+        "strategy": "data_attr_controller",
+        "confidence": 85,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('input[data-disable-when-clicked-text-value=\"Loading...\"]')",
+        "strategy": "data_attr_disable-when-clicked-text-value",
+        "confidence": 85,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('input[data-disable-with=\"Sign in\"]')",
+        "strategy": "data_attr_disable-with",
+        "confidence": 85,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('[value=\"Sign in\"]')",
+        "strategy": "css_value",
+        "confidence": 85,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('[value=\"Sign in\"]') >> nth=1"
+      },
+      {
+        "selector": "page.locator('#login-form').getByRole('button', { name: 'Sign in' })",
+        "strategy": "parent_id_role",
+        "confidence": 82,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('input.button.-primary')",
+        "strategy": "css_combined_classes",
+        "confidence": 80,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('input.button.-primary') >> nth=1"
+      },
+      {
+        "selector": "page.locator('input.button')",
+        "strategy": "css_stable_class",
+        "confidence": 78,
+        "element_count": 2,
+        "is_unique": false,
+        "target_index": 1,
+        "tier": "near_unique",
+        "warning": "Matches 2 elements",
+        "selector_with_index": "page.locator('input.button') >> nth=1"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[2]/div[1]/main/div[2]/div/div/form/div[3]/input')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 17,
+    "viable_count": 16,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": true,
+      "has_scoped": true,
+      "best_strategy": "roost_primary",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 8885,
+    "element": "<button> '  \n    HA\n  \n'",
+    "action": "click",
+    "selector": "page.getByRole('button', { name: 'HA', exact: true })",
+    "confidence": 99,
+    "input_value": "  \n    HA\n  \n",
+    "url": "https://zbio.openproject.com/projects/demo-project",
+    "timestamp": "2025-12-13T06:59:10.845367",
+    "tag_name": "button",
+    "text_content": "  \n    HA\n  \n",
+    "accessible_name": "HA",
+    "role": "button",
+    "viable_selectors": [
+      {
+        "selector": "page.getByRole('button', { name: 'HA', exact: true })",
+        "strategy": "roost_primary",
+        "confidence": 99,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique",
+        "source": "roost-primary-selector"
+      },
+      {
+        "selector": "page.getByRole('button', { name: 'HA' })",
+        "strategy": "role_name",
+        "confidence": 85,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(0) for disambiguation)",
+        "selector_with_index": "page.getByRole('button', { name: 'HA' }) >> nth=0"
+      },
+      {
+        "selector": "page.locator('button[data-show-dialog-id=\"dialog-547592e4-4d17-4424-8d7e-be3d14fb60ae\"]')",
+        "strategy": "data_attr_show-dialog-id",
+        "confidence": 85,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('#wrapper').getByRole('button', { name: 'HA' })",
+        "strategy": "parent_id_role",
+        "confidence": 72,
+        "element_count": 4,
+        "is_unique": false,
+        "target_index": 0,
+        "tier": "semantic_fallback",
+        "warning": "Matches 4 elements (use .nth(0) for disambiguation)",
+        "selector_with_index": "page.locator('#wrapper').getByRole('button', { name: 'HA' }) >> nth=0"
+      },
+      {
+        "selector": "page.locator('#dialog-show-dialog-547592e4-4d17-4424-8d7e-be3d14fb60ae')",
+        "strategy": "id",
+        "confidence": 75,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[2]/header/div[3]/button')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 10,
+    "viable_count": 6,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": false,
+      "has_scoped": true,
+      "best_strategy": "roost_primary",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  },
+  {
+    "index": 10037,
+    "element": "<a> '\n        \n          \n    \n\n   '",
+    "action": "click",
+    "selector": "page.getByRole('link', { name: 'Sign out' })",
+    "confidence": 99,
+    "input_value": "\n        \n          \n    \n\n        \n      \n        \n          Sign out\n      \n",
+    "url": "https://zbio.openproject.com/projects/demo-project",
+    "timestamp": "2025-12-13T06:59:23.115273",
+    "tag_name": "a",
+    "text_content": "\n        \n          \n    \n\n        \n      \n        \n          Sign out\n      \n",
+    "accessible_name": "Sign out",
+    "role": "link",
+    "viable_selectors": [
+      {
+        "selector": "page.getByRole('link', { name: 'Sign out' })",
+        "strategy": "roost_primary",
+        "confidence": 99,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique",
+        "source": "roost-primary-selector"
+      },
+      {
+        "selector": "page.getByRole('link', { name: /Sign out/ })",
+        "strategy": "role_name_regex",
+        "confidence": 95,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('[role=\"list\"]').getByRole('link', { name: /Sign out/ })",
+        "strategy": "parent_role_child_role_regex",
+        "confidence": 88,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.getByText('Sign out')",
+        "strategy": "text",
+        "confidence": 88,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('#op-app-header--user-menu-list').getByRole('link', { name: 'Sign out' })",
+        "strategy": "parent_id_role",
+        "confidence": 82,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('#item-906ff30a-2e06-483a-9ff9-62b732b5fcef')",
+        "strategy": "id",
+        "confidence": 75,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('a').filter({ hasText: 'Sign out' })",
+        "strategy": "tag_filter_text",
+        "confidence": 69,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      },
+      {
+        "selector": "page.locator('xpath=html/body/div[2]/header/div[3]/dialog-helper/dialog/scrollable-region/div/div/div[2]/action-list/div/ul/li[7]/a')",
+        "strategy": "xpath",
+        "confidence": 50,
+        "element_count": 1,
+        "is_unique": true,
+        "target_index": 0,
+        "tier": "unique"
+      }
+    ],
+    "tested_count": 13,
+    "viable_count": 8,
+    "selector_metadata": {
+      "has_testid": false,
+      "has_role_based": true,
+      "has_text_based": true,
+      "has_scoped": true,
+      "best_strategy": "roost_primary",
+      "uniqueness_status": "unique",
+      "target_index": 0,
+      "selector_with_index": null
+    }
+  }
+]
