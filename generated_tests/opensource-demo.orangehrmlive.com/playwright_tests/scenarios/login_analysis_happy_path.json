@@ -1,0 +1,367 @@
+{
+  "site_url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+  "site_type": "login_workflow",
+  "site_category": "authentication",
+  "test_name": "login_analysis_happy_path",
+  "login_mechanisms": [
+    "form_login"
+  ],
+  "user_journeys": [],
+  "proposed_scenarios": [
+    {
+      "scenario_name": "login_analysis_happy_path",
+      "test_name": "login_analysis_happy_path",
+      "test_type": "e2e_authentication_workflow",
+      "auth_required": false,
+      "detailed_steps": [
+        {
+          "step_number": 1,
+          "action": "navigate",
+          "description": "Navigate to the OrangeHRM login page.",
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+          "verification_point": "The user is on the OrangeHRM login page."
+        },
+        {
+          "step_number": 2,
+          "action": "input_text",
+          "description": "Enter the username into the username field.",
+          "selector": "page.getByRole('textbox', { name: 'Username' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('textbox', { name: 'Username' })",
+              "strategy": "roost_primary",
+              "confidence": 99,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique",
+              "source": "roost-primary-selector"
+            },
+            {
+              "selector": "page.locator('input[data-v-1f99f73c]')",
+              "strategy": "data_attr_v-1f99f73c_presence",
+              "confidence": 90,
+              "element_count": 2,
+              "is_unique": false,
+              "target_index": 0,
+              "tier": "near_unique",
+              "warning": "Matches 2 elements",
+              "selector_with_index": "page.locator('input[data-v-1f99f73c]') >> nth=0"
+            },
+            {
+              "selector": "page.locator('input[name=\"username\"]')",
+              "strategy": "name_attribute",
+              "confidence": 87,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            },
+            {
+              "selector": "page.getByPlaceholder('Username')",
+              "strategy": "placeholder",
+              "confidence": 85,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            },
+            {
+              "selector": "page.locator('input.oxd-input')",
+              "strategy": "css_stable_class",
+              "confidence": 78,
+              "element_count": 2,
+              "is_unique": false,
+              "target_index": 0,
+              "tier": "near_unique",
+              "warning": "Matches 2 elements",
+              "selector_with_index": "page.locator('input.oxd-input') >> nth=0"
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input')",
+              "strategy": "xpath",
+              "confidence": 50,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            }
+          ],
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+          "confidence": 99,
+          "based_on_interaction": true,
+          "component": "Username Field",
+          "page_context": {
+            "page_title": "OrangeHRM",
+            "page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+            "page_url_pattern": "/web/index.php/auth/login",
+            "suggested_page_class": "LoginPage"
+          },
+          "method_context": {
+            "action_type": "interact",
+            "suggested_method_name": "interactUsername",
+            "causes_navigation": false
+          }
+        },
+        {
+          "step_number": 3,
+          "action": "input_text",
+          "description": "Enter the password into the password field.",
+          "selector": "page.getByRole('textbox', { name: 'Password' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('textbox', { name: 'Password' })",
+              "strategy": "roost_primary",
+              "confidence": 99,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique",
+              "source": "roost-primary-selector"
+            },
+            {
+              "selector": "page.locator('input[data-v-1f99f73c]')",
+              "strategy": "data_attr_v-1f99f73c_presence",
+              "confidence": 90,
+              "element_count": 2,
+              "is_unique": false,
+              "target_index": 1,
+              "tier": "near_unique",
+              "warning": "Matches 2 elements",
+              "selector_with_index": "page.locator('input[data-v-1f99f73c]') >> nth=1"
+            },
+            {
+              "selector": "page.locator('input[type=\"password\"][name=\"password\"]')",
+              "strategy": "css_combined",
+              "confidence": 89,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            },
+            {
+              "selector": "page.locator('input[type=\"password\"]')",
+              "strategy": "input_type",
+              "confidence": 88,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            },
+            {
+              "selector": "page.locator('input[name=\"password\"]')",
+              "strategy": "name_attribute",
+              "confidence": 87,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            },
+            {
+              "selector": "page.getByPlaceholder('Password')",
+              "strategy": "placeholder",
+              "confidence": 85,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            },
+            {
+              "selector": "page.locator('input.oxd-input')",
+              "strategy": "css_stable_class",
+              "confidence": 78,
+              "element_count": 2,
+              "is_unique": false,
+              "target_index": 1,
+              "tier": "near_unique",
+              "warning": "Matches 2 elements",
+              "selector_with_index": "page.locator('input.oxd-input') >> nth=1"
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[2]/div/div[2]/input')",
+              "strategy": "xpath",
+              "confidence": 50,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            }
+          ],
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+          "confidence": 99,
+          "based_on_interaction": true,
+          "component": "Password Field",
+          "page_context": {
+            "page_title": "OrangeHRM",
+            "page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+            "page_url_pattern": "/web/index.php/auth/login",
+            "suggested_page_class": "LoginPage"
+          },
+          "method_context": {
+            "action_type": "interact",
+            "suggested_method_name": "interactPassword",
+            "causes_navigation": false
+          }
+        },
+        {
+          "step_number": 4,
+          "action": "click",
+          "description": "Click the login button to submit credentials.",
+          "selector": "page.getByRole('button', { name: 'Login' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('button', { name: 'Login' })",
+              "strategy": "roost_primary",
+              "confidence": 99,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique",
+              "source": "roost-primary-selector"
+            },
+            {
+              "selector": "page.locator('form[action*=\"validate\"]').getByRole('button', { name: 'Login' })",
+              "strategy": "form_action_role",
+              "confidence": 97,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            },
+            {
+              "selector": "page.getByRole('button', { name: 'Login' })",
+              "strategy": "role_name",
+              "confidence": 95,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            },
+            {
+              "selector": "page.locator('button[data-v-10d463b7]')",
+              "strategy": "data_attr_v-10d463b7_presence",
+              "confidence": 90,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            },
+            {
+              "selector": "page.locator('button[data-v-0af708be]')",
+              "strategy": "data_attr_v-0af708be_presence",
+              "confidence": 90,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            },
+            {
+              "selector": "page.getByText('Login')",
+              "strategy": "text",
+              "confidence": 88,
+              "element_count": 3,
+              "is_unique": false,
+              "target_index": 1,
+              "tier": "near_unique",
+              "warning": "Matches 3 elements",
+              "selector_with_index": "page.getByText('Login') >> nth=1"
+            },
+            {
+              "selector": "page.locator('#app').getByRole('button', { name: 'Login' })",
+              "strategy": "parent_id_role",
+              "confidence": 82,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            },
+            {
+              "selector": "page.locator('button.oxd-button.orangehrm-login-button')",
+              "strategy": "css_combined_classes",
+              "confidence": 80,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            },
+            {
+              "selector": "page.locator('button.oxd-button')",
+              "strategy": "css_stable_class",
+              "confidence": 78,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button')",
+              "strategy": "xpath",
+              "confidence": 50,
+              "element_count": 1,
+              "is_unique": true,
+              "target_index": 0,
+              "tier": "unique"
+            }
+          ],
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+          "confidence": 99,
+          "based_on_interaction": true,
+          "component": null,
+          "page_context": {
+            "page_title": "OrangeHRM",
+            "page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+            "page_url_pattern": "/web/index.php/auth/login",
+            "suggested_page_class": "LoginPage"
+          },
+          "method_context": {
+            "action_type": "click",
+            "suggested_method_name": "clickLogin",
+            "causes_navigation": true
+          }
+        },
+        {
+          "step_number": 5,
+          "action": "verify_navigation",
+          "description": "Verify successful login by checking for navigation to the dashboard.",
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+          "verification_point": "The page URL should contain '/dashboard/index' to confirm successful authentication."
+        }
+      ]
+    }
+  ],
+  "login_completion_state": "successful",
+  "analysis_timestamp": "2026-01-09T10:21:55.397679",
+  "confidence_score": 1.0,
+  "flow_type": "happy_path_only",
+  "excluded_scenarios": [],
+  "scenario_count": 1,
+  "focus": "successful_authentication_only",
+  "generated_from": "login_analysis.json",
+  "generation_timestamp": "2026-01-09T10:21:55.399544",
+  "captured_selectors": [
+    {
+      "selector": "page.getByRole('textbox', { name: 'Username' })",
+      "confidence": 99,
+      "action": "input",
+      "element": "<input> ''",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+      "timestamp": "2026-01-09T10:20:02.538610"
+    },
+    {
+      "selector": "page.getByRole('textbox', { name: 'Password' })",
+      "confidence": 99,
+      "action": "input",
+      "element": "<input> ''",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+      "timestamp": "2026-01-09T10:20:09.742243"
+    },
+    {
+      "selector": "page.getByRole('button', { name: 'Login' })",
+      "confidence": 99,
+      "action": "click",
+      "element": "<button> ' Login '",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+      "timestamp": "2026-01-09T10:20:14.735588"
+    }
+  ]
+}
