@@ -1,0 +1,730 @@
+{
+  "site_url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+  "site_type": "unknown",
+  "site_category": "general",
+  "test_name": "attempt_to_add_a_user_with_a_non-unique_username",
+  "login_mechanisms": [
+    "content_browsing",
+    "site_navigation"
+  ],
+  "user_journeys": [
+    {
+      "workflow_type": "navigation_flow",
+      "path": [
+        "web"
+      ],
+      "success_rate": "discovered_site_navigation",
+      "scenario_priority": "medium",
+      "description": "General website navigation and content discovery"
+    }
+  ],
+  "proposed_scenarios": [
+    {
+      "scenario_name": "Attempt to Add a User with a Non-Unique Username",
+      "description": "This scenario tests the system's validation by attempting to create a new user with a username ('Admin') that is already in use. It verifies that the system correctly identifies the duplication and displays the appropriate error message, preventing the creation of the user.",
+      "test_type": "e2e_business_workflow",
+      "priority": "critical",
+      "business_goal": "Verify that the system prevents data duplication by rejecting the creation of a user with an existing username.",
+      "user_story": "As an administrator, I want to be prevented from creating a user with a username that already exists, so that I maintain data integrity and avoid user account conflicts.",
+      "detailed_steps": [
+        {
+          "step_number": 1,
+          "action": "Navigate to website homepage",
+          "component": "Global Navigation",
+          "description": "Load the main website dashboard page after a successful login.",
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+          "verification_point": "Page URL should be the dashboard index.",
+          "business_impact": "Ensures the user can access the main application dashboard.",
+          "selector": "page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index')",
+          "confidence": 100,
+          "based_on_interaction": true
+        },
+        {
+          "step_number": 2,
+          "action": "click",
+          "component": "Navigation Menu",
+          "description": "Navigate to the Admin section to access user management features.",
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+          "verification_point": "Page URL should navigate to '/admin/viewSystemUsers'.",
+          "business_impact": "Accessing the core administrative functions is a prerequisite for user management.",
+          "selector": "page.getByRole('link', { name: 'Admin' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('link', { name: 'Admin' })",
+              "confidence": 99
+            },
+            {
+              "selector": "page.locator('[role=\"navigation\"]').getByRole('link', { name: 'Admin' })",
+              "confidence": 88
+            },
+            {
+              "selector": "page.locator('#app').getByRole('link', { name: 'Admin' })",
+              "confidence": 82
+            },
+            {
+              "selector": "page.locator('a').filter({ hasText: /^Admin$/ })",
+              "confidence": 74
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div/div[1]/div[1]/aside/nav/div[2]/ul/li[1]/a')",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true,
+          "page_context": {
+            "page_title": "OrangeHRM",
+            "page_url_pattern": "/web/index.php/dashboard/index",
+            "suggested_page_class": "DashboardPage"
+          },
+          "method_context": {
+            "action_type": "navigate",
+            "suggested_method_name": "clickAdmin",
+            "causes_navigation": true
+          }
+        },
+        {
+          "step_number": 3,
+          "action": "click",
+          "component": "User Management Actions",
+          "description": "Click the 'Add' button to open the form for creating a new system user.",
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+          "verification_point": "Page URL should navigate to '/admin/saveSystemUser'.",
+          "business_impact": "Initiates the new user creation workflow.",
+          "selector": "page.getByRole('button', { name: ' Add' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('button', { name: ' Add' })",
+              "confidence": 99
+            },
+            {
+              "selector": "page.getByRole('button', { name: 'Add' })",
+              "confidence": 95
+            },
+            {
+              "selector": "page.locator('button[data-v-10d463b7]') >> nth=2",
+              "confidence": 90
+            },
+            {
+              "selector": "page.getByText('Add')",
+              "confidence": 88
+            },
+            {
+              "selector": "page.locator('#app').getByRole('button', { name: 'Add' })",
+              "confidence": 82
+            },
+            {
+              "selector": "page.locator('button.oxd-button') >> nth=2",
+              "confidence": 78
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div/div[1]/div[2]/div[2]/div/div[2]/div[1]/button')",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true,
+          "page_context": {
+            "page_title": "OrangeHRM",
+            "page_url_pattern": "/web/index.php/admin/viewSystemUsers",
+            "suggested_page_class": "ViewsystemusersPage"
+          },
+          "method_context": {
+            "action_type": "click",
+            "suggested_method_name": "clickAdd",
+            "causes_navigation": true
+          }
+        },
+        {
+          "step_number": 4,
+          "action": "click",
+          "component": "User Role Dropdown",
+          "description": "Open the 'User Role' dropdown menu to select a role for the new user.",
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+          "verification_point": "Dropdown options should become visible.",
+          "business_impact": "Assigning a user role is a mandatory step in user creation.",
+          "selector": "page.getByText('-- Select --').first()",
+          "all_selectors": [
+            {
+              "selector": "page.getByText('-- Select --').first()",
+              "confidence": 99
+            },
+            {
+              "selector": "page.getByText('-- Select --') >> nth=0",
+              "confidence": 88
+            },
+            {
+              "selector": "page.getByText('Select') >> nth=0",
+              "confidence": 80
+            },
+            {
+              "selector": "page.locator('div.oxd-select-text-input') >> nth=0",
+              "confidence": 78
+            },
+            {
+              "selector": "page.locator('div[data-v-67d2aedf]') >> nth=1",
+              "confidence": 75
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div/div[1]')",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true,
+          "page_context": {
+            "page_title": "OrangeHRM",
+            "page_url_pattern": "/web/index.php/admin/saveSystemUser",
+            "suggested_page_class": "SavesystemuserPage"
+          },
+          "method_context": {
+            "action_type": "click",
+            "suggested_method_name": "clickSelect",
+            "causes_navigation": false
+          }
+        },
+        {
+          "step_number": 5,
+          "action": "click",
+          "component": "User Role Dropdown",
+          "description": "Select the 'Admin' role from the dropdown list.",
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+          "verification_point": "The User Role field should be populated with 'Admin'.",
+          "business_impact": "Defines the permission level for the new user.",
+          "selector": "page.getByRole('option', { name: 'Admin' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('option', { name: 'Admin' })",
+              "confidence": 99
+            },
+            {
+              "selector": "page.locator('[role=\"listbox\"]').getByRole('option', { name: 'Admin' })",
+              "confidence": 98
+            },
+            {
+              "selector": "page.locator('div[data-v-d130bb63]') >> nth=1",
+              "confidence": 90
+            },
+            {
+              "selector": "page.locator('[role=\"listbox\"]').getByRole('option', { name: 'Admin' })",
+              "confidence": 88
+            },
+            {
+              "selector": "page.locator('#app').getByRole('option', { name: 'Admin' })",
+              "confidence": 82
+            },
+            {
+              "selector": "page.locator('div.oxd-select-option') >> nth=1",
+              "confidence": 78
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div[2]/div[2]')",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true,
+          "page_context": {
+            "page_title": "OrangeHRM",
+            "page_url_pattern": "/web/index.php/admin/saveSystemUser",
+            "suggested_page_class": "SavesystemuserPage"
+          },
+          "method_context": {
+            "action_type": "click",
+            "suggested_method_name": "clickAdmin",
+            "causes_navigation": false
+          }
+        },
+        {
+          "step_number": 6,
+          "action": "input_text",
+          "component": "Employee Name Input",
+          "description": "Enter 'John Doe' into the Employee Name field.",
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+          "verification_point": "The Employee Name field should contain 'John Doe'.",
+          "business_impact": "Associates the system user with an employee record.",
+          "selector": "page.getByRole('textbox', { name: 'Type for hints...' })",
+          "input_value": "John Doe",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('textbox', { name: 'Type for hints...' })",
+              "confidence": 99
+            },
+            {
+              "selector": "page.locator('input[data-v-75e744cd]')",
+              "confidence": 90
+            },
+            {
+              "selector": "page.getByPlaceholder('Type for hints...')",
+              "confidence": 85
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[2]/div/div[2]/div/div/input')",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true,
+          "page_context": {
+            "page_title": "OrangeHRM",
+            "page_url_pattern": "/web/index.php/admin/saveSystemUser",
+            "suggested_page_class": "SavesystemuserPage"
+          },
+          "method_context": {
+            "action_type": "interact",
+            "suggested_method_name": "interactTypeforhints",
+            "causes_navigation": false
+          }
+        },
+        {
+          "step_number": 7,
+          "action": "click",
+          "component": "Status Dropdown",
+          "description": "Open the 'Status' dropdown menu to set the user's account status.",
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+          "verification_point": "Status options should become visible.",
+          "business_impact": "Determines if the user account will be active upon creation.",
+          "selector": "page.getByText('-- Select --')",
+          "all_selectors": [
+            {
+              "selector": "page.getByText('-- Select --')",
+              "confidence": 99
+            },
+            {
+              "selector": "page.getByText('Select')",
+              "confidence": 80
+            },
+            {
+              "selector": "page.locator('div.oxd-select-text-input') >> nth=1",
+              "confidence": 78
+            },
+            {
+              "selector": "page.locator('div[data-v-67d2aedf]') >> nth=4",
+              "confidence": 75
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[3]/div/div[2]/div/div/div[1]')",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true,
+          "page_context": {
+            "page_title": "OrangeHRM",
+            "page_url_pattern": "/web/index.php/admin/saveSystemUser",
+            "suggested_page_class": "SavesystemuserPage"
+          },
+          "method_context": {
+            "action_type": "click",
+            "suggested_method_name": "clickSelect",
+            "causes_navigation": false
+          }
+        },
+        {
+          "step_number": 8,
+          "action": "click",
+          "component": "Status Dropdown",
+          "description": "Select 'Enabled' from the status dropdown list.",
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+          "verification_point": "The Status field should be populated with 'Enabled'.",
+          "business_impact": "Ensures the new user can log in immediately after creation.",
+          "selector": "page.getByRole('option', { name: 'Enabled' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('option', { name: 'Enabled' })",
+              "confidence": 99
+            },
+            {
+              "selector": "page.locator('[role=\"listbox\"]').getByRole('option', { name: 'Enabled' })",
+              "confidence": 98
+            },
+            {
+              "selector": "page.locator('div[data-v-d130bb63]') >> nth=1",
+              "confidence": 90
+            },
+            {
+              "selector": "page.getByText('Enabled')",
+              "confidence": 88
+            },
+            {
+              "selector": "page.locator('#app').getByRole('option', { name: 'Enabled' })",
+              "confidence": 82
+            },
+            {
+              "selector": "page.locator('div.oxd-select-option') >> nth=1",
+              "confidence": 78
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[3]/div/div[2]/div/div[2]/div[2]')",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true,
+          "page_context": {
+            "page_title": "OrangeHRM",
+            "page_url_pattern": "/web/index.php/admin/saveSystemUser",
+            "suggested_page_class": "SavesystemuserPage"
+          },
+          "method_context": {
+            "action_type": "click",
+            "suggested_method_name": "clickEnabled",
+            "causes_navigation": false
+          }
+        },
+        {
+          "step_number": 9,
+          "action": "input_text",
+          "component": "Add User Form",
+          "description": "Enter the non-unique username 'Admin' into the username field.",
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+          "verification_point": "The Username field should contain 'Admin'.",
+          "business_impact": "This is the key step to trigger the duplicate username validation.",
+          "selector": "page.getByRole('textbox').nth(2)",
+          "input_value": "Admin",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('textbox').nth(2)",
+              "confidence": 99
+            },
+            {
+              "selector": "page.locator('input[data-v-1f99f73c]') >> nth=1",
+              "confidence": 80
+            },
+            {
+              "selector": "page.locator('input.oxd-input--active') >> nth=1",
+              "confidence": 74
+            },
+            {
+              "selector": "page.locator('.oxd-input--active') >> nth=1",
+              "confidence": 72
+            },
+            {
+              "selector": "page.locator('#app').locator('input') >> nth=2",
+              "confidence": 68
+            },
+            {
+              "selector": "page.locator('input.oxd-input') >> nth=1",
+              "confidence": 68
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[4]/div/div[2]/input')",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true,
+          "page_context": {
+            "page_title": "OrangeHRM",
+            "page_url_pattern": "/web/index.php/admin/saveSystemUser",
+            "suggested_page_class": "SavesystemuserPage"
+          },
+          "method_context": {
+            "action_type": "interact",
+            "suggested_method_name": "performInput",
+            "causes_navigation": false
+          }
+        },
+        {
+          "step_number": 10,
+          "action": "input_text",
+          "component": "Add User Form",
+          "description": "Enter a valid password into the password field.",
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+          "verification_point": "The password field should be populated.",
+          "business_impact": "Completes the required credential information for the new user.",
+          "selector": "page.getByRole('textbox').nth(3)",
+          "input_value": "<secret>UI_SITE_PASSWORD</secret>",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('textbox').nth(3)",
+              "confidence": 99
+            },
+            {
+              "selector": "page.locator('input[type=\"password\"]') >> nth=0",
+              "confidence": 88
+            },
+            {
+              "selector": "page.locator('input[data-v-1f99f73c]') >> nth=2",
+              "confidence": 80
+            },
+            {
+              "selector": "page.locator('input.oxd-input--active') >> nth=2",
+              "confidence": 74
+            },
+            {
+              "selector": "page.locator('.oxd-input--active') >> nth=2",
+              "confidence": 72
+            },
+            {
+              "selector": "page.locator('#app').locator('input') >> nth=3",
+              "confidence": 68
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div[1]/div/div[2]/input')",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true,
+          "page_context": {
+            "page_title": "OrangeHRM",
+            "page_url_pattern": "/web/index.php/admin/saveSystemUser",
+            "suggested_page_class": "SavesystemuserPage"
+          },
+          "method_context": {
+            "action_type": "interact",
+            "suggested_method_name": "performInput",
+            "causes_navigation": false
+          }
+        },
+        {
+          "step_number": 11,
+          "action": "input_text",
+          "component": "Add User Form",
+          "description": "Confirm the password by re-entering it in the confirmation field.",
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+          "verification_point": "The confirm password field should match the password field.",
+          "business_impact": "Ensures the user has entered their intended password correctly.",
+          "selector": "page.getByRole('textbox').nth(4)",
+          "input_value": "<secret>UI_SITE_PASSWORD</secret>",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('textbox').nth(4)",
+              "confidence": 99
+            },
+            {
+              "selector": "page.locator('input[type=\"password\"]') >> nth=1",
+              "confidence": 88
+            },
+            {
+              "selector": "page.locator('input[data-v-1f99f73c]') >> nth=3",
+              "confidence": 80
+            },
+            {
+              "selector": "page.locator('input.oxd-input--active') >> nth=3",
+              "confidence": 74
+            },
+            {
+              "selector": "page.locator('.oxd-input--active') >> nth=3",
+              "confidence": 72
+            },
+            {
+              "selector": "page.locator('#app').locator('input') >> nth=4",
+              "confidence": 68
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div[2]/div/div[2]/input')",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true,
+          "page_context": {
+            "page_title": "OrangeHRM",
+            "page_url_pattern": "/web/index.php/admin/saveSystemUser",
+            "suggested_page_class": "SavesystemuserPage"
+          },
+          "method_context": {
+            "action_type": "interact",
+            "suggested_method_name": "performInput",
+            "causes_navigation": false
+          }
+        },
+        {
+          "step_number": 12,
+          "action": "click",
+          "component": "Add User Form",
+          "description": "Click the 'Save' button to submit the new user form.",
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+          "verification_point": "The form submission should be attempted.",
+          "business_impact": "Triggers the server-side validation for the new user data.",
+          "selector": "page.getByRole('button', { name: 'Save' })",
+          "all_selectors": [
+            {
+              "selector": "page.getByRole('button', { name: 'Save' })",
+              "confidence": 99
+            },
+            {
+              "selector": "page.locator('button[data-v-10d463b7]') >> nth=1",
+              "confidence": 90
+            },
+            {
+              "selector": "page.getByText('Save')",
+              "confidence": 88
+            },
+            {
+              "selector": "page.locator('#app').getByRole('button', { name: 'Save' })",
+              "confidence": 82
+            },
+            {
+              "selector": "page.locator('button.oxd-button.orangehrm-left-space')",
+              "confidence": 80
+            },
+            {
+              "selector": "page.locator('button.oxd-button') >> nth=1",
+              "confidence": 78
+            },
+            {
+              "selector": "page.locator('xpath=html/body/div[1]/div[1]/div[2]/div[2]/div/div/form/div[3]/button[2]')",
+              "confidence": 50
+            }
+          ],
+          "confidence": 99,
+          "based_on_interaction": true,
+          "page_context": {
+            "page_title": "OrangeHRM",
+            "page_url_pattern": "/web/index.php/admin/saveSystemUser",
+            "suggested_page_class": "SavesystemuserPage"
+          },
+          "method_context": {
+            "action_type": "click",
+            "suggested_method_name": "clickSave",
+            "causes_navigation": true
+          }
+        },
+        {
+          "step_number": 13,
+          "action": "verify_state",
+          "component": "Error Message",
+          "description": "Verify that an error message 'Username already exists' is displayed on the page.",
+          "expected_page_url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+          "verification_point": "An error message indicating the username already exists should be visible.",
+          "business_impact": "Confirms that the system's data integrity checks are functioning correctly.",
+          "selector": "",
+          "confidence": 100,
+          "based_on_interaction": false
+        }
+      ],
+      "expected_results": [
+        "The system should prevent the form from being submitted successfully.",
+        "An error message explicitly stating 'Username already exists' should be displayed to the user.",
+        "The user should remain on the 'Add User' page to correct the error.",
+        "No new user account should be created in the system."
+      ],
+      "edge_cases_to_test": [
+        "Attempting to add a user with a username that differs only by case (e.g., 'admin' vs 'Admin').",
+        "Submitting the form with a duplicate username and other validation errors simultaneously.",
+        "Network interruption during form submission."
+      ],
+      "data_requirements": [
+        "A pre-existing user account with the username 'Admin'.",
+        "A valid employee name to associate with the new user.",
+        "A valid password that meets the system's complexity requirements."
+      ],
+      "prerequisites": [
+        "User must be logged in with administrative privileges.",
+        "The 'Admin' module must be accessible.",
+        "The application must be in a stable state."
+      ],
+      "auth_required": true,
+      "starting_url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
+    }
+  ],
+  "login_completion_state": "successful",
+  "analysis_timestamp": "2026-01-09T10:30:54.686373",
+  "confidence_score": 0.5,
+  "captured_selectors": [
+    {
+      "selector": "page.getByRole('link', { name: 'Admin' })",
+      "confidence": 99,
+      "action": "click",
+      "input_value": "Admin",
+      "element": "<a> 'Admin'",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+      "timestamp": "2026-01-09T10:25:51.867664"
+    },
+    {
+      "selector": "page.getByRole('button', { name: ' Add' })",
+      "confidence": 99,
+      "action": "click",
+      "input_value": " Add ",
+      "element": "<button> ' Add '",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+      "timestamp": "2026-01-09T10:26:19.074923"
+    },
+    {
+      "selector": "page.getByText('-- Select --').first()",
+      "confidence": 99,
+      "action": "click",
+      "input_value": "-- Select --",
+      "element": "<div> '-- Select --'",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+      "timestamp": "2026-01-09T10:26:49.817279"
+    },
+    {
+      "selector": "page.getByRole('option', { name: 'Admin' })",
+      "confidence": 99,
+      "action": "click",
+      "input_value": "Admin",
+      "element": "<div> 'Admin'",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+      "timestamp": "2026-01-09T10:27:03.828893"
+    },
+    {
+      "selector": "page.getByRole('textbox', { name: 'Type for hints...' })",
+      "confidence": 99,
+      "action": "input",
+      "input_value": "",
+      "element": "<input> ''",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+      "timestamp": "2026-01-09T10:27:18.634783"
+    },
+    {
+      "selector": "page.getByText('-- Select --')",
+      "confidence": 99,
+      "action": "click",
+      "input_value": "-- Select --",
+      "element": "<div> '-- Select --'",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+      "timestamp": "2026-01-09T10:27:28.725711"
+    },
+    {
+      "selector": "page.getByRole('option', { name: 'Enabled' })",
+      "confidence": 99,
+      "action": "click",
+      "input_value": "Enabled",
+      "element": "<div> 'Enabled'",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+      "timestamp": "2026-01-09T10:27:43.930344"
+    },
+    {
+      "selector": "page.getByRole('textbox').nth(2)",
+      "confidence": 99,
+      "action": "input",
+      "input_value": "",
+      "element": "<input> ''",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+      "timestamp": "2026-01-09T10:27:59.366555"
+    },
+    {
+      "selector": "page.getByRole('textbox').nth(3)",
+      "confidence": 99,
+      "action": "input",
+      "input_value": "",
+      "element": "<input> ''",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+      "timestamp": "2026-01-09T10:28:13.541808"
+    },
+    {
+      "selector": "page.getByRole('textbox').nth(4)",
+      "confidence": 99,
+      "action": "input",
+      "input_value": "",
+      "element": "<input> ''",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+      "timestamp": "2026-01-09T10:28:28.540630"
+    },
+    {
+      "selector": "page.getByRole('button', { name: 'Save' })",
+      "confidence": 99,
+      "action": "click",
+      "input_value": " Save ",
+      "element": "<button> ' Save '",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+      "timestamp": "2026-01-09T10:28:42.386898"
+    }
+  ],
+  "auth_required": true,
+  "starting_url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
+}
